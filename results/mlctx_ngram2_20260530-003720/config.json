@@ -1,0 +1,39 @@
+{
+  "experiment": "multilingual_context",
+  "lexicon_path": "lexicons/i6_multilingual_top5.json",
+  "ngram": 2,
+  "languages": [
+    "de",
+    "en-us",
+    "fr-fr",
+    "it",
+    "la"
+  ],
+  "lang_to_slot": {
+    "de": 0,
+    "en-us": 1,
+    "fr-fr": 2,
+    "it": 3,
+    "la": 4
+  },
+  "num_units": 1134,
+  "phon_n": 22680,
+  "context_n": 500,
+  "num_training_instances": 321,
+  "training_instances_by_language": {
+    "de": 61,
+    "en-us": 100,
+    "fr-fr": 49,
+    "it": 25,
+    "la": 86
+  },
+  "num_probe_lines": 292,
+  "max_per_lang": 100,
+  "rounds": 10,
+  "ctx_k": 100,
+  "phon_k": 20,
+  "p": 0.05,
+  "beta": 0.03,
+  "proj_rounds": 1,
+  "seed": 0
+}

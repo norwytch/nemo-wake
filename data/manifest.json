@@ -1,0 +1,184 @@
+{
+  "scraped_at": "2026-05-18T22:46:39.925743+00:00",
+  "source": "Trent University / Michael Groden FW digital edition (c.1999), via Wayback Machine",
+  "corrections": "FWEET typo list applied; see data/raw/corrections_applied.json",
+  "edition": "1939 Faber & Faber",
+  "schema_version": 3,
+  "format": "jsonl",
+  "totals": {
+    "chapters": 17,
+    "lines": 21479
+  },
+  "chapters": [
+    {
+      "file": "book01_ep01.jsonl",
+      "book": 1,
+      "episode": 1,
+      "page_range": [
+        3,
+        29
+      ],
+      "lines": 960
+    },
+    {
+      "file": "book01_ep02.jsonl",
+      "book": 1,
+      "episode": 2,
+      "page_range": [
+        30,
+        47
+      ],
+      "lines": 608
+    },
+    {
+      "file": "book01_ep03.jsonl",
+      "book": 1,
+      "episode": 3,
+      "page_range": [
+        48,
+        74
+      ],
+      "lines": 942
+    },
+    {
+      "file": "book01_ep04.jsonl",
+      "book": 1,
+      "episode": 4,
+      "page_range": [
+        75,
+        103
+      ],
+      "lines": 1006
+    },
+    {
+      "file": "book01_ep05.jsonl",
+      "book": 1,
+      "episode": 5,
+      "page_range": [
+        104,
+        125
+      ],
+      "lines": 766
+    },
+    {
+      "file": "book01_ep06.jsonl",
+      "book": 1,
+      "episode": 6,
+      "page_range": [
+        126,
+        168
+      ],
+      "lines": 1514
+    },
+    {
+      "file": "book01_ep07.jsonl",
+      "book": 1,
+      "episode": 7,
+      "page_range": [
+        169,
+        195
+      ],
+      "lines": 930
+    },
+    {
+      "file": "book01_ep08.jsonl",
+      "book": 1,
+      "episode": 8,
+      "page_range": [
+        196,
+        216
+      ],
+      "lines": 712
+    },
+    {
+      "file": "book02_ep01.jsonl",
+      "book": 2,
+      "episode": 1,
+      "page_range": [
+        219,
+        259
+      ],
+      "lines": 1438
+    },
+    {
+      "file": "book02_ep02.jsonl",
+      "book": 2,
+      "episode": 2,
+      "page_range": [
+        260,
+        308
+      ],
+      "lines": 1437
+    },
+    {
+      "file": "book02_ep03.jsonl",
+      "book": 2,
+      "episode": 3,
+      "page_range": [
+        309,
+        382
+      ],
+      "lines": 2639
+    },
+    {
+      "file": "book02_ep04.jsonl",
+      "book": 2,
+      "episode": 4,
+      "page_range": [
+        383,
+        399
+      ],
+      "lines": 597
+    },
+    {
+      "file": "book03_ep01.jsonl",
+      "book": 3,
+      "episode": 1,
+      "page_range": [
+        403,
+        428
+      ],
+      "lines": 913
+    },
+    {
+      "file": "book03_ep02.jsonl",
+      "book": 3,
+      "episode": 2,
+      "page_range": [
+        429,
+        473
+      ],
+      "lines": 1597
+    },
+    {
+      "file": "book03_ep03.jsonl",
+      "book": 3,
+      "episode": 3,
+      "page_range": [
+        474,
+        554
+      ],
+      "lines": 2875
+    },
+    {
+      "file": "book03_ep04.jsonl",
+      "book": 3,
+      "episode": 4,
+      "page_range": [
+        555,
+        590
+      ],
+      "lines": 1279
+    },
+    {
+      "file": "book04_ep01.jsonl",
+      "book": 4,
+      "episode": 1,
+      "page_range": [
+        593,
+        628
+      ],
+      "lines": 1266
+    }
+  ]
+}

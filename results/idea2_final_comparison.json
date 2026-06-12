@@ -1,0 +1,472 @@
+{
+  "languages": [
+    "de",
+    "en-us",
+    "fr-fr",
+    "it",
+    "la"
+  ],
+  "summary": {
+    "nemo_eq25.nemo": {
+      "n": 292,
+      "n_foreign": 101,
+      "overall_top1_in_gold": 0.411,
+      "foreign_subset_top1_in_gold": 0.2178,
+      "per_language": {
+        "de": {
+          "tp": 1,
+          "fp": 9,
+          "fn": 39,
+          "precision": 0.1,
+          "recall": 0.025,
+          "f1": 0.04
+        },
+        "en-us": {
+          "tp": 98,
+          "fp": 51,
+          "fn": 93,
+          "precision": 0.6577,
+          "recall": 0.5131,
+          "f1": 0.5765
+        },
+        "fr-fr": {
+          "tp": 8,
+          "fp": 40,
+          "fn": 20,
+          "precision": 0.1667,
+          "recall": 0.2857,
+          "f1": 0.2105
+        },
+        "it": {
+          "tp": 3,
+          "fp": 26,
+          "fn": 12,
+          "precision": 0.1034,
+          "recall": 0.2,
+          "f1": 0.1364
+        },
+        "la": {
+          "tp": 10,
+          "fp": 46,
+          "fn": 30,
+          "precision": 0.1786,
+          "recall": 0.25,
+          "f1": 0.2083
+        }
+      },
+      "macro_f1": 0.2343,
+      "confusion": {
+        "en-us": {
+          "en-us": 98,
+          "de": 8,
+          "fr-fr": 29,
+          "it": 19,
+          "la": 37
+        },
+        "de": {
+          "la": 5,
+          "en-us": 25,
+          "it": 3,
+          "fr-fr": 6,
+          "de": 1
+        },
+        "fr-fr": {
+          "en-us": 7,
+          "fr-fr": 6,
+          "it": 2,
+          "la": 4
+        },
+        "la": {
+          "en-us": 15,
+          "de": 1,
+          "fr-fr": 5,
+          "la": 8,
+          "it": 3
+        },
+        "it": {
+          "la": 2,
+          "fr-fr": 2,
+          "it": 2,
+          "en-us": 4
+        }
+      }
+    },
+    "nemo_cap100.nemo": {
+      "n": 292,
+      "n_foreign": 101,
+      "overall_top1_in_gold": 0.4281,
+      "foreign_subset_top1_in_gold": 0.1584,
+      "per_language": {
+        "de": {
+          "tp": 1,
+          "fp": 43,
+          "fn": 39,
+          "precision": 0.0227,
+          "recall": 0.025,
+          "f1": 0.0238
+        },
+        "en-us": {
+          "tp": 109,
+          "fp": 58,
+          "fn": 82,
+          "precision": 0.6527,
+          "recall": 0.5707,
+          "f1": 0.6089
+        },
+        "fr-fr": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 27,
+          "precision": 0.25,
+          "recall": 0.0357,
+          "f1": 0.0625
+        },
+        "it": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "la": {
+          "tp": 14,
+          "fp": 62,
+          "fn": 26,
+          "precision": 0.1842,
+          "recall": 0.35,
+          "f1": 0.2414
+        }
+      },
+      "macro_f1": 0.1873,
+      "confusion": {
+        "en-us": {
+          "en-us": 109,
+          "de": 33,
+          "la": 45,
+          "fr-fr": 3,
+          "it": 1
+        },
+        "de": {
+          "la": 11,
+          "en-us": 28,
+          "de": 1
+        },
+        "fr-fr": {
+          "en-us": 8,
+          "la": 5,
+          "de": 5,
+          "fr-fr": 1
+        },
+        "la": {
+          "en-us": 16,
+          "la": 13,
+          "de": 3
+        },
+        "it": {
+          "la": 2,
+          "de": 2,
+          "en-us": 6
+        }
+      }
+    },
+    "bigram_langid_cap25.frequency": {
+      "n": 292,
+      "n_foreign": 101,
+      "overall_top1_in_gold": 0.137,
+      "foreign_subset_top1_in_gold": 0.396,
+      "per_language": {
+        "de": {
+          "tp": 40,
+          "fp": 252,
+          "fn": 0,
+          "precision": 0.137,
+          "recall": 1.0,
+          "f1": 0.241
+        },
+        "en-us": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 191,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "fr-fr": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "it": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "la": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "macro_f1": 0.0482,
+      "confusion": {
+        "en-us": {
+          "de": 191
+        },
+        "de": {
+          "de": 40
+        },
+        "fr-fr": {
+          "de": 19
+        },
+        "la": {
+          "de": 32
+        },
+        "it": {
+          "de": 10
+        }
+      }
+    },
+    "bigram_langid_cap25.bigram_langid": {
+      "n": 292,
+      "n_foreign": 101,
+      "overall_top1_in_gold": 0.4795,
+      "foreign_subset_top1_in_gold": 0.2178,
+      "per_language": {
+        "de": {
+          "tp": 4,
+          "fp": 34,
+          "fn": 36,
+          "precision": 0.1053,
+          "recall": 0.1,
+          "f1": 0.1026
+        },
+        "en-us": {
+          "tp": 118,
+          "fp": 55,
+          "fn": 73,
+          "precision": 0.6821,
+          "recall": 0.6178,
+          "f1": 0.6484
+        },
+        "fr-fr": {
+          "tp": 7,
+          "fp": 18,
+          "fn": 21,
+          "precision": 0.28,
+          "recall": 0.25,
+          "f1": 0.2642
+        },
+        "it": {
+          "tp": 3,
+          "fp": 12,
+          "fn": 12,
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1": 0.2
+        },
+        "la": {
+          "tp": 8,
+          "fp": 33,
+          "fn": 32,
+          "precision": 0.1951,
+          "recall": 0.2,
+          "f1": 0.1975
+        }
+      },
+      "macro_f1": 0.2825,
+      "confusion": {
+        "en-us": {
+          "de": 22,
+          "en-us": 118,
+          "it": 8,
+          "fr-fr": 15,
+          "la": 28
+        },
+        "de": {
+          "en-us": 26,
+          "de": 4,
+          "fr-fr": 4,
+          "it": 2,
+          "la": 4
+        },
+        "fr-fr": {
+          "en-us": 6,
+          "it": 3,
+          "fr-fr": 6,
+          "de": 2,
+          "la": 2
+        },
+        "la": {
+          "de": 8,
+          "en-us": 17,
+          "la": 6,
+          "it": 1
+        },
+        "it": {
+          "en-us": 6,
+          "de": 2,
+          "la": 1,
+          "it": 1
+        }
+      }
+    },
+    "bigram_langid_cap100.frequency": {
+      "n": 292,
+      "n_foreign": 101,
+      "overall_top1_in_gold": 0.6541,
+      "foreign_subset_top1_in_gold": 0.0,
+      "per_language": {
+        "de": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "en-us": {
+          "tp": 191,
+          "fp": 101,
+          "fn": 0,
+          "precision": 0.6541,
+          "recall": 1.0,
+          "f1": 0.7909
+        },
+        "fr-fr": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "it": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "la": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 40,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "macro_f1": 0.1582,
+      "confusion": {
+        "en-us": {
+          "en-us": 191
+        },
+        "de": {
+          "en-us": 40
+        },
+        "fr-fr": {
+          "en-us": 19
+        },
+        "la": {
+          "en-us": 32
+        },
+        "it": {
+          "en-us": 10
+        }
+      }
+    },
+    "bigram_langid_cap100.bigram_langid": {
+      "n": 292,
+      "n_foreign": 101,
+      "overall_top1_in_gold": 0.5068,
+      "foreign_subset_top1_in_gold": 0.2178,
+      "per_language": {
+        "de": {
+          "tp": 6,
+          "fp": 13,
+          "fn": 34,
+          "precision": 0.3158,
+          "recall": 0.15,
+          "f1": 0.2034
+        },
+        "en-us": {
+          "tp": 126,
+          "fp": 55,
+          "fn": 65,
+          "precision": 0.6961,
+          "recall": 0.6597,
+          "f1": 0.6774
+        },
+        "fr-fr": {
+          "tp": 4,
+          "fp": 23,
+          "fn": 24,
+          "precision": 0.1481,
+          "recall": 0.1429,
+          "f1": 0.1455
+        },
+        "it": {
+          "tp": 3,
+          "fp": 19,
+          "fn": 12,
+          "precision": 0.1364,
+          "recall": 0.2,
+          "f1": 0.1622
+        },
+        "la": {
+          "tp": 9,
+          "fp": 34,
+          "fn": 31,
+          "precision": 0.2093,
+          "recall": 0.225,
+          "f1": 0.2169
+        }
+      },
+      "macro_f1": 0.2811,
+      "confusion": {
+        "en-us": {
+          "fr-fr": 18,
+          "en-us": 126,
+          "it": 13,
+          "la": 22,
+          "de": 12
+        },
+        "de": {
+          "de": 6,
+          "la": 10,
+          "fr-fr": 4,
+          "en-us": 19,
+          "it": 1
+        },
+        "fr-fr": {
+          "en-us": 13,
+          "fr-fr": 2,
+          "la": 3,
+          "it": 1
+        },
+        "la": {
+          "en-us": 16,
+          "la": 8,
+          "it": 5,
+          "fr-fr": 3
+        },
+        "it": {
+          "en-us": 7,
+          "de": 1,
+          "it": 2
+        }
+      }
+    }
+  }
+}

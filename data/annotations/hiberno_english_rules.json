@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "target_variety": "Dublin Hiberno-English, c. 1900",
+    "rationale": "Joyce's native variety (Dublin, Rathgar, b. 1882). Provides a literature-grounded ablation against the data-driven joyce_rules.json: where the two agree, that is mutual validation; where they diverge, that is a substantive finding for downstream phonological analysis.",
+    "schema": "Same tiered phoneme_pair / word_position / context_free format as data/audio/joyce-1929-alp/rules/joyce_rules.json. Application order: phoneme_pair → word_position → context_free → identity. Context (prev/next phoneme, position) is computed from the expected (espeak) sequence. 'predicted' may be a string (1→1 substitution), an empty string or empty list (1→0 deletion), or a list of strings (1→N insertion).",
+    "sources": [
+      "Wells, J. C. (1982). Accents of English, Vol. 2: The British Isles. Cambridge University Press. Chapter 5 (Irish English).",
+      "Hickey, R. (2007). Irish English: History and Present-Day Forms. Cambridge University Press.",
+      "Hickey, R. Irish English Resource Centre. http://www.raymondhickey.com/index_(IERC).html (Dublin English subsection, accessed 2026)."
+    ],
+    "confidence_disclaimer": "Compiled by a non-specialist from secondary sources, primarily Hickey's IERC website Dublin English section. Per-rule confidence and citations are best-effort; chapter/section citations are by recollection and should be page-verified before this artifact is used in published work. Has NOT been reviewed by a Hiberno-English phonology specialist.",
+    "joyce_idiolect_caveat": "Hickey distinguishes 'local Dublin English' (popular/vernacular) from 'supraregional Irish English' (educated/standard). Joyce was Dublin middle-class (Rathgar, b.1882) and Jesuit-educated — his idiolect almost certainly mixed features from both registers. Each rule below is annotated 'local' or 'supraregional' to make this distinction visible. Rules marked 'local' should be treated as upper bounds on what Joyce likely did; 'supraregional' rules are more confidently applicable.",
+    "not_implemented": [
+      {
+        "feature": "T-lenition (intervocalic [t̪] apico-alveolar fricative, further reduced in local Dublin)",
+        "reason": "Espeak has no IPA symbol for the slit-T [t̪]; closest approximations (/t/→/ɾ/, /t/→/s/) are misleading. Espeak en-us already flaps /t/ medially in many contexts, so a context-free rule would over-apply. Citation: Hickey IERC Dublin English §3."
+      },
+      {
+        "feature": "MEAT/MEET distinction (older 'tay' /teː/ for 'tea')",
+        "reason": "Lexical, not segmental — would need orthography conditioning. Urban Dublin c.1900 likely already merged; rural HE preserved it longer."
+      },
+      {
+        "feature": "Yod retention in /tj/, /dj/, /nj/ (e.g. 'Tuesday' /tjuːzdeɪ/)",
+        "reason": "Orthographically conditioned (post <t/d/n> + <u>); cannot be expressed cleanly as a phoneme-level rule."
+      },
+      {
+        "feature": "L-clearness (no dark L word-finally)",
+        "reason": "Realization difference, not phoneme-symbol change. Espeak en-us already outputs /l/ in all positions."
+      },
+      {
+        "feature": "NURSE lexical incidence (variable /ɛɹ/ vs /ʊɹ/ vs /ɜɹ/)",
+        "reason": "Too lexically conditioned for a single phoneme-level rule. Would need word-by-word annotation."
+      },
+      {
+        "feature": "WHICH-WITCH distinction (/hw/ preserved)",
+        "reason": "Orthographic — only fires for <wh-> words. Cannot be expressed in this rule format."
+      },
+      {
+        "feature": "Vowel-following-/r/ rounding/lengthening (Hickey IERC, e.g. 'first' [fʊːst])",
+        "reason": "Compensatory vowel changes after r-deletion are context-dependent (depends on preceding labial/coronal) and produce multiple competing realizations. The basic r-deletion is captured below; the vowel-quality changes are left for a specialist pass."
+      }
+    ]
+  },
+  "rules": {
+    "phoneme_pair": {},
+    "word_position": {
+      "ŋ|final": {
+        "predicted": "n",
+        "support": null,
+        "rate": null,
+        "total_observations": null,
+        "alternatives": {},
+        "confidence": "high",
+        "register": "both local and supraregional",
+        "feature": "-ING reduction",
+        "citation": "Wells 1982 Vol. 2 Ch. 5 (Irish English); Hickey 2007 Ch. 5.",
+        "note": "Phonetically [n] in unstressed -ing endings. Sociolinguistically variable across English broadly but well-attested in IrE. Restricted to word-final position; stressed monosyllables (king, sing) excluded."
+      },
+      "ɹ|final": {
+        "predicted": [],
+        "support": null,
+        "rate": null,
+        "total_observations": null,
+        "alternatives": {},
+        "confidence": "medium",
+        "register": "local Dublin (popular/vernacular)",
+        "feature": "R-deletion (word-final)",
+        "citation": "Hickey IERC Dublin English §1 ('Popular Dublin English tends not to be rhotic or only weakly so; the loss of /r/ is clearest in unstressed word-final position, as pronunciations like [pɔta] for porter testify').",
+        "note": "Local Dublin English is non-rhotic word-finally — a major departure from the supraregional IrE pattern (which IS rhotic) and from my earlier assumption that espeak en-us's rhoticity is correct for HE. Confidence is 'medium' rather than 'high' because Joyce's middle-class idiolect may have mixed local + supraregional patterns. The accompanying vowel rounding/lengthening (e.g. [fʊːst] for 'first') is in not_implemented."
+      },
+      "iː|final": {
+        "predicted": ["iː", "ə"],
+        "support": null,
+        "rate": null,
+        "total_observations": null,
+        "alternatives": {},
+        "confidence": "low",
+        "register": "local Dublin (popular/vernacular)",
+        "feature": "Vowel breaking (FLEECE)",
+        "citation": "Hickey IERC Dublin English §4 ('Long high vowels, i.e. /iː/ and /uː/ tend to become disyllabic in local Dublin English … one finds pronunciations like [miːən] and [muːən] for mean and moon').",
+        "note": "Popular local feature. Joyce's middle-class background makes its presence uncertain. Confined to word-final position here as a conservative approximation; Hickey's examples ('mean', 'moon') are word-internal followed by a coda consonant, which we cannot express in our format without syllable structure."
+      },
+      "uː|final": {
+        "predicted": ["uː", "ə"],
+        "support": null,
+        "rate": null,
+        "total_observations": null,
+        "alternatives": {},
+        "confidence": "low",
+        "register": "local Dublin (popular/vernacular)",
+        "feature": "Vowel breaking (GOOSE)",
+        "citation": "Hickey IERC Dublin English §4.",
+        "note": "Parallel to FLEECE breaking. Same caveats."
+      }
+    },
+    "context_free": {
+      "θ": {
+        "predicted": "t",
+        "support": null,
+        "rate": null,
+        "total_observations": null,
+        "alternatives": {},
+        "confidence": "high",
+        "register": "both local and supraregional",
+        "feature": "TH-fortition (voiceless)",
+        "citation": "Wells 1982 Vol. 2 Ch. 5 (Irish English); Hickey 2007 Ch. 5; Hickey IERC Dublin English §2 ('It is safe to assume that the realisation of TH in the THIN lexical set in popular Dublin English as an alveolar plosive [t] is not a recent phenomenon').",
+        "note": "Realized as dental stop [t̪] in supraregional IrE, alveolar [t] in local Dublin (causing thinker/tinker homophony, thank/tank homophony). We collapse both to /t/ because espeak does not represent [t̪]. Near-universal in HE."
+      },
+      "ð": {
+        "predicted": "d",
+        "support": null,
+        "rate": null,
+        "total_observations": null,
+        "alternatives": {},
+        "confidence": "high",
+        "register": "both local and supraregional",
+        "feature": "TH-fortition (voiced)",
+        "citation": "Wells 1982 Vol. 2 Ch. 5; Hickey 2007 Ch. 5; Hickey IERC Dublin English §2.",
+        "note": "Parallel to /θ/ → /t/. Realized as dental stop [d̪] in supraregional, alveolar [d] in local. Near-universal in HE."
+      },
+      "ɔː": {
+        "predicted": "ɑː",
+        "support": null,
+        "rate": null,
+        "total_observations": null,
+        "alternatives": {},
+        "confidence": "medium",
+        "register": "supraregional (older HE generally)",
+        "feature": "THOUGHT unrounding / LOT-THOUGHT proximity",
+        "citation": "Wells 1982 Vol. 2 Ch. 5.",
+        "note": "Older HE had THOUGHT realized as a more open, less-rounded vowel than RP, approaching LOT. The data-driven joyce_rules.json independently surfaced ɔ → a with 31% rate. Uncertain whether a full merger or just unrounding for c.1900 Dublin."
+      },
+      "aɪ": {
+        "predicted": "ʌɪ",
+        "support": null,
+        "rate": null,
+        "total_observations": null,
+        "alternatives": {},
+        "confidence": "low",
+        "register": "local Dublin / older Dublin",
+        "feature": "PRICE centering",
+        "citation": "Hickey 2007 Ch. 5.",
+        "note": "Hickey describes a centered/backed onset for PRICE in older Dublin English. Uncertainty: this may be archaic or rural; urban Dublin c.1900 may have already aligned closer to /aɪ/."
+      },
+      "aʊ": {
+        "predicted": "ʌʊ",
+        "support": null,
+        "rate": null,
+        "total_observations": null,
+        "alternatives": {},
+        "confidence": "low",
+        "register": "local Dublin / older Dublin",
+        "feature": "MOUTH centering",
+        "citation": "Hickey 2007 Ch. 5.",
+        "note": "Parallel to PRICE centering. Same caveats about c.1900 urban Dublin status."
+      }
+    }
+  }
+}

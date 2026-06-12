@@ -1,0 +1,22 @@
+{
+  "name": "morpheme_phon_demo",
+  "description": "Morpheme-bag PHON: one block per unique morpheme. Train river+bay as nouns, run+goes as verbs. Probe held-out riverrun, whose morfessor decomposition is river+run. Predicted: bilateral routing (N/V ≈ 1) because the two morphemes carry equal-magnitude, opposite-sign supervision.",
+  "source_artifact": "data/pos/joyce-pos-hypotheses/",
+  "segmenter": "morfessor",
+  "segmenter_note": "All 4 segmenters (BPE-4k, Unigram-4k, Morfessor, FlatCat) agree on single-morpheme decomposition for river, bay, run, goes, and on riverrun = river + run. Morfessor chosen as default per its linguistic motivation (per scripts/preprocessing/README.md).",
+  "training_words": [
+    {"text": "river", "bucket": "noun", "page_line": "085.01", "morphemes": ["river"]},
+    {"text": "bay",   "bucket": "noun", "page_line": "003.02", "morphemes": ["bay"]},
+    {"text": "run",   "bucket": "verb", "page_line": "012.03", "morphemes": ["run"]},
+    {"text": "goes",  "bucket": "verb", "page_line": "011.08", "morphemes": ["goes"]}
+  ],
+  "probe_words": [
+    {
+      "text": "riverrun",
+      "page_line": "003.01",
+      "morphemes": ["river", "run"],
+      "expected_composition": "river (N-trained) + run (V-trained), each morpheme trained for the same number of rounds",
+      "prediction": "N/V ratio near 1.0. With 4 segmenters agreeing on this decomposition, the result is independent of segmenter choice."
+    }
+  ]
+}

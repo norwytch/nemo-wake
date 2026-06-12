@@ -1,0 +1,19 @@
+{
+  "name": "page3_mix",
+  "description": "5N + 5V from Finnegans Wake page 3. Mostly attested English with one Wake-distinctive item per category (vicus, riverrun) to probe how the model handles nonce vocabulary alongside English.",
+  "source": "data/annotations/book01_ep01_pos.jsonl",
+  "nouns": [
+    {"text": "bay",   "page_line": "003.02", "pos": "NOUN"},
+    {"text": "shore", "page_line": "003.01", "pos": "NOUN"},
+    {"text": "fall",  "page_line": "003.15", "pos": "NOUN"},
+    {"text": "time",  "page_line": "003.09", "pos": "NOUN"},
+    {"text": "vicus", "page_line": "003.02", "pos": "NOUN"}
+  ],
+  "verbs": [
+    {"text": "brings",   "page_line": "003.02", "pos": "VERB"},
+    {"text": "sends",    "page_line": "003.20", "pos": "VERB"},
+    {"text": "went",     "page_line": "003.08", "pos": "VERB"},
+    {"text": "bend",     "page_line": "003.01", "pos": "VERB"},
+    {"text": "riverrun", "page_line": "003.01", "pos": "VERB"}
+  ]
+}

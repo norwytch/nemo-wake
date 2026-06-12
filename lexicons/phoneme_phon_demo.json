@@ -1,0 +1,23 @@
+{
+  "name": "phoneme_phon_demo",
+  "description": "Phoneme-bag PHON lexicon. Train 3 nouns + 3 verbs with controlled phoneme overlap. Then probe held-out `riverrun` (untrained) whose phoneme bag is exactly river ∪ run (minus ɚ). Question: does the model assign riverrun bilateral routing because of its phonemic composition, without ever being explicitly trained or labeled as ambiguous?",
+  "source_artifact": "data/ipa/joyce-derived/",
+  "ipa_variant": "en-us-joyce-rule-applied (from joyce_ipa_source field)",
+  "training_words": [
+    {"text": "river", "bucket": "noun", "page_line": "085.01", "phonemes": ["ɹ", "ɪ", "v", "ɚ"]},
+    {"text": "bay",   "bucket": "noun", "page_line": "003.02", "phonemes": ["b", "eɪ"]},
+    {"text": "shore", "bucket": "noun", "page_line": "003.01", "phonemes": ["ʃ", "ɔː", "ɹ"]},
+    {"text": "run",   "bucket": "verb", "page_line": "012.03", "phonemes": ["ɹ", "ʌ", "n"]},
+    {"text": "goes",  "bucket": "verb", "page_line": "011.08", "phonemes": ["ɡ", "oʊ", "z"]},
+    {"text": "sends", "bucket": "verb", "page_line": "003.20", "phonemes": ["s", "ɛ", "n", "d", "z"]}
+  ],
+  "probe_words": [
+    {
+      "text": "riverrun",
+      "page_line": "003.01",
+      "phonemes": ["ɹ", "ɪ", "v", "ʌ", "n"],
+      "expected_composition": "river phonemes (ɹ, ɪ, v) + run phonemes (ʌ, n); ɹ is shared between training nouns and verbs",
+      "prediction": "If phoneme-bag PHON works, riverrun gets bilateral NOUN_in and VERB_in (composed of inputs from N-trained and V-trained phoneme blocks). N/V ratio expected near 1, with slight noun-lean from the shared ɹ being supervised more toward NOUN (river + shore vs run alone)."
+    }
+  ]
+}

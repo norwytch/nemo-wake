@@ -1,0 +1,1577 @@
+{
+  "experiment": "ngram_phon",
+  "ngram": 2,
+  "lexicon_path": "lexicons/ep1_phoneme_gallery.json",
+  "lexicon_meta": {
+    "name": "phoneme_gallery_book01_ep01",
+    "description": "Design-B phoneme gallery: segmenter morphemes (en-us IPA, POS-bucketed) as trained sub-units; portmanteaus as probes.",
+    "source_artifact": "data/pos/joyce-pos-hypotheses/book01_ep01.jsonl",
+    "ipa_variant": "en-us-baseline (espeak, isolated)",
+    "balance_audit": {
+      "training_nouns": 65,
+      "training_verbs": 21,
+      "num_portmanteaus": 24
+    }
+  },
+  "num_units": 160,
+  "num_training_words": 86,
+  "num_probe_words": 24,
+  "training_words": [
+    {
+      "text": "(Da",
+      "bucket": "noun",
+      "phonemes": [
+        "d",
+        "\u0251\u02d0"
+      ],
+      "units": [
+        "d|\u0251\u02d0"
+      ]
+    },
+    {
+      "text": "C",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "i\u02d0"
+      ],
+      "units": [
+        "s|i\u02d0"
+      ]
+    },
+    {
+      "text": "Ca",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "\u0251\u02d0"
+      ],
+      "units": [
+        "k|\u0251\u02d0"
+      ]
+    },
+    {
+      "text": "Cave",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "e\u026a",
+        "v"
+      ],
+      "units": [
+        "k|e\u026a",
+        "e\u026a|v"
+      ]
+    },
+    {
+      "text": "D",
+      "bucket": "noun",
+      "phonemes": [
+        "d",
+        "i\u02d0"
+      ],
+      "units": [
+        "d|i\u02d0"
+      ]
+    },
+    {
+      "text": "Do",
+      "bucket": "verb",
+      "phonemes": [
+        "d",
+        "u\u02d0"
+      ],
+      "units": [
+        "d|u\u02d0"
+      ]
+    },
+    {
+      "text": "Dor",
+      "bucket": "noun",
+      "phonemes": [
+        "d",
+        "\u0254\u02d0\u0279"
+      ],
+      "units": [
+        "d|\u0254\u02d0\u0279"
+      ]
+    },
+    {
+      "text": "L",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "l"
+      ],
+      "units": [
+        "\u025b|l"
+      ]
+    },
+    {
+      "text": "La",
+      "bucket": "noun",
+      "phonemes": [
+        "l",
+        "\u00e6"
+      ],
+      "units": [
+        "l|\u00e6"
+      ]
+    },
+    {
+      "text": "T",
+      "bucket": "noun",
+      "phonemes": [
+        "t",
+        "i\u02d0"
+      ],
+      "units": [
+        "t|i\u02d0"
+      ]
+    },
+    {
+      "text": "Touch",
+      "bucket": "verb",
+      "phonemes": [
+        "t",
+        "\u028c",
+        "t\u0283"
+      ],
+      "units": [
+        "t|\u028c",
+        "\u028c|t\u0283"
+      ]
+    },
+    {
+      "text": "ant",
+      "bucket": "noun",
+      "phonemes": [
+        "\u00e6",
+        "n",
+        "t"
+      ],
+      "units": [
+        "\u00e6|n",
+        "n|t"
+      ]
+    },
+    {
+      "text": "are",
+      "bucket": "verb",
+      "phonemes": [
+        "\u0251\u02d0\u0279"
+      ],
+      "units": [
+        "\u0251\u02d0\u0279"
+      ]
+    },
+    {
+      "text": "ask",
+      "bucket": "verb",
+      "phonemes": [
+        "\u00e6",
+        "s",
+        "k"
+      ],
+      "units": [
+        "\u00e6|s",
+        "s|k"
+      ]
+    },
+    {
+      "text": "ated",
+      "bucket": "verb",
+      "phonemes": [
+        "e\u026a",
+        "\u027e",
+        "\u1d7b",
+        "d"
+      ],
+      "units": [
+        "e\u026a|\u027e",
+        "\u027e|\u1d7b",
+        "\u1d7b|d"
+      ]
+    },
+    {
+      "text": "ave",
+      "bucket": "noun",
+      "phonemes": [
+        "\u0251\u02d0",
+        "v",
+        "e\u026a"
+      ],
+      "units": [
+        "\u0251\u02d0|v",
+        "v|e\u026a"
+      ]
+    },
+    {
+      "text": "b",
+      "bucket": "noun",
+      "phonemes": [
+        "b",
+        "i\u02d0"
+      ],
+      "units": [
+        "b|i\u02d0"
+      ]
+    },
+    {
+      "text": "be",
+      "bucket": "verb",
+      "phonemes": [
+        "b",
+        "i\u02d0"
+      ],
+      "units": [
+        "b|i\u02d0"
+      ]
+    },
+    {
+      "text": "bel",
+      "bucket": "noun",
+      "phonemes": [
+        "b",
+        "\u025b",
+        "l"
+      ],
+      "units": [
+        "b|\u025b",
+        "\u025b|l"
+      ]
+    },
+    {
+      "text": "ca",
+      "bucket": "verb",
+      "phonemes": [
+        "k",
+        "\u0251\u02d0"
+      ],
+      "units": [
+        "k|\u0251\u02d0"
+      ]
+    },
+    {
+      "text": "ce",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "i\u02d0"
+      ],
+      "units": [
+        "s|i\u02d0"
+      ]
+    },
+    {
+      "text": "ch",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "i\u02d0",
+        "e\u026a",
+        "t\u0283"
+      ],
+      "units": [
+        "s|i\u02d0",
+        "i\u02d0|e\u026a",
+        "e\u026a|t\u0283"
+      ]
+    },
+    {
+      "text": "co",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "o\u028a"
+      ],
+      "units": [
+        "k|o\u028a"
+      ]
+    },
+    {
+      "text": "core",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "\u0254\u02d0\u0279"
+      ],
+      "units": [
+        "k|\u0254\u02d0\u0279"
+      ]
+    },
+    {
+      "text": "de",
+      "bucket": "noun",
+      "phonemes": [
+        "d",
+        "\u0259"
+      ],
+      "units": [
+        "d|\u0259"
+      ]
+    },
+    {
+      "text": "e",
+      "bucket": "noun",
+      "phonemes": [
+        "i\u02d0"
+      ],
+      "units": [
+        "i\u02d0"
+      ]
+    },
+    {
+      "text": "e!",
+      "bucket": "noun",
+      "phonemes": [
+        "i\u02d0"
+      ],
+      "units": [
+        "i\u02d0"
+      ]
+    },
+    {
+      "text": "eat",
+      "bucket": "verb",
+      "phonemes": [
+        "i\u02d0",
+        "t"
+      ],
+      "units": [
+        "i\u02d0|t"
+      ]
+    },
+    {
+      "text": "ed",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "d"
+      ],
+      "units": [
+        "\u025b|d"
+      ]
+    },
+    {
+      "text": "els",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "l",
+        "z"
+      ],
+      "units": [
+        "\u025b|l",
+        "l|z"
+      ]
+    },
+    {
+      "text": "en",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "n"
+      ],
+      "units": [
+        "\u025b|n"
+      ]
+    },
+    {
+      "text": "encore",
+      "bucket": "verb",
+      "phonemes": [
+        "\u0251\u02d0",
+        "\u014b",
+        "k",
+        "\u0254\u02d0\u0279"
+      ],
+      "units": [
+        "\u0251\u02d0|\u014b",
+        "\u014b|k",
+        "k|\u0254\u02d0\u0279"
+      ]
+    },
+    {
+      "text": "enfranchi",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "n",
+        "f",
+        "\u0279",
+        "\u00e6",
+        "n",
+        "t\u0283",
+        "i"
+      ],
+      "units": [
+        "\u025b|n",
+        "n|f",
+        "f|\u0279",
+        "\u0279|\u00e6",
+        "\u00e6|n",
+        "n|t\u0283",
+        "t\u0283|i"
+      ]
+    },
+    {
+      "text": "ex",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "k",
+        "s"
+      ],
+      "units": [
+        "\u025b|k",
+        "k|s"
+      ]
+    },
+    {
+      "text": "excel",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "k",
+        "s",
+        "\u025b",
+        "l"
+      ],
+      "units": [
+        "\u025b|k",
+        "k|s",
+        "s|\u025b",
+        "\u025b|l"
+      ]
+    },
+    {
+      "text": "f",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "f"
+      ],
+      "units": [
+        "\u025b|f"
+      ]
+    },
+    {
+      "text": "ga",
+      "bucket": "noun",
+      "phonemes": [
+        "\u0261",
+        "\u0251\u02d0"
+      ],
+      "units": [
+        "\u0261|\u0251\u02d0"
+      ]
+    },
+    {
+      "text": "gap",
+      "bucket": "noun",
+      "phonemes": [
+        "\u0261",
+        "\u00e6",
+        "p"
+      ],
+      "units": [
+        "\u0261|\u00e6",
+        "\u00e6|p"
+      ]
+    },
+    {
+      "text": "gape",
+      "bucket": "verb",
+      "phonemes": [
+        "\u0261",
+        "e\u026a",
+        "p"
+      ],
+      "units": [
+        "\u0261|e\u026a",
+        "e\u026a|p"
+      ]
+    },
+    {
+      "text": "ger",
+      "bucket": "noun",
+      "phonemes": [
+        "d\u0292",
+        "\u025c\u02d0"
+      ],
+      "units": [
+        "d\u0292|\u025c\u02d0"
+      ]
+    },
+    {
+      "text": "gger",
+      "bucket": "noun",
+      "phonemes": [
+        "d\u0292",
+        "i\u02d0",
+        "d\u0292",
+        "\u025c\u02d0"
+      ],
+      "units": [
+        "d\u0292|i\u02d0",
+        "i\u02d0|d\u0292",
+        "d\u0292|\u025c\u02d0"
+      ]
+    },
+    {
+      "text": "go",
+      "bucket": "verb",
+      "phonemes": [
+        "\u0261",
+        "o\u028a"
+      ],
+      "units": [
+        "\u0261|o\u028a"
+      ]
+    },
+    {
+      "text": "ham",
+      "bucket": "noun",
+      "phonemes": [
+        "h",
+        "\u00e6",
+        "m"
+      ],
+      "units": [
+        "h|\u00e6",
+        "\u00e6|m"
+      ]
+    },
+    {
+      "text": "ides",
+      "bucket": "noun",
+      "phonemes": [
+        "a\u026a",
+        "d",
+        "i\u02d0",
+        "z"
+      ],
+      "units": [
+        "a\u026a|d",
+        "d|i\u02d0",
+        "i\u02d0|z"
+      ]
+    },
+    {
+      "text": "is",
+      "bucket": "verb",
+      "phonemes": [
+        "\u026a",
+        "z"
+      ],
+      "units": [
+        "\u026a|z"
+      ]
+    },
+    {
+      "text": "ise",
+      "bucket": "noun",
+      "phonemes": [
+        "a\u026a",
+        "z"
+      ],
+      "units": [
+        "a\u026a|z"
+      ]
+    },
+    {
+      "text": "issi",
+      "bucket": "noun",
+      "phonemes": [
+        "\u026a",
+        "s",
+        "i"
+      ],
+      "units": [
+        "\u026a|s",
+        "s|i"
+      ]
+    },
+    {
+      "text": "issim",
+      "bucket": "noun",
+      "phonemes": [
+        "\u026a",
+        "s",
+        "\u026a",
+        "m"
+      ],
+      "units": [
+        "\u026a|s",
+        "s|\u026a",
+        "\u026a|m"
+      ]
+    },
+    {
+      "text": "iv",
+      "bucket": "noun",
+      "phonemes": [
+        "\u0279",
+        "o\u028a",
+        "m",
+        "\u0259",
+        "n|f",
+        "\u0254\u02d0\u0279"
+      ],
+      "units": [
+        "\u0279|o\u028a",
+        "o\u028a|m",
+        "m|\u0259",
+        "\u0259|n|f",
+        "n|f|\u0254\u02d0\u0279"
+      ]
+    },
+    {
+      "text": "k",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "e\u026a"
+      ],
+      "units": [
+        "k|e\u026a"
+      ]
+    },
+    {
+      "text": "kes",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "\u025b",
+        "s"
+      ],
+      "units": [
+        "k|\u025b",
+        "\u025b|s"
+      ]
+    },
+    {
+      "text": "kis",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "\u026a",
+        "s"
+      ],
+      "units": [
+        "k|\u026a",
+        "\u026a|s"
+      ]
+    },
+    {
+      "text": "liar",
+      "bucket": "noun",
+      "phonemes": [
+        "l",
+        "a\u026a\u025a"
+      ],
+      "units": [
+        "l|a\u026a\u025a"
+      ]
+    },
+    {
+      "text": "lin",
+      "bucket": "noun",
+      "phonemes": [
+        "l",
+        "\u026a",
+        "n"
+      ],
+      "units": [
+        "l|\u026a",
+        "\u026a|n"
+      ]
+    },
+    {
+      "text": "ls",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "l",
+        "\u025b",
+        "s"
+      ],
+      "units": [
+        "\u025b|l",
+        "l|\u025b",
+        "\u025b|s"
+      ]
+    },
+    {
+      "text": "moni",
+      "bucket": "noun",
+      "phonemes": [
+        "m",
+        "o\u028a",
+        "n",
+        "i"
+      ],
+      "units": [
+        "m|o\u028a",
+        "o\u028a|n",
+        "n|i"
+      ]
+    },
+    {
+      "text": "ob",
+      "bucket": "noun",
+      "phonemes": [
+        "\u0251\u02d0",
+        "b"
+      ],
+      "units": [
+        "\u0251\u02d0|b"
+      ]
+    },
+    {
+      "text": "otter",
+      "bucket": "noun",
+      "phonemes": [
+        "\u0251\u02d0",
+        "\u027e",
+        "\u025a"
+      ],
+      "units": [
+        "\u0251\u02d0|\u027e",
+        "\u027e|\u025a"
+      ]
+    },
+    {
+      "text": "ou",
+      "bucket": "noun",
+      "phonemes": [
+        "u\u02d0"
+      ],
+      "units": [
+        "u\u02d0"
+      ]
+    },
+    {
+      "text": "pa",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "\u0251\u02d0"
+      ],
+      "units": [
+        "p|\u0251\u02d0"
+      ]
+    },
+    {
+      "text": "paisi",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "e\u026a",
+        "s",
+        "i"
+      ],
+      "units": [
+        "p|e\u026a",
+        "e\u026a|s",
+        "s|i"
+      ]
+    },
+    {
+      "text": "pass",
+      "bucket": "verb",
+      "phonemes": [
+        "p",
+        "\u00e6",
+        "s"
+      ],
+      "units": [
+        "p|\u00e6",
+        "\u00e6|s"
+      ]
+    },
+    {
+      "text": "pe",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "i\u02d0"
+      ],
+      "units": [
+        "p|i\u02d0"
+      ]
+    },
+    {
+      "text": "porca!",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "\u0254\u02d0\u0279",
+        "k",
+        "\u0259"
+      ],
+      "units": [
+        "p|\u0254\u02d0\u0279",
+        "\u0254\u02d0\u0279|k",
+        "k|\u0259"
+      ]
+    },
+    {
+      "text": "pour",
+      "bucket": "verb",
+      "phonemes": [
+        "p",
+        "\u0254\u02d0\u0279"
+      ],
+      "units": [
+        "p|\u0254\u02d0\u0279"
+      ]
+    },
+    {
+      "text": "poursu",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "\u0254\u02d0\u0279",
+        "s",
+        "u\u02d0"
+      ],
+      "units": [
+        "p|\u0254\u02d0\u0279",
+        "\u0254\u02d0\u0279|s",
+        "s|u\u02d0"
+      ]
+    },
+    {
+      "text": "pre",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "\u0279",
+        "i\u02d0"
+      ],
+      "units": [
+        "p|\u0279",
+        "\u0279|i\u02d0"
+      ]
+    },
+    {
+      "text": "pretend",
+      "bucket": "verb",
+      "phonemes": [
+        "p",
+        "\u0279",
+        "\u026a",
+        "t",
+        "\u025b",
+        "n",
+        "d"
+      ],
+      "units": [
+        "p|\u0279",
+        "\u0279|\u026a",
+        "\u026a|t",
+        "t|\u025b",
+        "\u025b|n",
+        "n|d"
+      ]
+    },
+    {
+      "text": "qu",
+      "bucket": "noun",
+      "phonemes": [
+        "k"
+      ],
+      "units": [
+        "k"
+      ]
+    },
+    {
+      "text": "quo",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "w",
+        "o\u028a"
+      ],
+      "units": [
+        "k|w",
+        "w|o\u028a"
+      ]
+    },
+    {
+      "text": "ran",
+      "bucket": "verb",
+      "phonemes": [
+        "\u0279",
+        "\u00e6",
+        "n"
+      ],
+      "units": [
+        "\u0279|\u00e6",
+        "\u00e6|n"
+      ]
+    },
+    {
+      "text": "s",
+      "bucket": "noun",
+      "phonemes": [
+        "\u025b",
+        "s"
+      ],
+      "units": [
+        "\u025b|s"
+      ]
+    },
+    {
+      "text": "sable",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "e\u026a",
+        "b",
+        "\u0259l"
+      ],
+      "units": [
+        "s|e\u026a",
+        "e\u026a|b",
+        "b|\u0259l"
+      ]
+    },
+    {
+      "text": "sal",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "\u00e6",
+        "l"
+      ],
+      "units": [
+        "s|\u00e6",
+        "\u00e6|l"
+      ]
+    },
+    {
+      "text": "salv",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "\u00e6",
+        "l",
+        "v"
+      ],
+      "units": [
+        "s|\u00e6",
+        "\u00e6|l",
+        "l|v"
+      ]
+    },
+    {
+      "text": "salve",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "\u00e6",
+        "l",
+        "v"
+      ],
+      "units": [
+        "s|\u00e6",
+        "\u00e6|l",
+        "l|v"
+      ]
+    },
+    {
+      "text": "sim",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "\u026a",
+        "m"
+      ],
+      "units": [
+        "s|\u026a",
+        "\u026a|m"
+      ]
+    },
+    {
+      "text": "st",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "\u0259",
+        "n",
+        "t"
+      ],
+      "units": [
+        "s|\u0259",
+        "\u0259|n",
+        "n|t"
+      ]
+    },
+    {
+      "text": "su",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "u\u02d0"
+      ],
+      "units": [
+        "s|u\u02d0"
+      ]
+    },
+    {
+      "text": "t",
+      "bucket": "noun",
+      "phonemes": [
+        "t",
+        "i\u02d0"
+      ],
+      "units": [
+        "t|i\u02d0"
+      ]
+    },
+    {
+      "text": "tend",
+      "bucket": "verb",
+      "phonemes": [
+        "t",
+        "\u025b",
+        "n",
+        "d"
+      ],
+      "units": [
+        "t|\u025b",
+        "\u025b|n",
+        "n|d"
+      ]
+    },
+    {
+      "text": "tered",
+      "bucket": "verb",
+      "phonemes": [
+        "t",
+        "\u025c\u02d0",
+        "d"
+      ],
+      "units": [
+        "t|\u025c\u02d0",
+        "\u025c\u02d0|d"
+      ]
+    },
+    {
+      "text": "totter",
+      "bucket": "verb",
+      "phonemes": [
+        "t",
+        "\u0251\u02d0",
+        "\u027e",
+        "\u025a"
+      ],
+      "units": [
+        "t|\u0251\u02d0",
+        "\u0251\u02d0|\u027e",
+        "\u027e|\u025a"
+      ]
+    },
+    {
+      "text": "twill",
+      "bucket": "noun",
+      "phonemes": [
+        "t",
+        "w",
+        "\u026a",
+        "l"
+      ],
+      "units": [
+        "t|w",
+        "w|\u026a",
+        "\u026a|l"
+      ]
+    },
+    {
+      "text": "ve",
+      "bucket": "verb",
+      "phonemes": [
+        "v",
+        "i\u02d0"
+      ],
+      "units": [
+        "v|i\u02d0"
+      ]
+    },
+    {
+      "text": "will",
+      "bucket": "verb",
+      "phonemes": [
+        "w",
+        "\u026a",
+        "l"
+      ],
+      "units": [
+        "w|\u026a",
+        "\u026a|l"
+      ]
+    }
+  ],
+  "probe_words": [
+    {
+      "text": "passencore",
+      "phonemes": [
+        "p",
+        "\u00e6",
+        "s",
+        "\u0259",
+        "\u014b",
+        "k",
+        "\u0254\u02d0\u0279"
+      ],
+      "units": [
+        "p|\u00e6",
+        "\u00e6|s",
+        "s|\u0259",
+        "\u0259|\u014b",
+        "\u014b|k",
+        "k|\u0254\u02d0\u0279"
+      ]
+    },
+    {
+      "text": "exaggerated",
+      "phonemes": [
+        "\u025b",
+        "\u0261",
+        "z",
+        "\u00e6",
+        "d\u0292",
+        "\u025a",
+        "\u0279",
+        "e\u026a",
+        "\u027e",
+        "\u1d7b",
+        "d"
+      ],
+      "units": [
+        "\u025b|\u0261",
+        "\u0261|z",
+        "z|\u00e6",
+        "\u00e6|d\u0292",
+        "d\u0292|\u025a",
+        "\u025a|\u0279",
+        "\u0279|e\u026a",
+        "e\u026a|\u027e",
+        "\u027e|\u1d7b",
+        "\u1d7b|d"
+      ]
+    },
+    {
+      "text": "askes",
+      "phonemes": [
+        "\u00e6",
+        "s",
+        "k",
+        "s"
+      ],
+      "units": [
+        "\u00e6|s",
+        "s|k",
+        "k|s"
+      ]
+    },
+    {
+      "text": "poursuivant",
+      "phonemes": [
+        "p",
+        "\u0254\u02d0\u0279",
+        "s",
+        "u\u02d0",
+        "\u026a",
+        "v",
+        "\u0259",
+        "n",
+        "t"
+      ],
+      "units": [
+        "p|\u0254\u02d0\u0279",
+        "\u0254\u02d0\u0279|s",
+        "s|u\u02d0",
+        "u\u02d0|\u026a",
+        "\u026a|v",
+        "v|\u0259",
+        "\u0259|n",
+        "n|t"
+      ]
+    },
+    {
+      "text": "stottered",
+      "phonemes": [
+        "s",
+        "t",
+        "\u0251\u02d0",
+        "\u027e",
+        "\u025a",
+        "d"
+      ],
+      "units": [
+        "s|t",
+        "t|\u0251\u02d0",
+        "\u0251\u02d0|\u027e",
+        "\u027e|\u025a",
+        "\u025a|d"
+      ]
+    },
+    {
+      "text": "Dobbelin",
+      "phonemes": [
+        "d",
+        "\u0251\u02d0",
+        "b",
+        "\u026a",
+        "l",
+        "\u026a",
+        "n"
+      ],
+      "units": [
+        "d|\u0251\u02d0",
+        "\u0251\u02d0|b",
+        "b|\u026a",
+        "\u026a|l",
+        "l|\u026a",
+        "\u026a|n"
+      ]
+    },
+    {
+      "text": "Agapemonides",
+      "phonemes": [
+        "\u00e6",
+        "\u0261",
+        "e\u026a",
+        "p",
+        "m",
+        "\u0251\u02d0",
+        "n",
+        "a\u026a",
+        "d",
+        "z"
+      ],
+      "units": [
+        "\u00e6|\u0261",
+        "\u0261|e\u026a",
+        "e\u026a|p",
+        "p|m",
+        "m|\u0251\u02d0",
+        "\u0251\u02d0|n",
+        "n|a\u026a",
+        "a\u026a|d",
+        "d|z"
+      ]
+    },
+    {
+      "text": "goliar's",
+      "phonemes": [
+        "\u0261",
+        "o\u028a",
+        "l",
+        "\u026a\u0279",
+        "z"
+      ],
+      "units": [
+        "\u0261|o\u028a",
+        "o\u028a|l",
+        "l|\u026a\u0279",
+        "\u026a\u0279|z"
+      ]
+    },
+    {
+      "text": "porca",
+      "phonemes": [
+        "p",
+        "\u0254\u02d0\u0279",
+        "k",
+        "\u0259"
+      ],
+      "units": [
+        "p|\u0254\u02d0\u0279",
+        "\u0254\u02d0\u0279|k",
+        "k|\u0259"
+      ]
+    },
+    {
+      "text": "salve",
+      "phonemes": [
+        "s",
+        "\u00e6",
+        "l",
+        "v"
+      ],
+      "units": [
+        "s|\u00e6",
+        "\u00e6|l",
+        "l|v"
+      ]
+    },
+    {
+      "text": "pretendant",
+      "phonemes": [
+        "p",
+        "\u0279",
+        "\u026a",
+        "t",
+        "\u025b",
+        "n",
+        "d",
+        "\u0259",
+        "n",
+        "t"
+      ],
+      "units": [
+        "p|\u0279",
+        "\u0279|\u026a",
+        "\u026a|t",
+        "t|\u025b",
+        "\u025b|n",
+        "n|d",
+        "d|\u0259",
+        "\u0259|n",
+        "n|t"
+      ]
+    },
+    {
+      "text": "excelsissimost",
+      "phonemes": [
+        "\u025b",
+        "k",
+        "s",
+        "\u026a",
+        "l",
+        "s",
+        "\u026a",
+        "s",
+        "i",
+        "m",
+        "o\u028a",
+        "s",
+        "t"
+      ],
+      "units": [
+        "\u025b|k",
+        "k|s",
+        "s|\u026a",
+        "\u026a|l",
+        "l|s",
+        "s|\u026a",
+        "\u026a|s",
+        "s|i",
+        "i|m",
+        "m|o\u028a",
+        "o\u028a|s",
+        "s|t"
+      ]
+    },
+    {
+      "text": "paisibly",
+      "phonemes": [
+        "p",
+        "e\u026a",
+        "z",
+        "\u1d7b",
+        "b",
+        "l",
+        "i"
+      ],
+      "units": [
+        "p|e\u026a",
+        "e\u026a|z",
+        "z|\u1d7b",
+        "\u1d7b|b",
+        "b|l",
+        "l|i"
+      ]
+    },
+    {
+      "text": "Lave",
+      "phonemes": [
+        "l",
+        "e\u026a",
+        "v"
+      ],
+      "units": [
+        "l|e\u026a",
+        "e\u026a|v"
+      ]
+    },
+    {
+      "text": "Cave",
+      "phonemes": [
+        "k",
+        "e\u026a",
+        "v"
+      ],
+      "units": [
+        "k|e\u026a",
+        "e\u026a|v"
+      ]
+    },
+    {
+      "text": "pourquose",
+      "phonemes": [
+        "p",
+        "\u0254\u02d0\u0279",
+        "k",
+        "w",
+        "o\u028a",
+        "s"
+      ],
+      "units": [
+        "p|\u0254\u02d0\u0279",
+        "\u0254\u02d0\u0279|k",
+        "k|w",
+        "w|o\u028a",
+        "o\u028a|s"
+      ]
+    },
+    {
+      "text": "Toucheaterre",
+      "phonemes": [
+        "t",
+        "\u028c",
+        "t\u0283",
+        "i\u02d0",
+        "t",
+        "\u025b",
+        "\u0279",
+        "\u0259"
+      ],
+      "units": [
+        "t|\u028c",
+        "\u028c|t\u0283",
+        "t\u0283|i\u02d0",
+        "i\u02d0|t",
+        "t|\u025b",
+        "\u025b|\u0279",
+        "\u0279|\u0259"
+      ]
+    },
+    {
+      "text": "Dor",
+      "phonemes": [
+        "d",
+        "\u0254\u02d0\u0279"
+      ],
+      "units": [
+        "d|\u0254\u02d0\u0279"
+      ]
+    },
+    {
+      "text": "Dare",
+      "phonemes": [
+        "d",
+        "\u025b\u0279"
+      ],
+      "units": [
+        "d|\u025b\u0279"
+      ]
+    },
+    {
+      "text": "enfranchisable",
+      "phonemes": [
+        "\u025b",
+        "n",
+        "f",
+        "\u0279",
+        "\u00e6",
+        "n",
+        "t\u0283",
+        "a\u026a",
+        "z",
+        "\u0259",
+        "b",
+        "\u0259l"
+      ],
+      "units": [
+        "\u025b|n",
+        "n|f",
+        "f|\u0279",
+        "\u0279|\u00e6",
+        "\u00e6|n",
+        "n|t\u0283",
+        "t\u0283|a\u026a",
+        "a\u026a|z",
+        "z|\u0259",
+        "\u0259|b",
+        "b|\u0259l"
+      ]
+    },
+    {
+      "text": "reise",
+      "phonemes": [
+        "\u0279",
+        "a\u026a",
+        "z"
+      ],
+      "units": [
+        "\u0279|a\u026a",
+        "a\u026a|z"
+      ]
+    },
+    {
+      "text": "kis",
+      "phonemes": [
+        "k",
+        "\u026a",
+        "s"
+      ],
+      "units": [
+        "k|\u026a",
+        "\u026a|s"
+      ]
+    },
+    {
+      "text": "twilling",
+      "phonemes": [
+        "t",
+        "w",
+        "\u026a",
+        "l",
+        "\u026a",
+        "\u014b"
+      ],
+      "units": [
+        "t|w",
+        "w|\u026a",
+        "\u026a|l",
+        "l|\u026a",
+        "\u026a|\u014b"
+      ]
+    },
+    {
+      "text": "hamissim",
+      "phonemes": [
+        "h",
+        "\u00e6",
+        "m",
+        "\u026a",
+        "s",
+        "\u026a",
+        "m"
+      ],
+      "units": [
+        "h|\u00e6",
+        "\u00e6|m",
+        "m|\u026a",
+        "\u026a|s",
+        "s|\u026a",
+        "\u026a|m"
+      ]
+    }
+  ],
+  "rounds": 20,
+  "n": 10000,
+  "lex_k": 100,
+  "phon_k": 20,
+  "ctx_k": 100,
+  "p": 0.05,
+  "beta": 0.06,
+  "proj_rounds": 2,
+  "seed": 0
+}

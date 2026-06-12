@@ -1,0 +1,47 @@
+beautifulsoup4==4.14.3
+lxml==5.3.2
+certifi==2026.4.22
+charset-normalizer==3.4.7
+idna==3.15
+requests==2.34.2
+soupsieve==2.8.3
+typing_extensions==4.15.0
+urllib3==2.7.0
+
+# Tokenizer training (scripts/preprocessing/text/train_tokenizers.py)
+tokenizers==0.20.3
+Morfessor==2.0.6
+Morfessor-FlatCat==1.0.8
+
+# IPA transcription (scripts/preprocessing/text/transcribe_ipa.py)
+# Requires espeak-ng system binary: `brew install espeak-ng` / `apt install espeak-ng`
+phonemizer==3.3.0
+
+# Audio prep (scripts/preprocessing/audio/restore_audio.py)
+# No DSP applied — empirical comparison (DSP-processed vs raw, wav2vec2-CTC
+# alignment) found no meaningful difference. scipy used for resample_poly only.
+soundfile==0.12.1
+scipy==1.14.1
+
+# Wav2vec2-CTC phoneme transcription (scripts/preprocessing/audio/transcribe_audio_phonemes.py)
+# CPU-only torch is fine; first run downloads ~1.2GB model from HuggingFace.
+# torch pin is 2.2.2 because that's the last x86_64 macOS wheel — newer torch
+# releases are Apple Silicon only on macOS.
+# Also requires espeak-ng system binary (same as phonemizer above): the
+# Wav2Vec2PhonemeCTCTokenizer initializes an espeak backend at tokenizer-load
+# time, not just at G2P time.
+# numpy pinned to 1.x because torch 2.2.2 was built against numpy 1.x ABI;
+# torch.from_numpy() fails at runtime against numpy 2.x arrays.
+numpy==1.26.4
+torch==2.2.2
+transformers==4.46.3
+protobuf==5.28.3
+
+# Phoneme sequence alignment (scripts/preprocessing/audio/align_audio_to_text.py)
+# BioPython's PairwiseAligner is C-backed Smith-Waterman, fast on long sequences.
+biopython==1.84
+
+# POS tagging (scripts/preprocessing/text/pos_tag.py).
+# Stanza covers all 22 FWEET languages (UD tagset, CPU-friendly). First run
+# downloads ~300 MB per language → ~6–7 GB total in ~/stanza_resources/.
+stanza==1.8.2

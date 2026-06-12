@@ -1,0 +1,179 @@
+{
+  "_comment": "Special-element annotation overlay for Book II Episode 2 (the Lessons chapter). Covers all non-standard printed elements per the Hart Concordance: sigla, drawings, music, math, and Greek. Source: Hart Concordance complete special-elements pages; McHugh (1976) p.133.",
+  "book": 2,
+  "episode": 2,
+  "source": "Hart Concordance complete special-elements pages; McHugh (1976) p.133.",
+  "encoding_note": "See data/annotations/README.md for the full sigla Unicode reference table.",
+  "sigla_legend": {
+    "Ⅎ": {
+      "referent": "F-variant (laterally inverted pair)",
+      "unicode": "U+2132",
+      "unicode_name": "TURNED CAPITAL F",
+      "concordance": "266.22 — 'backwards F'; also 018.36, 121.03, 121.07",
+      "note": "The 'backwards F' (horizontally mirrored) has no standard Unicode equivalent. U+2132 TURNED CAPITAL F (rotated 180°) is the closest available. McHugh (1976) p.145: 'the laterally inverted pairs of Fs to be encountered at 018.36, 121.03, 07 and 266.22 — their mystery remains closed'. They are distinct from the character-sigla and do not appear in the 299.F4 family listing."
+    }
+  },
+  "footnote_reconstruction": {
+    "footnote_key": "188",
+    "concordance_page_line": "299.F4",
+    "scraped_text": "188 .    The Doodles family, Hoodle doodle, fam.?",
+    "sigla_stripped": true,
+    "strip_note": "Trent (like telelib) strips all 7 sigla from the footnote text.",
+    "sequence_from_1939_edition": [
+      {
+        "position": 1,
+        "mchugh_ascii": "M",
+        "unicode_approx": "Ш",
+        "unicode_codepoint": "U+0428",
+        "unicode_name": "CYRILLIC CAPITAL LETTER SHA",
+        "confidence": "uncertain",
+        "referent": "HCE",
+        "note": "HCE (Humphrey Chimpden Earwicker). Confirmed by McHugh p.144: 'Why not call M Earwicker'. Visually resembles a blocky M/Ш-like character. Distinct from Ǝ (U+018E), HCE's 'E pointing down' form at I.5 119.17 — HCE has multiple printed forms."
+      },
+      {
+        "position": 2,
+        "mchugh_ascii": "A",
+        "unicode_approx": "△",
+        "unicode_codepoint": "U+25B3",
+        "unicode_name": "WHITE UP-POINTING TRIANGLE",
+        "referent": "ALP",
+        "confidence": "confirmed",
+        "note": "ALP (Anna Livia Plurabelle). Clear triangle shape. McHugh's A is an ASCII approximation of the triangle."
+      },
+      {
+        "position": 3,
+        "mchugh_ascii": "4",
+        "unicode_approx": "⊣",
+        "unicode_codepoint": "U+22A3",
+        "unicode_name": "LEFT TACK",
+        "referent": "Issy",
+        "confidence": "referent confirmed, Unicode uncertain",
+        "note": "Issy (Isabel). Concordance position 3 = Issy. McHugh approximates this as '4'. Not the same character as I.2 036.17 — McHugh also calls that character '4' but it is a distinct siglum used by HCE to address the cad; the two share only McHugh's imprecise ASCII approximation."
+      },
+      {
+        "position": 4,
+        "mchugh_ascii": "¥",
+        "unicode_approx": "✕",
+        "unicode_codepoint": "U+2715",
+        "unicode_name": "MULTIPLICATION X",
+        "referent": "The Four",
+        "confidence": "referent confirmed, Unicode uncertain",
+        "note": "The Four (four old men / four evangelists: Matthew, Mark, Luke, John). Concordance position 4 = Four. A fourfold cross shape. NOT Shem — that was an error in earlier annotation."
+      },
+      {
+        "position": 5,
+        "mchugh_ascii": "O",
+        "unicode_approx": "□",
+        "unicode_codepoint": "U+25A1",
+        "unicode_name": "WHITE SQUARE",
+        "referent": "House",
+        "confidence": "referent confirmed, Unicode uncertain",
+        "note": "House (the Earwicker inn / tavern). Concordance position 5 = House. McHugh p.143: 'O as their old fourwheedler which might stand for the bucker's field' — the square represents the building. NOT Shaun the person — that was an error."
+      },
+      {
+        "position": 6,
+        "mchugh_ascii": "A",
+        "unicode_approx": "∧",
+        "unicode_codepoint": "U+2227",
+        "unicode_name": "LOGICAL AND",
+        "referent": "Shaun",
+        "confidence": "referent confirmed, Unicode uncertain",
+        "note": "Shaun the Post. Concordance position 6 = Shaun. Wedge/caret shape. McHugh uses A a second time (same ASCII letter as position 2 for ALP — his approximations are not unique). NOT Issy — that was an error."
+      },
+      {
+        "position": 7,
+        "mchugh_ascii": "£",
+        "unicode_approx": "⌐",
+        "unicode_codepoint": "U+2310",
+        "unicode_name": "REVERSED NOT SIGN",
+        "referent": "Shem",
+        "confidence": "referent confirmed, Unicode uncertain",
+        "note": "Shem the Penman. Concordance position 7 = Shem. McHugh p.143: 'C here is the family gibbet' — the C/hook-shaped character is Shem's siglum. McHugh uses £ in 299.F4 and C when describing the I.5 passage — both approximate the same reversed-bracket/hook shape."
+      }
+    ],
+    "reconstructed_unicode_sequence": "Ш, △, ⊣, ✕, □, ∧, ⌐",
+    "referents_confirmed": ["HCE", "ALP", "Issy", "Four", "House", "Shaun", "Shem"],
+    "note": "Sequence confirmed from 1939 Faber & Faber edition scan (page 299, footnote 4). Referents confirmed from Hart Concordance Symbols page. All Unicode approximations are uncertain — the 1939 characters are hand-drawn with no standard Unicode equivalent. This is the most complete printed listing of the full siglum cast in FW."
+  },
+  "drawings": [
+    {
+      "concordance_page_line": "293.12",
+      "concordance_label": "view from Dublin",
+      "actual_content": "Vesica Piscis diagram",
+      "in_corpus": false,
+      "representable": false,
+      "visual_description": "Two overlapping circles forming a Vesica Piscis. Labeled: π at the top intersection, P at the bottom intersection, Aα inside the left circle, λL inside the right circle. A triangle (mandorla/lens shape) is inscribed at the intersection, with dashed lines indicating the inverted triangle below.",
+      "note": "Concordance labels this 'view from Dublin' from the surrounding text ('Vieus Von DVbLIn', section 102), but the drawing itself is a geometric Vesica Piscis diagram. Labels: π and P are intersection points (P = the bishop siglum, per McHugh p.142-143); Aα and λL label the two circles. McHugh devotes a full chapter to the Vesica Piscis in FW. Completely absent from the Trent corpus."
+    },
+    {
+      "concordance_page_line": "308.F1",
+      "concordance_label": "nose thumbing",
+      "actual_content": "Hand gesture drawing",
+      "in_corpus": false,
+      "representable": false,
+      "visual_description": "A hand making a nose-thumbing gesture: thumb extended toward the nose, four fingers spread and raised. Drawn in outline style.",
+      "note": "Footnote drawing on the last page of II.2. Completely absent from the Trent corpus."
+    },
+    {
+      "concordance_page_line": "308.F2",
+      "concordance_label": "crossed spoons",
+      "actual_content": "Crossed spoons drawing",
+      "in_corpus": false,
+      "representable": false,
+      "visual_description": "Two spoons crossed at their necks in an X pattern, with ornate round bowl-ends at the bottom and decorative handles (with small fork-like tines) at the top. Drawn in outline style.",
+      "note": "Footnote drawing on the last page of II.2. Completely absent from the Trent corpus."
+    }
+  ],
+  "music": [
+    {
+      "concordance_page_line": "272.09",
+      "field": "left_margin",
+      "description": "B C A D",
+      "in_corpus": false,
+      "note": "Musical note names in the left-hand margin at page 272 line 9. Completely absent from the Trent corpus left_margin field — stripped with no trace."
+    }
+  ],
+  "math": [
+    {
+      "concordance_page_line": "284.11",
+      "description": "infinity",
+      "character": "∞",
+      "unicode": "U+221E",
+      "in_corpus": true,
+      "note": "CONFIRMED IN CORPUS. ∞ survives in II.2 main text at line 284.11. The concordance listing confirms this is intentional (Joyce drawing on Bertrand Russell's Introduction to Mathematical Philosophy, 1919)."
+    },
+    {
+      "concordance_page_line": "292.11",
+      "description": "thus",
+      "character": "∴",
+      "unicode": "U+2234",
+      "in_corpus": true,
+      "note": "CONFIRMED IN CORPUS. ∴ survives in II.2 main text at line 292.11."
+    },
+    {
+      "concordance_page_line": "292.12",
+      "description": "therefore",
+      "character": "∵",
+      "unicode": "U+2235",
+      "in_corpus": true,
+      "note": "CONFIRMED IN CORPUS. ∵ survives in II.2 main text at line 292.12."
+    }
+  ],
+  "greek": [
+    {
+      "concordance_page_line": "269.24",
+      "field": "left_margin",
+      "description": "ouk elabon polin",
+      "in_corpus": true,
+      "note": "CONFIRMED IN CORPUS. Greek text 'ουκ ελβον πολιν' survives in II.2 left_margin field for line 269.24."
+    }
+  ],
+  "annotations": [
+    {
+      "page_line": "266.22",
+      "char_offset": -1,
+      "siglum": "Ⅎ",
+      "note": "Concordance 266.22: 'F, backwards F'. A plain F and a backwards-F appear as a pair. The plain F likely survives in the corpus; the backwards-F was stripped. 1939 context: 'wranglers for wringwrowdy wready are, F [Ⅎ], (at gaze, respecting'. char_offset is -1 pending verification against Trent corpus line 266.22."
+    }
+  ]
+}

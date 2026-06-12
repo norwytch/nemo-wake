@@ -1,0 +1,38 @@
+{
+  "name": "passencore_seg_disagree",
+  "description": "Segmenter-disagreement experiment. The Wake portmanteau `passencore` (003.04) is decomposed differently by the 4 unsupervised segmenters trained on the Wake (BPE-4k, Unigram-4k, Morfessor, FlatCat). Each morpheme gets a POS tag from Stanza's English tagger (treating it as a standalone word — noisy by construction, but algorithmic). We train each unique morpheme as a single-morpheme word with its tagger-assigned POS, then probe `passencore` four times — once per segmenter — and compare the resulting N/V ratios. The spread across segmenters is the experimental result.",
+  "source_artifact": "data/pos/joyce-pos-hypotheses/book01_ep01.jsonl",
+  "segmenter_decompositions": {
+    "bpe-4000":    {"morphemes": ["pass", "en", "core"], "tags": ["VERB", "PROPN", "NOUN"]},
+    "unigram-4000": {"morphemes": ["pass", "en", "co", "re"], "tags": ["VERB", "PROPN", "PROPN", "INTJ"]},
+    "morfessor":   {"morphemes": ["pass", "encore"], "tags": ["VERB", "VERB"]},
+    "flatcat":     {"morphemes": ["pass", "encore"], "tags": ["VERB", "VERB"]}
+  },
+  "pos_to_bucket": {"NOUN": "noun", "PROPN": "noun", "VERB": "verb", "AUX": "verb",
+                    "_other": "untrained — PHON block exists but never receives N/V supervision; contributes ~0 to both hubs"},
+  "caveat": "Morpheme POS tags are produced by Stanza's English tagger fed each morpheme as a standalone token. Per the artifact docstring, this is low-confidence (word-shape heuristics). `en` tagged PROPN is a particular case — the tagger likely capitalizes its expectation; in context it's the French preposition or the affix. Treating PROPN → noun follows our prior aggregator convention.",
+  "training_words": [
+    {"text": "river", "bucket": "noun", "morphemes": ["river"], "note": "control"},
+    {"text": "bay",   "bucket": "noun", "morphemes": ["bay"],   "note": "control"},
+    {"text": "run",   "bucket": "verb", "morphemes": ["run"],   "note": "control"},
+    {"text": "goes",  "bucket": "verb", "morphemes": ["goes"],  "note": "control"},
+    {"text": "pass",  "bucket": "verb", "morphemes": ["pass"],  "tagger_pos": "VERB"},
+    {"text": "encore","bucket": "verb", "morphemes": ["encore"],"tagger_pos": "VERB"},
+    {"text": "en",    "bucket": "noun", "morphemes": ["en"],    "tagger_pos": "PROPN (→noun)"},
+    {"text": "core",  "bucket": "noun", "morphemes": ["core"],  "tagger_pos": "NOUN"},
+    {"text": "co",    "bucket": "noun", "morphemes": ["co"],    "tagger_pos": "PROPN (→noun)"}
+  ],
+  "untrained_morphemes_in_inventory": [
+    {"morpheme": "re", "reason": "tagged INTJ by unigram-4000; no N/V mapping. Block exists in PHON inventory so unigram's probe can fire it, but it receives no supervision."}
+  ],
+  "probe_words": [
+    {"text": "passencore_morfessor", "segmenter": "morfessor", "morphemes": ["pass", "encore"],
+     "prediction": "N/V << 1 (both morphemes V-trained)"},
+    {"text": "passencore_flatcat",   "segmenter": "flatcat",   "morphemes": ["pass", "encore"],
+     "prediction": "N/V << 1 (same as morfessor)"},
+    {"text": "passencore_bpe",       "segmenter": "bpe-4000",  "morphemes": ["pass", "en", "core"],
+     "prediction": "N/V > 1 (1 V + 2 N morphemes; ratio ≈ 2)"},
+    {"text": "passencore_unigram",   "segmenter": "unigram-4000", "morphemes": ["pass", "en", "co", "re"],
+     "prediction": "N/V > 1 but slightly less than bpe (1 V + 2 N + 1 noise morpheme); `re`'s noise should pull magnitudes up slightly without changing ratio direction"}
+  ]
+}

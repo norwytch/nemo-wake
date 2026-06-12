@@ -1,0 +1,3201 @@
+{
+  "name": "_size_check_fweet",
+  "description": "Auto-generated portmanteau gallery from book 1 episode 1. 24 portmanteaus × ≤4 segmenters = 96 probes. 89 trained morphemes (including controls), 36 untrained morphemes in inventory.",
+  "source_artifact": "data/pos/joyce-pos-hypotheses/book01_ep01.jsonl",
+  "filters": {
+    "page_min": null,
+    "page_max": null,
+    "require_segmenter_disagreement": true,
+    "require_bilateral_potential": true
+  },
+  "num_portmanteaus": 24,
+  "num_probes": 96,
+  "num_trained_morphemes": 89,
+  "num_untrained_morphemes": 36,
+  "untrained_morphemes_in_inventory": [
+    {
+      "morpheme": "!)",
+      "tagger_pos": "SYM",
+      "appears_in": [
+        [
+          "Cave",
+          "bpe-4000"
+        ],
+        [
+          "Cave",
+          "unigram-4000"
+        ],
+        [
+          "Cave",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "morpheme": "'s",
+      "tagger_pos": "PUNCT",
+      "appears_in": [
+        [
+          "goliar's",
+          "morfessor"
+        ],
+        [
+          "goliar's",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "morpheme": "(",
+      "tagger_pos": "PUNCT",
+      "appears_in": [
+        [
+          "Cave",
+          "bpe-4000"
+        ],
+        [
+          "Cave",
+          "unigram-4000"
+        ],
+        [
+          "Cave",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "morpheme": "A",
+      "tagger_pos": "SYM",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "bpe-4000"
+        ],
+        [
+          "Agapemonides",
+          "unigram-4000"
+        ],
+        [
+          "Agapemonides",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "morpheme": "Dar",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "Dare",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "morpheme": "a",
+      "tagger_pos": "DET",
+      "appears_in": [
+        [
+          "exaggerated",
+          "morfessor"
+        ],
+        [
+          "exaggerated",
+          "flatcat"
+        ],
+        [
+          "Toucheaterre",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "able",
+      "tagger_pos": "ADJ",
+      "appears_in": [
+        [
+          "enfranchisable",
+          "bpe-4000"
+        ],
+        [
+          "enfranchisable",
+          "unigram-4000"
+        ],
+        [
+          "enfranchisable",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "morpheme": "ag",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "exaggerated",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "agg",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "exaggerated",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "as",
+      "tagger_pos": "ADV",
+      "appears_in": [
+        [
+          "askes",
+          "bpe-4000"
+        ],
+        [
+          "askes",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "morpheme": "ater",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "Toucheaterre",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "bly",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "paisibly",
+          "unigram-4000"
+        ],
+        [
+          "paisibly",
+          "morfessor"
+        ],
+        [
+          "paisibly",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "morpheme": "c",
+      "tagger_pos": "X",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "unigram-4000"
+        ],
+        [
+          "enfranchisable",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "che",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "Toucheaterre",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "er",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "exaggerated",
+          "bpe-4000"
+        ],
+        [
+          "Toucheaterre",
+          "morfessor"
+        ],
+        [
+          "Toucheaterre",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "morpheme": "es",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "askes",
+          "unigram-4000"
+        ],
+        [
+          "askes",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "morpheme": "his",
+      "tagger_pos": "PRON",
+      "appears_in": [
+        [
+          "enfranchisable",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "i",
+      "tagger_pos": "PRON",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "unigram-4000"
+        ],
+        [
+          "paisibly",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "ibly",
+      "tagger_pos": "ADV",
+      "appears_in": [
+        [
+          "paisibly",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "im",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "hamissim",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "in",
+      "tagger_pos": "ADV",
+      "appears_in": [
+        [
+          "Dobbelin",
+          "unigram-4000"
+        ],
+        [
+          "Dobbelin",
+          "morfessor"
+        ],
+        [
+          "Dobbelin",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "morpheme": "ing",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "twilling",
+          "bpe-4000"
+        ],
+        [
+          "twilling",
+          "unigram-4000"
+        ],
+        [
+          "twilling",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "morpheme": "mo",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "morpheme": "mon",
+      "tagger_pos": "X",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "most",
+      "tagger_pos": "ADJ",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "bpe-4000"
+        ],
+        [
+          "excelsissimost",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "nides",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "morpheme": "or",
+      "tagger_pos": "CCONJ",
+      "appears_in": [
+        [
+          "Dor",
+          "bpe-4000"
+        ],
+        [
+          "Dor",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "ose",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "pourquose",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "ost",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "morfessor"
+        ],
+        [
+          "excelsissimost",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "morpheme": "ouch",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "Toucheaterre",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "por",
+      "tagger_pos": "X",
+      "appears_in": [
+        [
+          "porca",
+          "bpe-4000"
+        ],
+        [
+          "porca",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "r",
+      "tagger_pos": "X",
+      "appears_in": [
+        [
+          "Dor",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "morpheme": "re",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "passencore",
+          "unigram-4000"
+        ],
+        [
+          "Toucheaterre",
+          "bpe-4000"
+        ],
+        [
+          "Toucheaterre",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "se",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "pourquose",
+          "morfessor"
+        ],
+        [
+          "pourquose",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "morpheme": "sto",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "stottered",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "morpheme": "ter",
+      "tagger_pos": "INTJ",
+      "appears_in": [
+        [
+          "Toucheaterre",
+          "unigram-4000"
+        ]
+      ]
+    }
+  ],
+  "training_words": [
+    {
+      "text": "river",
+      "bucket": "noun",
+      "morphemes": [
+        "river"
+      ],
+      "note": "control"
+    },
+    {
+      "text": "bay",
+      "bucket": "noun",
+      "morphemes": [
+        "bay"
+      ],
+      "note": "control"
+    },
+    {
+      "text": "run",
+      "bucket": "verb",
+      "morphemes": [
+        "run"
+      ],
+      "note": "control"
+    },
+    {
+      "text": "goes",
+      "bucket": "verb",
+      "morphemes": [
+        "goes"
+      ],
+      "note": "control"
+    },
+    {
+      "text": "(Da",
+      "bucket": "noun",
+      "morphemes": [
+        "(Da"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Dare",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "C",
+      "bucket": "noun",
+      "morphemes": [
+        "C"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Cave",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "Ca",
+      "bucket": "noun",
+      "morphemes": [
+        "Ca"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Cave",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "Cave",
+      "bucket": "noun",
+      "morphemes": [
+        "Cave"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "Cave",
+          "morfessor"
+        ],
+        [
+          "Cave",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "D",
+      "bucket": "noun",
+      "morphemes": [
+        "D"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Dobbelin",
+          "bpe-4000"
+        ],
+        [
+          "Dor",
+          "bpe-4000"
+        ],
+        [
+          "Dor",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "Do",
+      "bucket": "verb",
+      "morphemes": [
+        "Do"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "Dobbelin",
+          "unigram-4000"
+        ],
+        [
+          "Dobbelin",
+          "morfessor"
+        ],
+        [
+          "Dobbelin",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "Dor",
+      "bucket": "noun",
+      "morphemes": [
+        "Dor"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Dor",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "L",
+      "bucket": "noun",
+      "morphemes": [
+        "L"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Lave",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "La",
+      "bucket": "noun",
+      "morphemes": [
+        "La"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Lave",
+          "bpe-4000"
+        ],
+        [
+          "Lave",
+          "unigram-4000"
+        ],
+        [
+          "Lave",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "T",
+      "bucket": "noun",
+      "morphemes": [
+        "T"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Toucheaterre",
+          "bpe-4000"
+        ],
+        [
+          "Toucheaterre",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "Touch",
+      "bucket": "verb",
+      "morphemes": [
+        "Touch"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "Toucheaterre",
+          "morfessor"
+        ],
+        [
+          "Toucheaterre",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "ant",
+      "bucket": "noun",
+      "morphemes": [
+        "ant"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "poursuivant",
+          "bpe-4000"
+        ],
+        [
+          "poursuivant",
+          "unigram-4000"
+        ],
+        [
+          "poursuivant",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "are",
+      "bucket": "verb",
+      "morphemes": [
+        "are"
+      ],
+      "tagger_pos": "AUX",
+      "appears_in": [
+        [
+          "Dare",
+          "bpe-4000"
+        ],
+        [
+          "Dare",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "ask",
+      "bucket": "verb",
+      "morphemes": [
+        "ask"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "askes",
+          "unigram-4000"
+        ],
+        [
+          "askes",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "ated",
+      "bucket": "verb",
+      "morphemes": [
+        "ated"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "exaggerated",
+          "bpe-4000"
+        ],
+        [
+          "exaggerated",
+          "unigram-4000"
+        ],
+        [
+          "exaggerated",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "ave",
+      "bucket": "noun",
+      "morphemes": [
+        "ave"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Lave",
+          "flatcat"
+        ],
+        [
+          "Cave",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "b",
+      "bucket": "noun",
+      "morphemes": [
+        "b"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "Dobbelin",
+          "unigram-4000"
+        ],
+        [
+          "Dobbelin",
+          "morfessor"
+        ],
+        [
+          "Dobbelin",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "be",
+      "bucket": "verb",
+      "morphemes": [
+        "be"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "Dobbelin",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "bel",
+      "bucket": "noun",
+      "morphemes": [
+        "bel"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Dobbelin",
+          "unigram-4000"
+        ],
+        [
+          "Dobbelin",
+          "morfessor"
+        ],
+        [
+          "Dobbelin",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "ca",
+      "bucket": "verb",
+      "morphemes": [
+        "ca"
+      ],
+      "tagger_pos": "AUX",
+      "appears_in": [
+        [
+          "porca",
+          "bpe-4000"
+        ],
+        [
+          "porca",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "ce",
+      "bucket": "noun",
+      "morphemes": [
+        "ce"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "ch",
+      "bucket": "noun",
+      "morphemes": [
+        "ch"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "enfranchisable",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "co",
+      "bucket": "noun",
+      "morphemes": [
+        "co"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "passencore",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "core",
+      "bucket": "noun",
+      "morphemes": [
+        "core"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "passencore",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "de",
+      "bucket": "noun",
+      "morphemes": [
+        "de"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "unigram-4000"
+        ],
+        [
+          "Agapemonides",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "e",
+      "bucket": "noun",
+      "morphemes": [
+        "e"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "unigram-4000"
+        ],
+        [
+          "salve",
+          "unigram-4000"
+        ],
+        [
+          "pourquose",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "eat",
+      "bucket": "verb",
+      "morphemes": [
+        "eat"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "Toucheaterre",
+          "morfessor"
+        ],
+        [
+          "Toucheaterre",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "ed",
+      "bucket": "noun",
+      "morphemes": [
+        "ed"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "stottered",
+          "unigram-4000"
+        ],
+        [
+          "stottered",
+          "morfessor"
+        ],
+        [
+          "stottered",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "els",
+      "bucket": "noun",
+      "morphemes": [
+        "els"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "en",
+      "bucket": "noun",
+      "morphemes": [
+        "en"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "passencore",
+          "bpe-4000"
+        ],
+        [
+          "passencore",
+          "unigram-4000"
+        ],
+        [
+          "enfranchisable",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "encore",
+      "bucket": "verb",
+      "morphemes": [
+        "encore"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "passencore",
+          "morfessor"
+        ],
+        [
+          "passencore",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "enfranchi",
+      "bucket": "noun",
+      "morphemes": [
+        "enfranchi"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "enfranchisable",
+          "morfessor"
+        ],
+        [
+          "enfranchisable",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "ex",
+      "bucket": "noun",
+      "morphemes": [
+        "ex"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "exaggerated",
+          "bpe-4000"
+        ],
+        [
+          "exaggerated",
+          "unigram-4000"
+        ],
+        [
+          "exaggerated",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "excel",
+      "bucket": "noun",
+      "morphemes": [
+        "excel"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "morfessor"
+        ],
+        [
+          "excelsissimost",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "f",
+      "bucket": "noun",
+      "morphemes": [
+        "f"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "enfranchisable",
+          "bpe-4000"
+        ],
+        [
+          "enfranchisable",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "ga",
+      "bucket": "noun",
+      "morphemes": [
+        "ga"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "gap",
+      "bucket": "noun",
+      "morphemes": [
+        "gap"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "gape",
+      "bucket": "verb",
+      "morphemes": [
+        "gape"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "morfessor"
+        ],
+        [
+          "Agapemonides",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "ger",
+      "bucket": "noun",
+      "morphemes": [
+        "ger"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "exaggerated",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "gger",
+      "bucket": "noun",
+      "morphemes": [
+        "gger"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "exaggerated",
+          "morfessor"
+        ],
+        [
+          "exaggerated",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "go",
+      "bucket": "verb",
+      "morphemes": [
+        "go"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "goliar's",
+          "bpe-4000"
+        ],
+        [
+          "goliar's",
+          "unigram-4000"
+        ],
+        [
+          "goliar's",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "ham",
+      "bucket": "noun",
+      "morphemes": [
+        "ham"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "hamissim",
+          "bpe-4000"
+        ],
+        [
+          "hamissim",
+          "unigram-4000"
+        ],
+        [
+          "hamissim",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "ides",
+      "bucket": "noun",
+      "morphemes": [
+        "ides"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "is",
+      "bucket": "verb",
+      "morphemes": [
+        "is"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "unigram-4000"
+        ],
+        [
+          "paisibly",
+          "bpe-4000"
+        ],
+        [
+          "paisibly",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "ise",
+      "bucket": "noun",
+      "morphemes": [
+        "ise"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "reise",
+          "bpe-4000"
+        ],
+        [
+          "reise",
+          "morfessor"
+        ],
+        [
+          "reise",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "issi",
+      "bucket": "noun",
+      "morphemes": [
+        "issi"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "issim",
+      "bucket": "noun",
+      "morphemes": [
+        "issim"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "morfessor"
+        ],
+        [
+          "excelsissimost",
+          "flatcat"
+        ],
+        [
+          "hamissim",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "iv",
+      "bucket": "noun",
+      "morphemes": [
+        "iv"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "poursuivant",
+          "bpe-4000"
+        ],
+        [
+          "poursuivant",
+          "unigram-4000"
+        ],
+        [
+          "poursuivant",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "k",
+      "bucket": "noun",
+      "morphemes": [
+        "k"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "kis",
+          "unigram-4000"
+        ],
+        [
+          "kis",
+          "morfessor"
+        ],
+        [
+          "kis",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "kes",
+      "bucket": "noun",
+      "morphemes": [
+        "kes"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "askes",
+          "bpe-4000"
+        ],
+        [
+          "askes",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "kis",
+      "bucket": "noun",
+      "morphemes": [
+        "kis"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "kis",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "liar",
+      "bucket": "noun",
+      "morphemes": [
+        "liar"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "goliar's",
+          "bpe-4000"
+        ],
+        [
+          "goliar's",
+          "unigram-4000"
+        ],
+        [
+          "goliar's",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "lin",
+      "bucket": "noun",
+      "morphemes": [
+        "lin"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Dobbelin",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "ls",
+      "bucket": "noun",
+      "morphemes": [
+        "ls"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "excelsissimost",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "moni",
+      "bucket": "noun",
+      "morphemes": [
+        "moni"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "unigram-4000"
+        ],
+        [
+          "Agapemonides",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "ob",
+      "bucket": "noun",
+      "morphemes": [
+        "ob"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "Dobbelin",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "otter",
+      "bucket": "noun",
+      "morphemes": [
+        "otter"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "stottered",
+          "unigram-4000"
+        ],
+        [
+          "stottered",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "ou",
+      "bucket": "noun",
+      "morphemes": [
+        "ou"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "Toucheaterre",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "pa",
+      "bucket": "noun",
+      "morphemes": [
+        "pa"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "paisibly",
+          "bpe-4000"
+        ],
+        [
+          "paisibly",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "paisi",
+      "bucket": "noun",
+      "morphemes": [
+        "paisi"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "paisibly",
+          "morfessor"
+        ],
+        [
+          "paisibly",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "pass",
+      "bucket": "verb",
+      "morphemes": [
+        "pass"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "passencore",
+          "bpe-4000"
+        ],
+        [
+          "passencore",
+          "unigram-4000"
+        ],
+        [
+          "passencore",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "pe",
+      "bucket": "noun",
+      "morphemes": [
+        "pe"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "Agapemonides",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "porca",
+      "bucket": "noun",
+      "morphemes": [
+        "porca"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "porca",
+          "morfessor"
+        ],
+        [
+          "porca",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "pour",
+      "bucket": "verb",
+      "morphemes": [
+        "pour"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "poursuivant",
+          "bpe-4000"
+        ],
+        [
+          "poursuivant",
+          "unigram-4000"
+        ],
+        [
+          "poursuivant",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "poursu",
+      "bucket": "noun",
+      "morphemes": [
+        "poursu"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "poursuivant",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "pre",
+      "bucket": "noun",
+      "morphemes": [
+        "pre"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "pretendant",
+          "bpe-4000"
+        ],
+        [
+          "pretendant",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "pretend",
+      "bucket": "verb",
+      "morphemes": [
+        "pretend"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "pretendant",
+          "morfessor"
+        ],
+        [
+          "pretendant",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "qu",
+      "bucket": "noun",
+      "morphemes": [
+        "qu"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "pourquose",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "quo",
+      "bucket": "noun",
+      "morphemes": [
+        "quo"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "pourquose",
+          "unigram-4000"
+        ],
+        [
+          "pourquose",
+          "morfessor"
+        ],
+        [
+          "pourquose",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "ran",
+      "bucket": "verb",
+      "morphemes": [
+        "ran"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "enfranchisable",
+          "bpe-4000"
+        ],
+        [
+          "enfranchisable",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "s",
+      "bucket": "noun",
+      "morphemes": [
+        "s"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "stottered",
+          "morfessor"
+        ],
+        [
+          "Agapemonides",
+          "unigram-4000"
+        ],
+        [
+          "Agapemonides",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "sable",
+      "bucket": "noun",
+      "morphemes": [
+        "sable"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "enfranchisable",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "sal",
+      "bucket": "noun",
+      "morphemes": [
+        "sal"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "salve",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "salv",
+      "bucket": "noun",
+      "morphemes": [
+        "salv"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "salve",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "salve",
+      "bucket": "noun",
+      "morphemes": [
+        "salve"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "salve",
+          "morfessor"
+        ],
+        [
+          "salve",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "sim",
+      "bucket": "noun",
+      "morphemes": [
+        "sim"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "hamissim",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "st",
+      "bucket": "noun",
+      "morphemes": [
+        "st"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "stottered",
+          "unigram-4000"
+        ],
+        [
+          "stottered",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "su",
+      "bucket": "noun",
+      "morphemes": [
+        "su"
+      ],
+      "tagger_pos": "PROPN",
+      "appears_in": [
+        [
+          "poursuivant",
+          "bpe-4000"
+        ],
+        [
+          "poursuivant",
+          "unigram-4000"
+        ],
+        [
+          "poursuivant",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "t",
+      "bucket": "noun",
+      "morphemes": [
+        "t"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "stottered",
+          "bpe-4000"
+        ],
+        [
+          "twilling",
+          "bpe-4000"
+        ],
+        [
+          "twilling",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "tend",
+      "bucket": "verb",
+      "morphemes": [
+        "tend"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "pretendant",
+          "bpe-4000"
+        ],
+        [
+          "pretendant",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "tered",
+      "bucket": "verb",
+      "morphemes": [
+        "tered"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "stottered",
+          "bpe-4000"
+        ]
+      ]
+    },
+    {
+      "text": "totter",
+      "bucket": "verb",
+      "morphemes": [
+        "totter"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "stottered",
+          "morfessor"
+        ]
+      ]
+    },
+    {
+      "text": "twill",
+      "bucket": "noun",
+      "morphemes": [
+        "twill"
+      ],
+      "tagger_pos": "NOUN",
+      "appears_in": [
+        [
+          "twilling",
+          "flatcat"
+        ]
+      ]
+    },
+    {
+      "text": "ve",
+      "bucket": "verb",
+      "morphemes": [
+        "ve"
+      ],
+      "tagger_pos": "VERB",
+      "appears_in": [
+        [
+          "salve",
+          "bpe-4000"
+        ],
+        [
+          "Lave",
+          "bpe-4000"
+        ],
+        [
+          "Lave",
+          "unigram-4000"
+        ]
+      ]
+    },
+    {
+      "text": "will",
+      "bucket": "verb",
+      "morphemes": [
+        "will"
+      ],
+      "tagger_pos": "AUX",
+      "appears_in": [
+        [
+          "twilling",
+          "bpe-4000"
+        ],
+        [
+          "twilling",
+          "unigram-4000"
+        ],
+        [
+          "twilling",
+          "morfessor"
+        ]
+      ]
+    }
+  ],
+  "probe_words": [
+    {
+      "text": "passencore_bpe4000",
+      "portmanteau": "passencore",
+      "page_line": "003.04",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "pass",
+        "en",
+        "core"
+      ]
+    },
+    {
+      "text": "passencore_unigram4000",
+      "portmanteau": "passencore",
+      "page_line": "003.04",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "pass",
+        "en",
+        "co",
+        "re"
+      ]
+    },
+    {
+      "text": "passencore_morfessor",
+      "portmanteau": "passencore",
+      "page_line": "003.04",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "pass",
+        "encore"
+      ]
+    },
+    {
+      "text": "passencore_flatcat",
+      "portmanteau": "passencore",
+      "page_line": "003.04",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "pass",
+        "encore"
+      ]
+    },
+    {
+      "text": "exaggerated_bpe4000",
+      "portmanteau": "exaggerated",
+      "page_line": "003.07",
+      "surface_pos": "VERB",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "ex",
+        "agg",
+        "er",
+        "ated"
+      ]
+    },
+    {
+      "text": "exaggerated_unigram4000",
+      "portmanteau": "exaggerated",
+      "page_line": "003.07",
+      "surface_pos": "VERB",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "ex",
+        "ag",
+        "ger",
+        "ated"
+      ]
+    },
+    {
+      "text": "exaggerated_morfessor",
+      "portmanteau": "exaggerated",
+      "page_line": "003.07",
+      "surface_pos": "VERB",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "ex",
+        "a",
+        "gger",
+        "ated"
+      ]
+    },
+    {
+      "text": "exaggerated_flatcat",
+      "portmanteau": "exaggerated",
+      "page_line": "003.07",
+      "surface_pos": "VERB",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "ex",
+        "a",
+        "gger",
+        "ated"
+      ]
+    },
+    {
+      "text": "askes_bpe4000",
+      "portmanteau": "askes",
+      "page_line": "004.15",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "as",
+        "kes"
+      ]
+    },
+    {
+      "text": "askes_unigram4000",
+      "portmanteau": "askes",
+      "page_line": "004.15",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "ask",
+        "es"
+      ]
+    },
+    {
+      "text": "askes_morfessor",
+      "portmanteau": "askes",
+      "page_line": "004.15",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "as",
+        "kes"
+      ]
+    },
+    {
+      "text": "askes_flatcat",
+      "portmanteau": "askes",
+      "page_line": "004.15",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "ask",
+        "es"
+      ]
+    },
+    {
+      "text": "poursuivant_bpe4000",
+      "portmanteau": "poursuivant",
+      "page_line": "005.07",
+      "surface_pos": "X",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "pour",
+        "su",
+        "iv",
+        "ant"
+      ]
+    },
+    {
+      "text": "poursuivant_unigram4000",
+      "portmanteau": "poursuivant",
+      "page_line": "005.07",
+      "surface_pos": "X",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "pour",
+        "su",
+        "iv",
+        "ant"
+      ]
+    },
+    {
+      "text": "poursuivant_morfessor",
+      "portmanteau": "poursuivant",
+      "page_line": "005.07",
+      "surface_pos": "X",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "pour",
+        "su",
+        "iv",
+        "ant"
+      ]
+    },
+    {
+      "text": "poursuivant_flatcat",
+      "portmanteau": "poursuivant",
+      "page_line": "005.07",
+      "surface_pos": "X",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "poursu",
+        "iv",
+        "ant"
+      ]
+    },
+    {
+      "text": "stottered_bpe4000",
+      "portmanteau": "stottered",
+      "page_line": "006.09",
+      "surface_pos": "VERB",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "sto",
+        "t",
+        "tered"
+      ]
+    },
+    {
+      "text": "stottered_unigram4000",
+      "portmanteau": "stottered",
+      "page_line": "006.09",
+      "surface_pos": "VERB",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "st",
+        "otter",
+        "ed"
+      ]
+    },
+    {
+      "text": "stottered_morfessor",
+      "portmanteau": "stottered",
+      "page_line": "006.09",
+      "surface_pos": "VERB",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "s",
+        "totter",
+        "ed"
+      ]
+    },
+    {
+      "text": "stottered_flatcat",
+      "portmanteau": "stottered",
+      "page_line": "006.09",
+      "surface_pos": "VERB",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "st",
+        "otter",
+        "ed"
+      ]
+    },
+    {
+      "text": "Dobbelin_bpe4000",
+      "portmanteau": "Dobbelin",
+      "page_line": "007.12",
+      "surface_pos": "PROPN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "D",
+        "ob",
+        "be",
+        "lin"
+      ]
+    },
+    {
+      "text": "Dobbelin_unigram4000",
+      "portmanteau": "Dobbelin",
+      "page_line": "007.12",
+      "surface_pos": "PROPN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "Do",
+        "b",
+        "bel",
+        "in"
+      ]
+    },
+    {
+      "text": "Dobbelin_morfessor",
+      "portmanteau": "Dobbelin",
+      "page_line": "007.12",
+      "surface_pos": "PROPN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "Do",
+        "b",
+        "bel",
+        "in"
+      ]
+    },
+    {
+      "text": "Dobbelin_flatcat",
+      "portmanteau": "Dobbelin",
+      "page_line": "007.12",
+      "surface_pos": "PROPN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "Do",
+        "b",
+        "bel",
+        "in"
+      ]
+    },
+    {
+      "text": "Agapemonides_bpe4000",
+      "portmanteau": "Agapemonides",
+      "page_line": "007.16",
+      "surface_pos": "PROPN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "A",
+        "ga",
+        "pe",
+        "mon",
+        "ides"
+      ]
+    },
+    {
+      "text": "Agapemonides_unigram4000",
+      "portmanteau": "Agapemonides",
+      "page_line": "007.16",
+      "surface_pos": "PROPN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "A",
+        "gap",
+        "e",
+        "moni",
+        "de",
+        "s"
+      ]
+    },
+    {
+      "text": "Agapemonides_morfessor",
+      "portmanteau": "Agapemonides",
+      "page_line": "007.16",
+      "surface_pos": "PROPN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "A",
+        "gape",
+        "moni",
+        "de",
+        "s"
+      ]
+    },
+    {
+      "text": "Agapemonides_flatcat",
+      "portmanteau": "Agapemonides",
+      "page_line": "007.16",
+      "surface_pos": "PROPN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "A",
+        "gape",
+        "mo",
+        "nides"
+      ]
+    },
+    {
+      "text": "goliar's_bpe4000",
+      "portmanteau": "goliar's",
+      "page_line": "008.20",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "go",
+        "liar",
+        "s"
+      ]
+    },
+    {
+      "text": "goliar's_unigram4000",
+      "portmanteau": "goliar's",
+      "page_line": "008.20",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "go",
+        "liar",
+        "s"
+      ]
+    },
+    {
+      "text": "goliar's_morfessor",
+      "portmanteau": "goliar's",
+      "page_line": "008.20",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "go",
+        "liar",
+        "'s"
+      ]
+    },
+    {
+      "text": "goliar's_flatcat",
+      "portmanteau": "goliar's",
+      "page_line": "008.20",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "go",
+        "liar",
+        "'s"
+      ]
+    },
+    {
+      "text": "porca_bpe4000",
+      "portmanteau": "porca",
+      "page_line": "009.36",
+      "surface_pos": "X",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "por",
+        "ca"
+      ]
+    },
+    {
+      "text": "porca_unigram4000",
+      "portmanteau": "porca",
+      "page_line": "009.36",
+      "surface_pos": "X",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "por",
+        "ca"
+      ]
+    },
+    {
+      "text": "porca_morfessor",
+      "portmanteau": "porca",
+      "page_line": "009.36",
+      "surface_pos": "X",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "porca"
+      ]
+    },
+    {
+      "text": "porca_flatcat",
+      "portmanteau": "porca",
+      "page_line": "009.36",
+      "surface_pos": "X",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "porca"
+      ]
+    },
+    {
+      "text": "salve_bpe4000",
+      "portmanteau": "salve",
+      "page_line": "012.34",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "sal",
+        "ve"
+      ]
+    },
+    {
+      "text": "salve_unigram4000",
+      "portmanteau": "salve",
+      "page_line": "012.34",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "salv",
+        "e"
+      ]
+    },
+    {
+      "text": "salve_morfessor",
+      "portmanteau": "salve",
+      "page_line": "012.34",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "salve"
+      ]
+    },
+    {
+      "text": "salve_flatcat",
+      "portmanteau": "salve",
+      "page_line": "012.34",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "salve"
+      ]
+    },
+    {
+      "text": "pretendant_bpe4000",
+      "portmanteau": "pretendant",
+      "page_line": "013.11",
+      "surface_pos": "ADJ",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "pre",
+        "tend",
+        "ant"
+      ]
+    },
+    {
+      "text": "pretendant_unigram4000",
+      "portmanteau": "pretendant",
+      "page_line": "013.11",
+      "surface_pos": "ADJ",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "pre",
+        "tend",
+        "ant"
+      ]
+    },
+    {
+      "text": "pretendant_morfessor",
+      "portmanteau": "pretendant",
+      "page_line": "013.11",
+      "surface_pos": "ADJ",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "pretend",
+        "ant"
+      ]
+    },
+    {
+      "text": "pretendant_flatcat",
+      "portmanteau": "pretendant",
+      "page_line": "013.11",
+      "surface_pos": "ADJ",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "pretend",
+        "ant"
+      ]
+    },
+    {
+      "text": "excelsissimost_bpe4000",
+      "portmanteau": "excelsissimost",
+      "page_line": "014.19",
+      "surface_pos": "ADJ",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "ex",
+        "ce",
+        "ls",
+        "issi",
+        "most"
+      ]
+    },
+    {
+      "text": "excelsissimost_unigram4000",
+      "portmanteau": "excelsissimost",
+      "page_line": "014.19",
+      "surface_pos": "ADJ",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "ex",
+        "c",
+        "els",
+        "is",
+        "s",
+        "i",
+        "most"
+      ]
+    },
+    {
+      "text": "excelsissimost_morfessor",
+      "portmanteau": "excelsissimost",
+      "page_line": "014.19",
+      "surface_pos": "ADJ",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "excel",
+        "s",
+        "issim",
+        "ost"
+      ]
+    },
+    {
+      "text": "excelsissimost_flatcat",
+      "portmanteau": "excelsissimost",
+      "page_line": "014.19",
+      "surface_pos": "ADJ",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "excel",
+        "s",
+        "issim",
+        "ost"
+      ]
+    },
+    {
+      "text": "paisibly_bpe4000",
+      "portmanteau": "paisibly",
+      "page_line": "014.30",
+      "surface_pos": "ADV",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "pa",
+        "is",
+        "ibly"
+      ]
+    },
+    {
+      "text": "paisibly_unigram4000",
+      "portmanteau": "paisibly",
+      "page_line": "014.30",
+      "surface_pos": "ADV",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "pa",
+        "is",
+        "i",
+        "bly"
+      ]
+    },
+    {
+      "text": "paisibly_morfessor",
+      "portmanteau": "paisibly",
+      "page_line": "014.30",
+      "surface_pos": "ADV",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "paisi",
+        "bly"
+      ]
+    },
+    {
+      "text": "paisibly_flatcat",
+      "portmanteau": "paisibly",
+      "page_line": "014.30",
+      "surface_pos": "ADV",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "paisi",
+        "bly"
+      ]
+    },
+    {
+      "text": "Lave_bpe4000",
+      "portmanteau": "Lave",
+      "page_line": "015.24",
+      "surface_pos": "AUX",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "La",
+        "ve"
+      ]
+    },
+    {
+      "text": "Lave_unigram4000",
+      "portmanteau": "Lave",
+      "page_line": "015.24",
+      "surface_pos": "AUX",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "La",
+        "ve"
+      ]
+    },
+    {
+      "text": "Lave_morfessor",
+      "portmanteau": "Lave",
+      "page_line": "015.24",
+      "surface_pos": "AUX",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "La",
+        "ve"
+      ]
+    },
+    {
+      "text": "Lave_flatcat",
+      "portmanteau": "Lave",
+      "page_line": "015.24",
+      "surface_pos": "AUX",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "L",
+        "ave"
+      ]
+    },
+    {
+      "text": "Cave_bpe4000",
+      "portmanteau": "Cave",
+      "page_line": "016.03",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "(",
+        "C",
+        "ave",
+        "!)"
+      ]
+    },
+    {
+      "text": "Cave_unigram4000",
+      "portmanteau": "Cave",
+      "page_line": "016.03",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "(",
+        "Ca",
+        "ve",
+        "!)"
+      ]
+    },
+    {
+      "text": "Cave_morfessor",
+      "portmanteau": "Cave",
+      "page_line": "016.03",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "(",
+        "Cave",
+        "!)"
+      ]
+    },
+    {
+      "text": "Cave_flatcat",
+      "portmanteau": "Cave",
+      "page_line": "016.03",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "(",
+        "Cave",
+        "!)"
+      ]
+    },
+    {
+      "text": "pourquose_bpe4000",
+      "portmanteau": "pourquose",
+      "page_line": "018.31",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "pour",
+        "qu",
+        "ose"
+      ]
+    },
+    {
+      "text": "pourquose_unigram4000",
+      "portmanteau": "pourquose",
+      "page_line": "018.31",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "pour",
+        "quo",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "pourquose_morfessor",
+      "portmanteau": "pourquose",
+      "page_line": "018.31",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "pour",
+        "quo",
+        "se"
+      ]
+    },
+    {
+      "text": "pourquose_flatcat",
+      "portmanteau": "pourquose",
+      "page_line": "018.31",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "pour",
+        "quo",
+        "se"
+      ]
+    },
+    {
+      "text": "Toucheaterre_bpe4000",
+      "portmanteau": "Toucheaterre",
+      "page_line": "019.14",
+      "surface_pos": "PROPN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "T",
+        "ou",
+        "che",
+        "ater",
+        "re"
+      ]
+    },
+    {
+      "text": "Toucheaterre_unigram4000",
+      "portmanteau": "Toucheaterre",
+      "page_line": "019.14",
+      "surface_pos": "PROPN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "T",
+        "ouch",
+        "e",
+        "a",
+        "ter",
+        "re"
+      ]
+    },
+    {
+      "text": "Toucheaterre_morfessor",
+      "portmanteau": "Toucheaterre",
+      "page_line": "019.14",
+      "surface_pos": "PROPN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "Touch",
+        "eat",
+        "er",
+        "re"
+      ]
+    },
+    {
+      "text": "Toucheaterre_flatcat",
+      "portmanteau": "Toucheaterre",
+      "page_line": "019.14",
+      "surface_pos": "PROPN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "Touch",
+        "eat",
+        "er",
+        "re"
+      ]
+    },
+    {
+      "text": "Dor_bpe4000",
+      "portmanteau": "Dor",
+      "page_line": "020.18",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "D",
+        "or"
+      ]
+    },
+    {
+      "text": "Dor_unigram4000",
+      "portmanteau": "Dor",
+      "page_line": "020.18",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "D",
+        "or"
+      ]
+    },
+    {
+      "text": "Dor_morfessor",
+      "portmanteau": "Dor",
+      "page_line": "020.18",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "Do",
+        "r"
+      ]
+    },
+    {
+      "text": "Dor_flatcat",
+      "portmanteau": "Dor",
+      "page_line": "020.18",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "Dor"
+      ]
+    },
+    {
+      "text": "Dare_bpe4000",
+      "portmanteau": "Dare",
+      "page_line": "022.23",
+      "surface_pos": "PUNCT",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "(",
+        "D",
+        "are"
+      ]
+    },
+    {
+      "text": "Dare_unigram4000",
+      "portmanteau": "Dare",
+      "page_line": "022.23",
+      "surface_pos": "PUNCT",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "(",
+        "D",
+        "are"
+      ]
+    },
+    {
+      "text": "Dare_morfessor",
+      "portmanteau": "Dare",
+      "page_line": "022.23",
+      "surface_pos": "PUNCT",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "(",
+        "Dar",
+        "e"
+      ]
+    },
+    {
+      "text": "Dare_flatcat",
+      "portmanteau": "Dare",
+      "page_line": "022.23",
+      "surface_pos": "PUNCT",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "(Da",
+        "re"
+      ]
+    },
+    {
+      "text": "enfranchisable_bpe4000",
+      "portmanteau": "enfranchisable",
+      "page_line": "024.27",
+      "surface_pos": "ADJ",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "en",
+        "f",
+        "ran",
+        "ch",
+        "is",
+        "able"
+      ]
+    },
+    {
+      "text": "enfranchisable_unigram4000",
+      "portmanteau": "enfranchisable",
+      "page_line": "024.27",
+      "surface_pos": "ADJ",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "en",
+        "f",
+        "ran",
+        "c",
+        "his",
+        "able"
+      ]
+    },
+    {
+      "text": "enfranchisable_morfessor",
+      "portmanteau": "enfranchisable",
+      "page_line": "024.27",
+      "surface_pos": "ADJ",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "enfranchi",
+        "s",
+        "able"
+      ]
+    },
+    {
+      "text": "enfranchisable_flatcat",
+      "portmanteau": "enfranchisable",
+      "page_line": "024.27",
+      "surface_pos": "ADJ",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "enfranchi",
+        "sable"
+      ]
+    },
+    {
+      "text": "reise_bpe4000",
+      "portmanteau": "reise",
+      "page_line": "025.32",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "re",
+        "ise"
+      ]
+    },
+    {
+      "text": "reise_unigram4000",
+      "portmanteau": "reise",
+      "page_line": "025.32",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "re",
+        "is",
+        "e"
+      ]
+    },
+    {
+      "text": "reise_morfessor",
+      "portmanteau": "reise",
+      "page_line": "025.32",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "re",
+        "ise"
+      ]
+    },
+    {
+      "text": "reise_flatcat",
+      "portmanteau": "reise",
+      "page_line": "025.32",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "re",
+        "ise"
+      ]
+    },
+    {
+      "text": "kis_bpe4000",
+      "portmanteau": "kis",
+      "page_line": "026.03",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "kis"
+      ]
+    },
+    {
+      "text": "kis_unigram4000",
+      "portmanteau": "kis",
+      "page_line": "026.03",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "k",
+        "is"
+      ]
+    },
+    {
+      "text": "kis_morfessor",
+      "portmanteau": "kis",
+      "page_line": "026.03",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "k",
+        "is"
+      ]
+    },
+    {
+      "text": "kis_flatcat",
+      "portmanteau": "kis",
+      "page_line": "026.03",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "k",
+        "is"
+      ]
+    },
+    {
+      "text": "twilling_bpe4000",
+      "portmanteau": "twilling",
+      "page_line": "029.08",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "t",
+        "will",
+        "ing"
+      ]
+    },
+    {
+      "text": "twilling_unigram4000",
+      "portmanteau": "twilling",
+      "page_line": "029.08",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "t",
+        "will",
+        "ing"
+      ]
+    },
+    {
+      "text": "twilling_morfessor",
+      "portmanteau": "twilling",
+      "page_line": "029.08",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "t",
+        "will",
+        "ing"
+      ]
+    },
+    {
+      "text": "twilling_flatcat",
+      "portmanteau": "twilling",
+      "page_line": "029.08",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "twill",
+        "ing"
+      ]
+    },
+    {
+      "text": "hamissim_bpe4000",
+      "portmanteau": "hamissim",
+      "page_line": "029.33",
+      "surface_pos": "NOUN",
+      "segmenter": "bpe-4000",
+      "morphemes": [
+        "ham",
+        "is",
+        "sim"
+      ]
+    },
+    {
+      "text": "hamissim_unigram4000",
+      "portmanteau": "hamissim",
+      "page_line": "029.33",
+      "surface_pos": "NOUN",
+      "segmenter": "unigram-4000",
+      "morphemes": [
+        "ham",
+        "is",
+        "s",
+        "im"
+      ]
+    },
+    {
+      "text": "hamissim_morfessor",
+      "portmanteau": "hamissim",
+      "page_line": "029.33",
+      "surface_pos": "NOUN",
+      "segmenter": "morfessor",
+      "morphemes": [
+        "ham",
+        "issim"
+      ]
+    },
+    {
+      "text": "hamissim_flatcat",
+      "portmanteau": "hamissim",
+      "page_line": "029.33",
+      "surface_pos": "NOUN",
+      "segmenter": "flatcat",
+      "morphemes": [
+        "ham",
+        "issim"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3246 @@
+{
+  "_comment": "Known errors in the Trent University electronic text of Finnegans Wake, sourced from FWEET (http://www.fweet.org/pages/fw_typo.php). Based on the 1939 Faber & Faber and Viking editions. Applied during corpus construction by scrape_trent.py.",
+  "source": "http://www.fweet.org/pages/fw_typo.php",
+  "edition": "1939 Faber & Faber / Viking (not Penguin/Wordsworth)",
+  "corrections": [
+    {
+      "no": "1",
+      "type": "substitution",
+      "page_line": "004.14",
+      "trent": "was",
+      "correct": "waz",
+      "elaboration": "a \"z\" (not an \"s\") (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "2",
+      "type": "substitution",
+      "page_line": "006.36",
+      "trent": "fiord",
+      "correct": "fjord",
+      "elaboration": "a \"j\" (not an \"i\")",
+      "contributor": ""
+    },
+    {
+      "no": "3",
+      "type": "placement",
+      "wrong_page_line": "011.11",
+      "correct_page_line": "011.10",
+      "word": "in",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "011.10-.11"
+    },
+    {
+      "no": "4",
+      "type": "substitution",
+      "page_line": "013.22",
+      "trent": "f t.",
+      "correct": "f.t.",
+      "elaboration": "a full stop (not a space)",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "5",
+      "type": "substitution",
+      "page_line": "013.22",
+      "trent": "Dyffinarsky",
+      "correct": "Dyfflinarsky",
+      "elaboration": "an \"l\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "6",
+      "type": "substitution",
+      "page_line": "014.01",
+      "trent": "tunes",
+      "correct": "turves",
+      "elaboration": "an \"rv\" (not an \"n\")",
+      "contributor": "Wes McCullough"
+    },
+    {
+      "no": "7",
+      "type": "substitution",
+      "page_line": "014.04",
+      "trent": "ant",
+      "correct": "and",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "8",
+      "type": "substitution",
+      "page_line": "014.11",
+      "trent": "1132.",
+      "correct": "1132",
+      "elaboration": "no full stop",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "9",
+      "type": "substitution",
+      "page_line": "019.30",
+      "trent": "infinities",
+      "correct": "infinities!",
+      "elaboration": "an exclamation mark missing",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "10",
+      "type": "substitution",
+      "page_line": "019.32",
+      "trent": "waste,",
+      "correct": "waste",
+      "elaboration": "no comma",
+      "contributor": ""
+    },
+    {
+      "no": "11",
+      "type": "placement",
+      "wrong_page_line": "020.09",
+      "correct_page_line": "020.09",
+      "word": "the b of rubrickredd",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "020.08-.09"
+    },
+    {
+      "no": "12",
+      "type": "substitution",
+      "page_line": "022.07",
+      "trent": "'a forethought'",
+      "correct": "a forethought",
+      "elaboration": "no apostrophes (based on the Viking edition)",
+      "contributor": ""
+    },
+    {
+      "no": "13",
+      "type": "substitution",
+      "page_line": "022.23",
+      "trent": "ant",
+      "correct": "and",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "14",
+      "type": "substitution",
+      "page_line": "022.31",
+      "trent": "of-lightning",
+      "correct": "of lightning",
+      "elaboration": "a space (not a hyphen)",
+      "contributor": ""
+    },
+    {
+      "no": "15",
+      "type": "substitution",
+      "page_line": "023.29",
+      "trent": "horseluggarsandlisteltomine",
+      "correct": "horseluggarsandlistletomine",
+      "elaboration": "an \"le\" (not an \"el\")",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "16",
+      "type": "substitution",
+      "page_line": "024.14",
+      "trent": "Usgueadbaugham",
+      "correct": "Usqueadbaugham",
+      "elaboration": "a \"q\" (not a \"g\")",
+      "contributor": ""
+    },
+    {
+      "no": "17",
+      "type": "substitution",
+      "page_line": "025.01",
+      "trent": "il",
+      "correct": "it",
+      "elaboration": "a \"t\" (not an \"l\")",
+      "contributor": ""
+    },
+    {
+      "no": "18",
+      "type": "substitution",
+      "page_line": "028.09",
+      "trent": "It's",
+      "correct": "It's an",
+      "elaboration": "the word \"an\" missing",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "19",
+      "type": "substitution",
+      "page_line": "029.04",
+      "trent": "(Ivoeh!)",
+      "correct": "(ivoeh!)",
+      "elaboration": "a lowercase \"i\" (not an uppercase \"I\")",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "20",
+      "type": "substitution",
+      "page_line": "029.04",
+      "trent": "the breezy",
+      "correct": "on the breezy",
+      "elaboration": "the word \"on\" missing",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "21",
+      "type": "substitution",
+      "page_line": "031.28",
+      "trent": "earwigger",
+      "correct": "earwigger!",
+      "elaboration": "an exclamation mark missing",
+      "contributor": "Wes McCullough"
+    },
+    {
+      "no": "22",
+      "type": "substitution",
+      "page_line": "034.36",
+      "trent": "sod",
+      "correct": "and",
+      "elaboration": "an \"an\" (not a \"so\")",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "23",
+      "type": "range",
+      "lines": "035.35-.36",
+      "primary_page_line": "035.35",
+      "trent": "presented",
+      "correct": "presented,",
+      "elaboration": "a comma missing",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "24",
+      "type": "substitution",
+      "page_line": "036.01",
+      "trent": "ginger,",
+      "correct": "ginger",
+      "elaboration": "no comma",
+      "contributor": ""
+    },
+    {
+      "no": "25",
+      "type": "substitution",
+      "page_line": "036.08",
+      "trent": "'anticipation",
+      "correct": "anticipation",
+      "elaboration": "no apostrophe",
+      "contributor": ""
+    },
+    {
+      "no": "26",
+      "type": "substitution",
+      "page_line": "038.32",
+      "trent": "Mere",
+      "correct": "M&egrave;re",
+      "elaboration": "a grave accent missing",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "27",
+      "type": "substitution",
+      "page_line": "041.02",
+      "trent": "goot",
+      "correct": "good",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": "Alex Gregoire"
+    },
+    {
+      "no": "28",
+      "type": "substitution",
+      "page_line": "042.07",
+      "trent": "firestuffostered",
+      "correct": "firestufffostered",
+      "elaboration": "three consecutive \"f\" (not two) (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "29",
+      "type": "substitution",
+      "page_line": "044.04",
+      "trent": "the exclamation mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": "J.B."
+    },
+    {
+      "no": "30",
+      "type": "substitution",
+      "page_line": "047.22",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "this line is line 047.19 in the Fweet text (i.e. \"Suffoclose...\")",
+      "contributor": ""
+    },
+    {
+      "no": "31",
+      "type": "substitution",
+      "page_line": "049.02",
+      "trent": "f&ugrave;",
+      "correct": "f&ugrave;.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "32",
+      "type": "substitution",
+      "page_line": "051.33",
+      "trent": "pipe",
+      "correct": "pipe,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "33",
+      "type": "substitution",
+      "page_line": "053.19",
+      "trent": "the exclamation mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "34",
+      "type": "substitution",
+      "page_line": "053.20",
+      "trent": "the exclamation mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "35",
+      "type": "substitution",
+      "page_line": "054.02",
+      "trent": "fount",
+      "correct": "found",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "36",
+      "type": "substitution",
+      "page_line": "054.06",
+      "trent": "the second exclamation mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "37",
+      "type": "substitution",
+      "page_line": "054.22",
+      "trent": "Travener's",
+      "correct": "Taverner's",
+      "elaboration": "an \"aver\" (not a \"rave\") (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "38",
+      "type": "substitution",
+      "page_line": "058.27",
+      "trent": "(pardonnez!",
+      "correct": "(pardonnez!)",
+      "elaboration": "a closing parenthesis missing",
+      "contributor": ""
+    },
+    {
+      "no": "39",
+      "type": "substitution",
+      "page_line": "058.28",
+      "trent": "eh?",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": "J.B."
+    },
+    {
+      "no": "40",
+      "type": "substitution",
+      "page_line": "059.01",
+      "trent": "halfmoon",
+      "correct": "Halfmoon",
+      "elaboration": "an uppercase \"H\" (not a lowercase \"h\")",
+      "contributor": ""
+    },
+    {
+      "no": "41",
+      "type": "substitution",
+      "page_line": "059.32",
+      "trent": "himself",
+      "correct": "himself.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "42",
+      "type": "substitution",
+      "page_line": "061.10",
+      "trent": "II",
+      "correct": "11",
+      "elaboration": "two ones (not two uppercase \"I\")",
+      "contributor": ""
+    },
+    {
+      "no": "43",
+      "type": "substitution",
+      "page_line": "062.18",
+      "trent": "incorruption-of-an",
+      "correct": "incorruption of an",
+      "elaboration": "no hyphens",
+      "contributor": ""
+    },
+    {
+      "no": "44",
+      "type": "placement",
+      "wrong_page_line": "074.07",
+      "correct_page_line": "074.06",
+      "word": "and",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "074.06-.07"
+    },
+    {
+      "no": "45",
+      "type": "substitution",
+      "page_line": "076.02",
+      "trent": "( pace",
+      "correct": "(pace",
+      "elaboration": "no space",
+      "contributor": ""
+    },
+    {
+      "no": "46",
+      "type": "substitution",
+      "page_line": "076.02",
+      "trent": "pace",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "47",
+      "type": "substitution",
+      "page_line": "079.14",
+      "trent": "firs;",
+      "correct": "first",
+      "elaboration": "a \"t\" (not a semicolon)",
+      "contributor": "Chris Potter"
+    },
+    {
+      "no": "48",
+      "type": "substitution",
+      "page_line": "082.22",
+      "trent": "knobkerries,",
+      "correct": "knobkerries",
+      "elaboration": "no comma",
+      "contributor": ""
+    },
+    {
+      "no": "49",
+      "type": "range",
+      "lines": "086.11-.12",
+      "primary_page_line": "086.11",
+      "trent": "Thoorday",
+      "correct": "Thoorsday",
+      "elaboration": "an \"s\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "50",
+      "type": "substitution",
+      "page_line": "089.27",
+      "trent": "the second question mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "51",
+      "type": "substitution",
+      "page_line": "091.19",
+      "trent": "bench.",
+      "correct": "bench,",
+      "elaboration": "a comma (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "52",
+      "type": "substitution",
+      "page_line": "093.04",
+      "trent": "patch",
+      "correct": "pitch",
+      "elaboration": "an \"i\" (not an \"a\")",
+      "contributor": ""
+    },
+    {
+      "no": "53",
+      "type": "substitution",
+      "page_line": "093.09",
+      "trent": "the latten",
+      "correct": "turn the latten",
+      "elaboration": "the word \"turn\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "54",
+      "type": "substitution",
+      "page_line": "093.27",
+      "trent": "Rasa",
+      "correct": "Rosa",
+      "elaboration": "an \"o\" (not an \"a\")",
+      "contributor": ""
+    },
+    {
+      "no": "55",
+      "type": "substitution",
+      "page_line": "093.36",
+      "trent": "tribes,",
+      "correct": "tribes",
+      "elaboration": "no comma",
+      "contributor": ""
+    },
+    {
+      "no": "56",
+      "type": "substitution",
+      "page_line": "094.21",
+      "trent": "..........",
+      "correct": ". . . . . . . . . .",
+      "elaboration": "ten spaced full stops (not ten unspaced full stops)",
+      "contributor": ""
+    },
+    {
+      "no": "57",
+      "type": "substitution",
+      "page_line": "094.22",
+      "trent": "..........",
+      "correct": ". . . . . . . . .",
+      "elaboration": "nine spaced full stops (not ten unspaced full stops)",
+      "contributor": "Detlev Enkler"
+    },
+    {
+      "no": "58",
+      "type": "substitution",
+      "page_line": "094.22",
+      "trent": "0!",
+      "correct": "O!",
+      "elaboration": "an uppercase \"O\" (not a zero)",
+      "contributor": ""
+    },
+    {
+      "no": "59",
+      "type": "substitution",
+      "page_line": "094.23",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "60",
+      "type": "substitution",
+      "page_line": "095.12",
+      "trent": "H 2 CE 3",
+      "correct": "H 2 C E 3",
+      "elaboration": "a space missing before and after the \"C\"",
+      "contributor": ""
+    },
+    {
+      "no": "61",
+      "type": "substitution",
+      "page_line": "096.12",
+      "trent": "vely",
+      "correct": "very",
+      "elaboration": "an \"r\" (not an \"l\")",
+      "contributor": "Kyle Foley"
+    },
+    {
+      "no": "62",
+      "type": "substitution",
+      "page_line": "096.22",
+      "trent": "O O O O O O O O",
+      "correct": "OOOOOOOO",
+      "elaboration": "no spaces",
+      "contributor": ""
+    },
+    {
+      "no": "63",
+      "type": "substitution",
+      "page_line": "098.05",
+      "trent": "via",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": "J.B."
+    },
+    {
+      "no": "64",
+      "type": "substitution",
+      "page_line": "098.25",
+      "trent": "kind of",
+      "correct": "kind",
+      "elaboration": "no \" of\" (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "65",
+      "type": "substitution",
+      "page_line": "106.10",
+      "trent": "end",
+      "correct": "and",
+      "elaboration": "an \"a\" (not an \"e\")",
+      "contributor": ""
+    },
+    {
+      "no": "66",
+      "type": "substitution",
+      "page_line": "107.01",
+      "trent": "ts",
+      "correct": "is",
+      "elaboration": "an \"i\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "67",
+      "type": "substitution",
+      "page_line": "107.02",
+      "trent": "au",
+      "correct": "all",
+      "elaboration": "a double \"l\" (not a \"u\")",
+      "contributor": ""
+    },
+    {
+      "no": "68",
+      "type": "substitution",
+      "page_line": "107.34",
+      "trent": "oxhousehumper!",
+      "correct": "oxhousehumper!)",
+      "elaboration": "a closing parenthesis missing",
+      "contributor": "Kyle Foley"
+    },
+    {
+      "no": "69",
+      "type": "substitution",
+      "page_line": "110.01",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "70",
+      "type": "substitution",
+      "page_line": "111.18",
+      "trent": "comer",
+      "correct": "corner",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": ""
+    },
+    {
+      "no": "71",
+      "type": "range",
+      "lines": "120.17-.18",
+      "primary_page_line": "120.17",
+      "trent": "majesty",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": "J.B."
+    },
+    {
+      "no": "72",
+      "type": "substitution",
+      "page_line": "122.34",
+      "trent": "then)",
+      "correct": "then);",
+      "elaboration": "a semicolon missing",
+      "contributor": ""
+    },
+    {
+      "no": "73",
+      "type": "substitution",
+      "page_line": "126.10",
+      "trent": "I.",
+      "correct": "1.",
+      "elaboration": "a one (not an uppercase \"I\")",
+      "contributor": ""
+    },
+    {
+      "no": "74",
+      "type": "placement",
+      "wrong_page_line": "130.35",
+      "correct_page_line": "130.34",
+      "word": "polt",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "130.34-.35"
+    },
+    {
+      "no": "75",
+      "type": "placement",
+      "wrong_page_line": "130.36",
+      "correct_page_line": "130.35",
+      "word": "the high- of highbigpipey",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "130.35-.36"
+    },
+    {
+      "no": "76",
+      "type": "substitution",
+      "page_line": "131.08",
+      "trent": "al'",
+      "correct": "all",
+      "elaboration": "an \"l\" (not an apostrophe) (I believe that Faber/Viking have a poorly-printed \"l\" there)",
+      "contributor": ""
+    },
+    {
+      "no": "77",
+      "type": "substitution",
+      "page_line": "131.09",
+      "trent": "the second semicolon",
+      "correct": "not italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "78",
+      "type": "substitution",
+      "page_line": "132.36",
+      "trent": "eilerdich",
+      "correct": "eilerdich,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "79",
+      "type": "placement",
+      "wrong_page_line": "133.09",
+      "correct_page_line": "133.08",
+      "word": "the s of Liebsterpet",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "133.08-.09"
+    },
+    {
+      "no": "80",
+      "type": "substitution",
+      "page_line": "134.36",
+      "trent": "the semicolon",
+      "correct": "not italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "81",
+      "type": "substitution",
+      "page_line": "136.36",
+      "trent": "mountain",
+      "correct": "moontaen",
+      "elaboration": "an \"o\" and an \"e\" (not a \"u\" and an \"i\") (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "82",
+      "type": "substitution",
+      "page_line": "138.20",
+      "trent": "bom",
+      "correct": "born",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": "Kyle Foley"
+    },
+    {
+      "no": "83",
+      "type": "substitution",
+      "page_line": "138.36",
+      "trent": "gird",
+      "correct": "girds",
+      "elaboration": "an \"s\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "84",
+      "type": "substitution",
+      "page_line": "139.10",
+      "trent": "mom",
+      "correct": "morn",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": ""
+    },
+    {
+      "no": "85",
+      "type": "substitution",
+      "page_line": "139.16",
+      "trent": "tum",
+      "correct": "turn",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": ""
+    },
+    {
+      "no": "86",
+      "type": "substitution",
+      "page_line": "140.13",
+      "trent": "word",
+      "correct": "world",
+      "elaboration": "an \"l\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "87",
+      "type": "substitution",
+      "page_line": "140.28",
+      "trent": "on.",
+      "correct": "on",
+      "elaboration": "no full stop",
+      "contributor": ""
+    },
+    {
+      "no": "88",
+      "type": "substitution",
+      "page_line": "141.13",
+      "trent": "hyelp hyelf",
+      "correct": "hyelp hyelp",
+      "elaboration": "a \"p\" (not an \"f\")",
+      "contributor": ""
+    },
+    {
+      "no": "89",
+      "type": "substitution",
+      "page_line": "143.14",
+      "trent": "of.mindmouldered",
+      "correct": "of mindmouldered",
+      "elaboration": "a space (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "90",
+      "type": "substitution",
+      "page_line": "147.07",
+      "trent": "the exclamation mark",
+      "correct": "not italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "91",
+      "type": "substitution",
+      "page_line": "148.02",
+      "trent": "Misi",
+      "correct": "Misi,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "92",
+      "type": "substitution",
+      "page_line": "150.03",
+      "trent": "the colon",
+      "correct": "not italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "93",
+      "type": "substitution",
+      "page_line": "151.35",
+      "trent": "when",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "94",
+      "type": "substitution",
+      "page_line": "153.08",
+      "trent": "the exclamation mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "95",
+      "type": "substitution",
+      "page_line": "153.29",
+      "trent": "blague?",
+      "correct": "blague,",
+      "elaboration": "a comma (not a question mark)",
+      "contributor": ""
+    },
+    {
+      "no": "96",
+      "type": "substitution",
+      "page_line": "157.32",
+      "trent": "le",
+      "correct": "la",
+      "elaboration": "an \"a\" (not an \"e\")",
+      "contributor": ""
+    },
+    {
+      "no": "97",
+      "type": "substitution",
+      "page_line": "158.05",
+      "trent": "I",
+      "correct": "preceded by a dash",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "98",
+      "type": "substitution",
+      "page_line": "159.09",
+      "trent": "the second exclamation mark",
+      "correct": "not italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "99",
+      "type": "placement",
+      "wrong_page_line": "162.13",
+      "correct_page_line": "162.12",
+      "word": "up",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "162.12-.13"
+    },
+    {
+      "no": "100",
+      "type": "substitution",
+      "page_line": "165.14",
+      "trent": "so",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "101",
+      "type": "substitution",
+      "page_line": "169.23",
+      "trent": "III",
+      "correct": "111,",
+      "elaboration": "three ones (not three uppercase \"I\") + a comma missing",
+      "contributor": "Eric Rosenbloom"
+    },
+    {
+      "no": "102",
+      "type": "substitution",
+      "page_line": "172.11",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "103",
+      "type": "substitution",
+      "page_line": "173.02",
+      "trent": "the question mark",
+      "correct": "not italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "104",
+      "type": "substitution",
+      "page_line": "173.06",
+      "trent": "comer",
+      "correct": "corner",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": ""
+    },
+    {
+      "no": "105",
+      "type": "substitution",
+      "page_line": "174.26",
+      "trent": "bis",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": "J.B."
+    },
+    {
+      "no": "106",
+      "type": "substitution",
+      "page_line": "178.17",
+      "trent": "the exclamation mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "107",
+      "type": "substitution",
+      "page_line": "183.25",
+      "trent": "ladies",
+      "correct": "ladies'",
+      "elaboration": "an apostrophe missing",
+      "contributor": ""
+    },
+    {
+      "no": "108",
+      "type": "substitution",
+      "page_line": "184.30",
+      "trent": "a",
+      "correct": "&agrave;",
+      "elaboration": "a grave accent missing",
+      "contributor": ""
+    },
+    {
+      "no": "109",
+      "type": "substitution",
+      "page_line": "185.14",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "110",
+      "type": "substitution",
+      "page_line": "185.27",
+      "trent": "thc",
+      "correct": "the",
+      "elaboration": "an \"e\" (not a \"c\")",
+      "contributor": ""
+    },
+    {
+      "no": "111",
+      "type": "placement",
+      "wrong_page_line": "187.14",
+      "correct_page_line": "187.14",
+      "word": "nab",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "187.13-.14"
+    },
+    {
+      "no": "112",
+      "type": "substitution",
+      "page_line": "189.20",
+      "trent": "hat",
+      "correct": "that",
+      "elaboration": "a \"t\" missing",
+      "contributor": "J.B."
+    },
+    {
+      "no": "113",
+      "type": "substitution",
+      "page_line": "200.13",
+      "trent": "the colon",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "114",
+      "type": "substitution",
+      "page_line": "201.05",
+      "trent": "end",
+      "correct": "and",
+      "elaboration": "an \"a\" (not an \"e\")",
+      "contributor": ""
+    },
+    {
+      "no": "115",
+      "type": "substitution",
+      "page_line": "214.05",
+      "trent": "me.",
+      "correct": "me",
+      "elaboration": "no full stop",
+      "contributor": ""
+    },
+    {
+      "no": "116",
+      "type": "substitution",
+      "page_line": "214.18",
+      "trent": "stiff",
+      "correct": "stiff.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "117",
+      "type": "substitution",
+      "page_line": "215.27",
+      "trent": "the second exclamation mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "118",
+      "type": "substitution",
+      "page_line": "222.09",
+      "trent": "I'm",
+      "correct": "l'm",
+      "elaboration": "a lowercase \"l\" (not an uppercase \"I\") (although this might well be a typo in the printed editions)",
+      "contributor": "Bernhard Rose"
+    },
+    {
+      "no": "119",
+      "type": "placement",
+      "wrong_page_line": "224.05",
+      "correct_page_line": "224.05",
+      "word": "presence",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "224.04-.05"
+    },
+    {
+      "no": "120",
+      "type": "placement",
+      "wrong_page_line": "224.06",
+      "correct_page_line": "224.06",
+      "word": "fould the",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "224.05-.06"
+    },
+    {
+      "no": "121",
+      "type": "placement",
+      "wrong_page_line": "224.07",
+      "correct_page_line": "224.07",
+      "word": "gravy",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "224.06-.07"
+    },
+    {
+      "no": "122",
+      "type": "substitution",
+      "page_line": "225.24",
+      "trent": "or",
+      "correct": "Or",
+      "elaboration": "an uppercase \"O\" (not a lowercase \"o\")",
+      "contributor": ""
+    },
+    {
+      "no": "123",
+      "type": "substitution",
+      "page_line": "228.23",
+      "trent": "citta",
+      "correct": "citt&agrave;",
+      "elaboration": "a grave accent missing",
+      "contributor": ""
+    },
+    {
+      "no": "124",
+      "type": "placement",
+      "wrong_page_line": "229.14",
+      "correct_page_line": "229.14",
+      "word": "Luncher Out.",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "229.13-.14"
+    },
+    {
+      "no": "125",
+      "type": "placement",
+      "wrong_page_line": "229.15",
+      "correct_page_line": "229.15",
+      "word": "the Mer-",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "229.14-.15"
+    },
+    {
+      "no": "126",
+      "type": "placement",
+      "wrong_page_line": "229.16",
+      "correct_page_line": "229.16",
+      "word": "Misery.",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "229.15-.16"
+    },
+    {
+      "no": "127",
+      "type": "substitution",
+      "page_line": "229.23",
+      "trent": "duft",
+      "correct": "cluft",
+      "elaboration": "a \"cl\" (not a \"d\")",
+      "contributor": "Bernhard Rose"
+    },
+    {
+      "no": "128",
+      "type": "substitution",
+      "page_line": "232.28",
+      "trent": "crowy",
+      "correct": "crowy,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "129",
+      "type": "substitution",
+      "page_line": "233.30",
+      "trent": "alaguerre.",
+      "correct": "alaguerre,",
+      "elaboration": "a comma (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "130",
+      "type": "range",
+      "lines": "238.07-.08",
+      "primary_page_line": "238.07",
+      "trent": "the five italicised f",
+      "correct": "five non-italicised ſ",
+      "elaboration": "five \"long s\" (not five \"f\")",
+      "contributor": ""
+    },
+    {
+      "no": "131",
+      "type": "substitution",
+      "page_line": "239.09",
+      "trent": "offwith",
+      "correct": "off with",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "132",
+      "type": "substitution",
+      "page_line": "239.25",
+      "trent": "Ch&egrave;rie",
+      "correct": "Ch&eacute;rie",
+      "elaboration": "an acute accent (not a grave accent)",
+      "contributor": ""
+    },
+    {
+      "no": "133",
+      "type": "substitution",
+      "page_line": "241.35",
+      "trent": "kis",
+      "correct": "his",
+      "elaboration": "an \"h\" (not a \"k\")",
+      "contributor": ""
+    },
+    {
+      "no": "134",
+      "type": "placement",
+      "wrong_page_line": "248.33",
+      "correct_page_line": "248.32",
+      "word": "Blanche",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "248.32-.33"
+    },
+    {
+      "no": "135",
+      "type": "placement",
+      "wrong_page_line": "248.34",
+      "correct_page_line": "248.33",
+      "word": "Awabeg",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "248.33-.34"
+    },
+    {
+      "no": "136",
+      "type": "placement",
+      "wrong_page_line": "248.35",
+      "correct_page_line": "248.34",
+      "word": "cipher",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "248.34-.35"
+    },
+    {
+      "no": "137",
+      "type": "placement",
+      "wrong_page_line": "248.36",
+      "correct_page_line": "248.35",
+      "word": "na",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "248.35-.36"
+    },
+    {
+      "no": "138",
+      "type": "substitution",
+      "page_line": "250.32",
+      "trent": "she.",
+      "correct": "she",
+      "elaboration": "no full stop",
+      "contributor": ""
+    },
+    {
+      "no": "139",
+      "type": "substitution",
+      "page_line": "250.36",
+      "trent": "tubble",
+      "correct": "dubble",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "140",
+      "type": "substitution",
+      "page_line": "252.04",
+      "trent": "dare.",
+      "correct": "dare!",
+      "elaboration": "an exclamation mark (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "141",
+      "type": "substitution",
+      "page_line": "253.32",
+      "trent": "Lucanhof",
+      "correct": "Lucanhof.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "142",
+      "type": "substitution",
+      "page_line": "254.10",
+      "trent": "lrenews",
+      "correct": "Irenews",
+      "elaboration": "an uppercase \"I\" (not a lowercase \"l\")",
+      "contributor": ""
+    },
+    {
+      "no": "143",
+      "type": "substitution",
+      "page_line": "256.20",
+      "trent": "Grandmere",
+      "correct": "Grandm&egrave;re",
+      "elaboration": "a grave accent missing",
+      "contributor": "Bernhard Rose"
+    },
+    {
+      "no": "144",
+      "type": "substitution",
+      "page_line": "260.L07",
+      "trent": "Don't",
+      "correct": "Dont",
+      "elaboration": "no apostrophe",
+      "contributor": ""
+    },
+    {
+      "no": "145",
+      "type": "substitution",
+      "page_line": "262.20",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "146",
+      "type": "substitution",
+      "page_line": "262.F08",
+      "trent": "the",
+      "correct": "to",
+      "elaboration": "an \"o\" (not an \"he\") (in footnote #7)",
+      "contributor": ""
+    },
+    {
+      "no": "147",
+      "type": "substitution",
+      "page_line": "263.L04",
+      "trent": "quiat",
+      "correct": "quiat.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "148",
+      "type": "substitution",
+      "page_line": "264.01",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "149",
+      "type": "substitution",
+      "page_line": "265.F06",
+      "trent": "H'd",
+      "correct": "H' d",
+      "elaboration": "a space missing (in footnote #3)",
+      "contributor": ""
+    },
+    {
+      "no": "150",
+      "type": "substitution",
+      "page_line": "266.20",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "151",
+      "type": "substitution",
+      "page_line": "266.L03",
+      "trent": "no no",
+      "correct": "no",
+      "elaboration": "no second \" no\"",
+      "contributor": ""
+    },
+    {
+      "no": "152",
+      "type": "substitution",
+      "page_line": "267.L03",
+      "trent": "called",
+      "correct": "culled",
+      "elaboration": "a \"u\" (not an \"a\")",
+      "contributor": ""
+    },
+    {
+      "no": "153",
+      "type": "substitution",
+      "page_line": "268.16",
+      "trent": "her-inbourne",
+      "correct": "her inbourne",
+      "elaboration": "a space (not a hyphen)",
+      "contributor": ""
+    },
+    {
+      "no": "154",
+      "type": "substitution",
+      "page_line": "269.F03",
+      "trent": "Ren&egrave;e",
+      "correct": "Ren&eacute;e",
+      "elaboration": "an acute accent (not a grave accent) (in footnote #2)",
+      "contributor": ""
+    },
+    {
+      "no": "155",
+      "type": "substitution",
+      "page_line": "269.L04-.L05",
+      "trent": "the three Greek words",
+      "correct": "completely redone",
+      "elaboration": "visible HTML, aberrant line break, missing alpha, missing diacritics",
+      "contributor": ""
+    },
+    {
+      "no": "156",
+      "type": "substitution",
+      "page_line": "271.L13",
+      "trent": "crushsake",
+      "correct": "crush sake",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "157",
+      "type": "substitution",
+      "page_line": "272.08",
+      "trent": "come-bats",
+      "correct": "come bats",
+      "elaboration": "a space (not a hyphen)",
+      "contributor": ""
+    },
+    {
+      "no": "158",
+      "type": "substitution",
+      "page_line": "272.F01",
+      "trent": "that",
+      "correct": "that,",
+      "elaboration": "a comma missing (in footnote #1)",
+      "contributor": ""
+    },
+    {
+      "no": "159",
+      "type": "substitution",
+      "page_line": "275.10",
+      "trent": "bucket",
+      "correct": "bucked",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "160",
+      "type": "substitution",
+      "page_line": "275.23",
+      "trent": "heat",
+      "correct": "head",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "161",
+      "type": "substitution",
+      "page_line": "276.F01",
+      "trent": "the",
+      "correct": "these",
+      "elaboration": "an \"se\" missing (in footnote #1)",
+      "contributor": ""
+    },
+    {
+      "no": "162",
+      "type": "substitution",
+      "page_line": "276.F08",
+      "trent": "meepotsi",
+      "correct": "meepotsi.",
+      "elaboration": "a full stop missing (in footnote #4)",
+      "contributor": ""
+    },
+    {
+      "no": "163",
+      "type": "substitution",
+      "page_line": "277.F12",
+      "trent": "the line",
+      "correct": "not indented",
+      "elaboration": "(in footnote #7)",
+      "contributor": ""
+    },
+    {
+      "no": "164",
+      "type": "substitution",
+      "page_line": "277.L02",
+      "trent": "pick",
+      "correct": "spick",
+      "elaboration": "an \"s\" missing",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "165",
+      "type": "substitution",
+      "page_line": "278.21",
+      "trent": "went",
+      "correct": "wend",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "166",
+      "type": "substitution",
+      "page_line": "279.F15",
+      "trent": "virginity",
+      "correct": "viginity",
+      "elaboration": "no \"r\" (in footnote #1)",
+      "contributor": ""
+    },
+    {
+      "no": "167",
+      "type": "substitution",
+      "page_line": "281.04",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "168",
+      "type": "substitution",
+      "page_line": "281.04",
+      "trent": "le",
+      "correct": "de",
+      "elaboration": "a \"d\" (not an \"l\")",
+      "contributor": ""
+    },
+    {
+      "no": "169",
+      "type": "substitution",
+      "page_line": "281.05",
+      "trent": "pla&icirc;it",
+      "correct": "pla&icirc;t",
+      "elaboration": "no second \"i\"",
+      "contributor": ""
+    },
+    {
+      "no": "170",
+      "type": "substitution",
+      "page_line": "281.F04",
+      "trent": "there's",
+      "correct": "there's a",
+      "elaboration": "the word \"a\" missing (in footnote #2)",
+      "contributor": ""
+    },
+    {
+      "no": "171",
+      "type": "substitution",
+      "page_line": "281.L03",
+      "trent": "Two",
+      "correct": "Twos",
+      "elaboration": "an \"s\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "172",
+      "type": "substitution",
+      "page_line": "282.27",
+      "trent": "an",
+      "correct": "and",
+      "elaboration": "a \"d\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "173",
+      "type": "substitution",
+      "page_line": "283.F02",
+      "trent": "every",
+      "correct": "ever",
+      "elaboration": "no \"y\" (in footnote #1)",
+      "contributor": ""
+    },
+    {
+      "no": "174",
+      "type": "substitution",
+      "page_line": "283.F03",
+      "trent": "Rouen,",
+      "correct": "Rouen",
+      "elaboration": "no comma (in footnote #2)",
+      "contributor": ""
+    },
+    {
+      "no": "175",
+      "type": "substitution",
+      "page_line": "283.L02-.L03",
+      "trent": "cashelbum",
+      "correct": "cashellum",
+      "elaboration": "an \"l\" (not a \"b\")",
+      "contributor": ""
+    },
+    {
+      "no": "176",
+      "type": "substitution",
+      "page_line": "283.L05",
+      "trent": "Kyboshicksal",
+      "correct": "Kyboshicksal.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "177",
+      "type": "substitution",
+      "page_line": "284.F06",
+      "trent": "Wadlock",
+      "correct": "wadlock",
+      "elaboration": "a lowercase \"w\" (not an uppercase \"W\") (in footnote #4)",
+      "contributor": ""
+    },
+    {
+      "no": "178",
+      "type": "substitution",
+      "page_line": "287.01",
+      "trent": "olorum",
+      "correct": "olorum!",
+      "elaboration": "an exclamation mark missing",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "179",
+      "type": "substitution",
+      "page_line": "287.02",
+      "trent": "to",
+      "correct": "do",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "180",
+      "type": "substitution",
+      "page_line": "287.21",
+      "trent": "roman",
+      "correct": "romana",
+      "elaboration": "an \"a\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "181",
+      "type": "substitution",
+      "page_line": "287.26",
+      "trent": "fututa",
+      "correct": "fututa fuere",
+      "elaboration": "the word \"fuere\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "182",
+      "type": "substitution",
+      "page_line": "288.08",
+      "trent": "brood reel",
+      "correct": "brood, a reel",
+      "elaboration": "a comma and the word \"a\" missing",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "183",
+      "type": "substitution",
+      "page_line": "288.F07",
+      "trent": "cinnamonhued",
+      "correct": "cinnamondhued",
+      "elaboration": "a \"d\" missing (in footnote #5)",
+      "contributor": ""
+    },
+    {
+      "no": "184",
+      "type": "substitution",
+      "page_line": "289.25",
+      "trent": "Ainee",
+      "correct": "Ain&eacute;e",
+      "elaboration": "an acute accent missing",
+      "contributor": ""
+    },
+    {
+      "no": "185",
+      "type": "substitution",
+      "page_line": "290.18",
+      "trent": "alors!",
+      "correct": "alors!,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "186",
+      "type": "substitution",
+      "page_line": "290.26",
+      "trent": "for'twas",
+      "correct": "for 'twas",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "187",
+      "type": "substitution",
+      "page_line": "293.01",
+      "trent": "the line",
+      "correct": "indented",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "188",
+      "type": "substitution",
+      "page_line": "293.03",
+      "trent": "teath",
+      "correct": "death",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "189",
+      "type": "substitution",
+      "page_line": "293.F01",
+      "trent": "Dream country",
+      "correct": "Dreamcountry",
+      "elaboration": "no space (in footnote #1)",
+      "contributor": ""
+    },
+    {
+      "no": "190",
+      "type": "substitution",
+      "page_line": "295.33",
+      "trent": "Lucihere !",
+      "correct": "Lucihere.!",
+      "elaboration": "a full stop (not a space)",
+      "contributor": ""
+    },
+    {
+      "no": "191",
+      "type": "substitution",
+      "page_line": "297.L01-.L02",
+      "trent": "Influnce",
+      "correct": "Influence",
+      "elaboration": "an \"e\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "192",
+      "type": "substitution",
+      "page_line": "300.F04",
+      "trent": "men-in-the-straits!",
+      "correct": "men-in-the straits!",
+      "elaboration": "a space (not a third hyphen) (in footnote #4)",
+      "contributor": ""
+    },
+    {
+      "no": "193",
+      "type": "substitution",
+      "page_line": "301.01",
+      "trent": "blood",
+      "correct": "blood-",
+      "elaboration": "a hyphen missing",
+      "contributor": ""
+    },
+    {
+      "no": "194",
+      "type": "substitution",
+      "page_line": "301.F02",
+      "trent": "irish?",
+      "correct": "irish!",
+      "elaboration": "an exclamation mark (not a question mark) (in footnote #2) (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "195",
+      "type": "substitution",
+      "page_line": "303.16",
+      "trent": "again.",
+      "correct": "again",
+      "elaboration": "no full stop",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "196",
+      "type": "substitution",
+      "page_line": "303.R07-.R08",
+      "trent": "AND WHISTLE.",
+      "correct": "on two lines (not one)",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "197",
+      "type": "substitution",
+      "page_line": "304.04",
+      "trent": "Slutningsbane. 2",
+      "correct": "Slutningsbane 2 .",
+      "elaboration": "the superscript \"2\" precedes the full stop (not follows it)",
+      "contributor": ""
+    },
+    {
+      "no": "198",
+      "type": "substitution",
+      "page_line": "305.32",
+      "trent": "tomorrow,",
+      "correct": "tomorrow",
+      "elaboration": "no comma",
+      "contributor": ""
+    },
+    {
+      "no": "199",
+      "type": "substitution",
+      "page_line": "305.F03",
+      "trent": "M",
+      "correct": "Mac",
+      "elaboration": "an \"ac\" missing (in footnote #3)",
+      "contributor": ""
+    },
+    {
+      "no": "200",
+      "type": "substitution",
+      "page_line": "307.F03",
+      "trent": "Paris!",
+      "correct": "Paris?",
+      "elaboration": "a question mark (not an exclamation mark) (in footnote #3)",
+      "contributor": ""
+    },
+    {
+      "no": "201",
+      "type": "substitution",
+      "page_line": "307.F10",
+      "trent": "O&ugrave;",
+      "correct": "O&ugrave;,",
+      "elaboration": "a comma missing (in footnote #8)",
+      "contributor": ""
+    },
+    {
+      "no": "202",
+      "type": "substitution",
+      "page_line": "308.F02",
+      "trent": "skool,",
+      "correct": "skool",
+      "elaboration": "no comma",
+      "contributor": "J.B."
+    },
+    {
+      "no": "203",
+      "type": "substitution",
+      "page_line": "308.R03",
+      "trent": "BEEFTAY'S",
+      "correct": "BEEEFTAY'S",
+      "elaboration": "a third \"E\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "204",
+      "type": "substitution",
+      "page_line": "308.R06",
+      "trent": "POETICS",
+      "correct": "POETIC",
+      "elaboration": "no \"S\"",
+      "contributor": ""
+    },
+    {
+      "no": "205",
+      "type": "substitution",
+      "page_line": "309.15",
+      "trent": "minute",
+      "correct": "minute,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "206",
+      "type": "substitution",
+      "page_line": "309.18",
+      "trent": "distance getting",
+      "correct": "distancegetting",
+      "elaboration": "no space (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "207",
+      "type": "substitution",
+      "page_line": "310.07",
+      "trent": "megacycles",
+      "correct": "megacycles,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "208",
+      "type": "placement",
+      "wrong_page_line": "310.09",
+      "correct_page_line": "310.08",
+      "word": "it",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "310.08-.09"
+    },
+    {
+      "no": "209",
+      "type": "substitution",
+      "page_line": "310.09",
+      "trent": "somehows",
+      "correct": "somehows,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "210",
+      "type": "substitution",
+      "page_line": "310.11",
+      "trent": "founder",
+      "correct": "founder,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "211",
+      "type": "substitution",
+      "page_line": "310.27",
+      "trent": "in.on",
+      "correct": "in on",
+      "elaboration": "a space (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "212",
+      "type": "substitution",
+      "page_line": "318.24",
+      "trent": "Alif",
+      "correct": "Alif.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "213",
+      "type": "substitution",
+      "page_line": "320.01",
+      "trent": "tope",
+      "correct": "dope",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "214",
+      "type": "substitution",
+      "page_line": "322.03",
+      "trent": "lrish",
+      "correct": "Irish",
+      "elaboration": "an uppercase \"I\" (not a lowercase \"l\")",
+      "contributor": ""
+    },
+    {
+      "no": "215",
+      "type": "range",
+      "lines": "327.32-.33",
+      "primary_page_line": "327.32",
+      "trent": "Eiweddyng",
+      "correct": "Eriweddyng",
+      "elaboration": "an \"r\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "216",
+      "type": "substitution",
+      "page_line": "329.05",
+      "trent": "Briganteen &mdash; General",
+      "correct": "Briganteen&mdash;General",
+      "elaboration": "no spaces round the dash",
+      "contributor": ""
+    },
+    {
+      "no": "217",
+      "type": "substitution",
+      "page_line": "329.30",
+      "trent": "l'Ep&egrave;e",
+      "correct": "l'Ep&eacute;e",
+      "elaboration": "an acute accent (not a grave accent)",
+      "contributor": ""
+    },
+    {
+      "no": "218",
+      "type": "substitution",
+      "page_line": "332.18",
+      "trent": "altol&agrave;",
+      "correct": "altol&agrave;,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "219",
+      "type": "substitution",
+      "page_line": "332.18",
+      "trent": "the first gu&eacute;",
+      "correct": "gu&eacute;,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "220",
+      "type": "substitution",
+      "page_line": "332.18",
+      "trent": "the second gu&eacute;!)",
+      "correct": "gu&eacute;!).",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "221",
+      "type": "placement",
+      "wrong_page_line": "332.22",
+      "correct_page_line": "332.22",
+      "word": "eye",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "332.21-.22"
+    },
+    {
+      "no": "222",
+      "type": "substitution",
+      "page_line": "332.29",
+      "trent": "fust",
+      "correct": "first",
+      "elaboration": "an \"ir\" (not a \"u\")",
+      "contributor": ""
+    },
+    {
+      "no": "223",
+      "type": "substitution",
+      "page_line": "334.31",
+      "trent": "the line",
+      "correct": "reformatted",
+      "elaboration": "visible HTML",
+      "contributor": ""
+    },
+    {
+      "no": "224",
+      "type": "substitution",
+      "page_line": "334.36",
+      "trent": "ofthe",
+      "correct": "of the",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "225",
+      "type": "substitution",
+      "page_line": "335.18",
+      "trent": "maormaoring",
+      "correct": "maormaoring.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "226",
+      "type": "substitution",
+      "page_line": "336.29",
+      "trent": "wher-o",
+      "correct": "where",
+      "elaboration": "an \"e\" (not a \"-o\")",
+      "contributor": ""
+    },
+    {
+      "no": "227",
+      "type": "substitution",
+      "page_line": "338.24",
+      "trent": "goot",
+      "correct": "good",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": ""
+    },
+    {
+      "no": "228",
+      "type": "substitution",
+      "page_line": "338.26",
+      "trent": "Chang-il-meng",
+      "correct": "Chang-li-meng",
+      "elaboration": "an \"li\" (not an \"il\")",
+      "contributor": ""
+    },
+    {
+      "no": "229",
+      "type": "substitution",
+      "page_line": "338.30",
+      "trent": "mom",
+      "correct": "morn",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": ""
+    },
+    {
+      "no": "230",
+      "type": "placement",
+      "wrong_page_line": "342.11",
+      "correct_page_line": "342.10",
+      "word": "It",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "342.10-.11"
+    },
+    {
+      "no": "231",
+      "type": "placement",
+      "wrong_page_line": "342.12",
+      "correct_page_line": "342.11",
+      "word": "hood?",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "342.11-.12"
+    },
+    {
+      "no": "232",
+      "type": "placement",
+      "wrong_page_line": "342.13",
+      "correct_page_line": "342.12",
+      "word": "the",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "342.12-.13"
+    },
+    {
+      "no": "233",
+      "type": "placement",
+      "wrong_page_line": "342.14",
+      "correct_page_line": "342.13",
+      "word": "nath.",
+      "elaboration": "and the end-of-line hyphen on line .13 should accordingly be deleted",
+      "contributor": "Eric Rosenbloom",
+      "raw_lines": "342.13-.14"
+    },
+    {
+      "no": "234",
+      "type": "placement",
+      "wrong_page_line": "342.15",
+      "correct_page_line": "342.14",
+      "word": "the fourth luck",
+      "elaboration": "before the end-of-line hyphen, naturally",
+      "contributor": "Eric Rosenbloom",
+      "raw_lines": "342.14-.15"
+    },
+    {
+      "no": "235",
+      "type": "substitution",
+      "page_line": "342.28",
+      "trent": "annuysed",
+      "correct": "annuysed.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "236",
+      "type": "substitution",
+      "page_line": "342.33",
+      "trent": "Loudnin",
+      "correct": "Loundin",
+      "elaboration": "an \"nd\" (not a \"dn\") (this line is erroneously numbered 342.34 in the Trent text)",
+      "contributor": ""
+    },
+    {
+      "no": "237",
+      "type": "substitution",
+      "page_line": "344.30",
+      "trent": "solongopatom..",
+      "correct": "solongopatom.",
+      "elaboration": "no second full stop",
+      "contributor": ""
+    },
+    {
+      "no": "238",
+      "type": "placement",
+      "wrong_page_line": "346.03",
+      "correct_page_line": "346.02",
+      "word": "How",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "346.02-.03"
+    },
+    {
+      "no": "239",
+      "type": "range",
+      "lines": "346.08-.10",
+      "primary_page_line": "346.08",
+      "trent": "the lines",
+      "correct": "reformatted",
+      "elaboration": "visible HTML, missing italics",
+      "contributor": ""
+    },
+    {
+      "no": "240",
+      "type": "substitution",
+      "page_line": "347.36",
+      "trent": "Still",
+      "correct": "still",
+      "elaboration": "a lowercase \"s\" (not an uppercase \"S\")",
+      "contributor": ""
+    },
+    {
+      "no": "241",
+      "type": "substitution",
+      "page_line": "350.08",
+      "trent": "feld",
+      "correct": "field",
+      "elaboration": "an \"i\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "242",
+      "type": "substitution",
+      "page_line": "350.17",
+      "trent": "I Pack",
+      "correct": "Pack",
+      "elaboration": "no \"I \" (this line is erroneously numbered 350.18 in the Trent text)",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "243",
+      "type": "substitution",
+      "page_line": "351.16",
+      "trent": "allround",
+      "correct": "all round",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "244",
+      "type": "substitution",
+      "page_line": "351.17",
+      "trent": "tag",
+      "correct": "tag.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "245",
+      "type": "substitution",
+      "page_line": "352.10",
+      "trent": "messg&egrave;r",
+      "correct": "messger",
+      "elaboration": "no accent (I believe that Faber/Viking just have a smudge there)",
+      "contributor": ""
+    },
+    {
+      "no": "246",
+      "type": "substitution",
+      "page_line": "352.18",
+      "trent": "the first the",
+      "correct": "to",
+      "elaboration": "an \"o\" (not an \"he\")",
+      "contributor": ""
+    },
+    {
+      "no": "247",
+      "type": "substitution",
+      "page_line": "352.31",
+      "trent": "home",
+      "correct": "horne",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "248",
+      "type": "substitution",
+      "page_line": "352.31",
+      "trent": "no",
+      "correct": "nor",
+      "elaboration": "an \"r\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "249",
+      "type": "substitution",
+      "page_line": "352.34",
+      "trent": "Allah",
+      "correct": "Allaf",
+      "elaboration": "an \"f\" (not an \"h\")",
+      "contributor": ""
+    },
+    {
+      "no": "250",
+      "type": "substitution",
+      "page_line": "353.03",
+      "trent": "one",
+      "correct": "One",
+      "elaboration": "an uppercase \"O\" (not a lowercase \"o\")",
+      "contributor": ""
+    },
+    {
+      "no": "251",
+      "type": "substitution",
+      "page_line": "353.26",
+      "trent": "which",
+      "correct": "while",
+      "elaboration": "an \"le\" (not a \"ch\")",
+      "contributor": "Dennis Giszczak"
+    },
+    {
+      "no": "252",
+      "type": "substitution",
+      "page_line": "354.19",
+      "trent": "thc",
+      "correct": "the",
+      "elaboration": "an \"e\" (not a \"c\")",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "253",
+      "type": "substitution",
+      "page_line": "361.07",
+      "trent": "aspen;ash",
+      "correct": "aspen; ash",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "254",
+      "type": "substitution",
+      "page_line": "364.27",
+      "trent": "chem",
+      "correct": "chem-",
+      "elaboration": "a hyphen missing",
+      "contributor": ""
+    },
+    {
+      "no": "255",
+      "type": "substitution",
+      "page_line": "364.35",
+      "trent": "offa",
+      "correct": "off a",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "256",
+      "type": "substitution",
+      "page_line": "365.12",
+      "trent": "dollymaukins",
+      "correct": "dollymaukins!",
+      "elaboration": "an exclamation mark missing (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "257",
+      "type": "substitution",
+      "page_line": "366.21",
+      "trent": "tbe",
+      "correct": "the",
+      "elaboration": "an \"h\" (not a \"b\")",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "258",
+      "type": "substitution",
+      "page_line": "366.29",
+      "trent": "offmombition",
+      "correct": "off mombition",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "259",
+      "type": "substitution",
+      "page_line": "374.20",
+      "trent": "buylawyer",
+      "correct": "buylawyer!",
+      "elaboration": "an exclamation mark missing",
+      "contributor": ""
+    },
+    {
+      "no": "260",
+      "type": "substitution",
+      "page_line": "375.30",
+      "trent": "the.fancy",
+      "correct": "the fancy",
+      "elaboration": "a space (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "261",
+      "type": "substitution",
+      "page_line": "379.19",
+      "trent": "yourself",
+      "correct": "yourself.",
+      "elaboration": "a full stop missing",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "262",
+      "type": "substitution",
+      "page_line": "385.01",
+      "trent": "bam",
+      "correct": "barn",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": ""
+    },
+    {
+      "no": "263",
+      "type": "substitution",
+      "page_line": "390.17",
+      "trent": "Deaddleconchs",
+      "correct": "Deaddleconche",
+      "elaboration": "an \"e\" (not an \"s\") (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "264",
+      "type": "substitution",
+      "page_line": "398.10",
+      "trent": "shoulder",
+      "correct": "shoulder,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "265",
+      "type": "substitution",
+      "page_line": "403.07",
+      "trent": "self",
+      "correct": "self-",
+      "elaboration": "a hyphen missing",
+      "contributor": ""
+    },
+    {
+      "no": "266",
+      "type": "substitution",
+      "page_line": "404.11",
+      "trent": "now 'twas",
+      "correct": "now'twas",
+      "elaboration": "no space",
+      "contributor": ""
+    },
+    {
+      "no": "267",
+      "type": "substitution",
+      "page_line": "406.01",
+      "trent": "or",
+      "correct": "of",
+      "elaboration": "an \"f\" (not an \"r\") (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "268",
+      "type": "substitution",
+      "page_line": "411.10",
+      "trent": "depend",
+      "correct": "depend,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "269",
+      "type": "substitution",
+      "page_line": "411.11",
+      "trent": "Amen;",
+      "correct": "Amen,",
+      "elaboration": "a comma (not a semicolon)",
+      "contributor": ""
+    },
+    {
+      "no": "270",
+      "type": "substitution",
+      "page_line": "411.35",
+      "trent": "of",
+      "correct": "of I",
+      "elaboration": "the word \"I\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "271",
+      "type": "substitution",
+      "page_line": "413.14",
+      "trent": "P.L.M",
+      "correct": "P.L.M.",
+      "elaboration": "a third full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "272",
+      "type": "substitution",
+      "page_line": "414.36",
+      "trent": "With",
+      "correct": "with",
+      "elaboration": "a lowercase \"w\" (not an uppercase \"W\")",
+      "contributor": ""
+    },
+    {
+      "no": "273",
+      "type": "substitution",
+      "page_line": "415.25",
+      "trent": "sahull",
+      "correct": "sahul!",
+      "elaboration": "an exclamation mark (not a second \"l\")",
+      "contributor": ""
+    },
+    {
+      "no": "274",
+      "type": "substitution",
+      "page_line": "420.20",
+      "trent": "A.D.",
+      "correct": "in a smaller font",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "275",
+      "type": "substitution",
+      "page_line": "420.25",
+      "trent": "1O14",
+      "correct": "1014",
+      "elaboration": "a zero (not an uppercase \"O\")",
+      "contributor": ""
+    },
+    {
+      "no": "276",
+      "type": "placement",
+      "wrong_page_line": "427.23",
+      "correct_page_line": "427.22",
+      "word": "ousts of",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "427.22-.23"
+    },
+    {
+      "no": "277",
+      "type": "placement",
+      "wrong_page_line": "427.24",
+      "correct_page_line": "427.23",
+      "word": "the pity,",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "427.23-.24"
+    },
+    {
+      "no": "278",
+      "type": "placement",
+      "wrong_page_line": "427.25",
+      "correct_page_line": "427.24",
+      "word": "for",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "427.24-.25"
+    },
+    {
+      "no": "279",
+      "type": "substitution",
+      "page_line": "428.01",
+      "trent": "Suasusopo!",
+      "correct": "Suasusupo!",
+      "elaboration": "a \"u\" (not an \"o\")",
+      "contributor": ""
+    },
+    {
+      "no": "280",
+      "type": "substitution",
+      "page_line": "428.02",
+      "trent": "Somoanesia",
+      "correct": "Samoanesia",
+      "elaboration": "an \"a\" (not an \"o\")",
+      "contributor": ""
+    },
+    {
+      "no": "281",
+      "type": "substitution",
+      "page_line": "428.02",
+      "trent": "be forgetting",
+      "correct": "be after forgetting",
+      "elaboration": "the word \"after\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "282",
+      "type": "substitution",
+      "page_line": "428.03",
+      "trent": "chalking",
+      "correct": "chalkin",
+      "elaboration": "no \"g\"",
+      "contributor": ""
+    },
+    {
+      "no": "283",
+      "type": "substitution",
+      "page_line": "428.05",
+      "trent": "in thoughts",
+      "correct": "in your thoughts",
+      "elaboration": "the word \"your\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "284",
+      "type": "substitution",
+      "page_line": "428.05",
+      "trent": "how deepings",
+      "correct": "how the deepings",
+      "elaboration": "the word \"the\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "285",
+      "type": "range",
+      "lines": "432.26-.27",
+      "primary_page_line": "432.26",
+      "trent": "commandments.",
+      "correct": "commandments",
+      "elaboration": "no full stop",
+      "contributor": ""
+    },
+    {
+      "no": "286",
+      "type": "substitution",
+      "page_line": "436.01",
+      "trent": "tapegarters.",
+      "correct": "tapegarters,",
+      "elaboration": "a comma (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "287",
+      "type": "range",
+      "lines": "438.28-.29",
+      "primary_page_line": "438.28",
+      "trent": "thereinunder (on two lines)",
+      "correct": "therinunder (on one line)",
+      "elaboration": "no \"e\" after the \"r\" (and wholly on line .28) (based on the Faber edition)",
+      "contributor": ""
+    },
+    {
+      "no": "288",
+      "type": "substitution",
+      "page_line": "447.17",
+      "trent": "Comer",
+      "correct": "Corner",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": "Krzysztof Bartnicki"
+    },
+    {
+      "no": "289",
+      "type": "substitution",
+      "page_line": "451.35",
+      "trent": "he",
+      "correct": "be",
+      "elaboration": "a \"b\" (not an \"h\")",
+      "contributor": ""
+    },
+    {
+      "no": "290",
+      "type": "substitution",
+      "page_line": "453.22",
+      "trent": "as",
+      "correct": "an",
+      "elaboration": "an \"n\" (not an \"s\")",
+      "contributor": ""
+    },
+    {
+      "no": "291",
+      "type": "substitution",
+      "page_line": "454.11",
+      "trent": "wooly's",
+      "correct": "woolly's",
+      "elaboration": "a second \"l\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "292",
+      "type": "substitution",
+      "page_line": "454.19",
+      "trent": "Hairy",
+      "correct": "hairy",
+      "elaboration": "a lowercase \"h\" (not an uppercase \"H\")",
+      "contributor": ""
+    },
+    {
+      "no": "293",
+      "type": "substitution",
+      "page_line": "456.02",
+      "trent": "(sublime!)",
+      "correct": "(sublime!).",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "294",
+      "type": "substitution",
+      "page_line": "456.04",
+      "trent": "taste of",
+      "correct": "taste",
+      "elaboration": "no \" of\"",
+      "contributor": ""
+    },
+    {
+      "no": "295",
+      "type": "substitution",
+      "page_line": "457.23",
+      "trent": "fo",
+      "correct": "for",
+      "elaboration": "an \"r\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "296",
+      "type": "substitution",
+      "page_line": "461.24",
+      "trent": "soiedisante-chineknees",
+      "correct": "soiedisante chineknees",
+      "elaboration": "a space (not a hyphen)",
+      "contributor": ""
+    },
+    {
+      "no": "297",
+      "type": "substitution",
+      "page_line": "467.32",
+      "trent": "you.",
+      "correct": "you,",
+      "elaboration": "a comma (not a full stop) (based on the Penguin edition)",
+      "contributor": ""
+    },
+    {
+      "no": "298",
+      "type": "substitution",
+      "page_line": "480.21",
+      "trent": "Emania",
+      "correct": "Emania.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "299",
+      "type": "substitution",
+      "page_line": "481.02",
+      "trent": "Changechild..............",
+      "correct": "Changechild................?",
+      "elaboration": "two full stops and a question mark missing",
+      "contributor": ""
+    },
+    {
+      "no": "300",
+      "type": "substitution",
+      "page_line": "481.03",
+      "trent": "es",
+      "correct": "as",
+      "elaboration": "an \"a\" (not an \"e\")",
+      "contributor": ""
+    },
+    {
+      "no": "301",
+      "type": "substitution",
+      "page_line": "481.03",
+      "trent": "earth.....................?",
+      "correct": "earth......................?",
+      "elaboration": "one full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "302",
+      "type": "substitution",
+      "page_line": "481.35",
+      "trent": "fu&eacute; fu&eacute;",
+      "correct": "fu&eacute;! fu&eacute;!",
+      "elaboration": "two exclamation marks missing",
+      "contributor": ""
+    },
+    {
+      "no": "303",
+      "type": "substitution",
+      "page_line": "483.02",
+      "trent": "Ihe",
+      "correct": "the",
+      "elaboration": "a lowercase \"t\" (not a uppercase \"I\")",
+      "contributor": ""
+    },
+    {
+      "no": "304",
+      "type": "substitution",
+      "page_line": "486.28",
+      "trent": "girdle.",
+      "correct": "girdle,",
+      "elaboration": "a comma (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "305",
+      "type": "substitution",
+      "page_line": "491.19",
+      "trent": "the",
+      "correct": "tha",
+      "elaboration": "an \"a\" (not an \"e\")",
+      "contributor": ""
+    },
+    {
+      "no": "306",
+      "type": "substitution",
+      "page_line": "491.28",
+      "trent": "muscle",
+      "correct": "muscle-",
+      "elaboration": "a hyphen missing",
+      "contributor": ""
+    },
+    {
+      "no": "307",
+      "type": "substitution",
+      "page_line": "492.29",
+      "trent": "in dryfilthy-",
+      "correct": "in dry dryfilthy-",
+      "elaboration": "the word \"dry\" missing",
+      "contributor": "Eric Rosenbloom"
+    },
+    {
+      "no": "308",
+      "type": "substitution",
+      "page_line": "499.08",
+      "trent": "Thuoni I",
+      "correct": "Thuoni!",
+      "elaboration": "an exclamation mark (not the word \"I\")",
+      "contributor": ""
+    },
+    {
+      "no": "309",
+      "type": "substitution",
+      "page_line": "499.12",
+      "trent": "Bat",
+      "correct": "Bad",
+      "elaboration": "a \"d\" (not a \"t\")",
+      "contributor": "Orlando Mezzabotta"
+    },
+    {
+      "no": "310",
+      "type": "substitution",
+      "page_line": "504.01",
+      "trent": "the second cran,",
+      "correct": "cran",
+      "elaboration": "no comma",
+      "contributor": ""
+    },
+    {
+      "no": "311",
+      "type": "substitution",
+      "page_line": "506.15",
+      "trent": "kow",
+      "correct": "how",
+      "elaboration": "an \"h\" (not a \"k\")",
+      "contributor": ""
+    },
+    {
+      "no": "312",
+      "type": "substitution",
+      "page_line": "508.19",
+      "trent": "quai",
+      "correct": "quaint-",
+      "elaboration": "an \"nt-\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "313",
+      "type": "substitution",
+      "page_line": "508.27",
+      "trent": "shallshee",
+      "correct": "shallshee,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "314",
+      "type": "substitution",
+      "page_line": "510.20",
+      "trent": "told",
+      "correct": "told,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "315",
+      "type": "substitution",
+      "page_line": "511.21",
+      "trent": "as",
+      "correct": "was",
+      "elaboration": "a \"w\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "316",
+      "type": "substitution",
+      "page_line": "512.20",
+      "trent": "reely!",
+      "correct": "reelly!",
+      "elaboration": "a second \"l\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "317",
+      "type": "substitution",
+      "page_line": "513.04",
+      "trent": "of.",
+      "correct": "of .",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "318",
+      "type": "substitution",
+      "page_line": "513.32",
+      "trent": "themselves",
+      "correct": "themselves,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "319",
+      "type": "substitution",
+      "page_line": "514.23",
+      "trent": "Heaven",
+      "correct": "Heaven,",
+      "elaboration": "a comma missing (based on the Penguin edition)",
+      "contributor": "Eric Rosenbloom"
+    },
+    {
+      "no": "320",
+      "type": "substitution",
+      "page_line": "517.16",
+      "trent": "hack",
+      "correct": "back",
+      "elaboration": "a \"b\" (not an \"h\")",
+      "contributor": ""
+    },
+    {
+      "no": "321",
+      "type": "substitution",
+      "page_line": "525.10",
+      "trent": "vill",
+      "correct": "will",
+      "elaboration": "a \"w\" (not a \"v\")",
+      "contributor": ""
+    },
+    {
+      "no": "322",
+      "type": "substitution",
+      "page_line": "540.11",
+      "trent": "ad",
+      "correct": "and",
+      "elaboration": "an \"n\" missing",
+      "contributor": ""
+    },
+    {
+      "no": "323",
+      "type": "placement",
+      "wrong_page_line": "547.07",
+      "correct_page_line": "547.07",
+      "word": "I",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "547.06-.07"
+    },
+    {
+      "no": "324",
+      "type": "placement",
+      "wrong_page_line": "547.08",
+      "correct_page_line": "547.08",
+      "word": "love",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "547.07-.08"
+    },
+    {
+      "no": "325",
+      "type": "placement",
+      "wrong_page_line": "547.09",
+      "correct_page_line": "547.09",
+      "word": "lors!",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "547.08-.09"
+    },
+    {
+      "no": "326",
+      "type": "substitution",
+      "page_line": "550.14",
+      "trent": "flesh neats",
+      "correct": "fleshmeats",
+      "elaboration": "an \"m\" (not a space and an \"n\")",
+      "contributor": ""
+    },
+    {
+      "no": "327",
+      "type": "substitution",
+      "page_line": "552.05",
+      "trent": "masoned",
+      "correct": "masoned,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "328",
+      "type": "substitution",
+      "page_line": "552.16",
+      "trent": "Welhell!!",
+      "correct": "Welhell!",
+      "elaboration": "no second exclamation mark",
+      "contributor": ""
+    },
+    {
+      "no": "329",
+      "type": "substitution",
+      "page_line": "559.04",
+      "trent": "casement",
+      "correct": "casement.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "330",
+      "type": "substitution",
+      "page_line": "559.05",
+      "trent": "wall",
+      "correct": "wall.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "331",
+      "type": "substitution",
+      "page_line": "561.28",
+      "trent": "Itis",
+      "correct": "It is",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "332",
+      "type": "substitution",
+      "page_line": "561.35",
+      "trent": "herself",
+      "correct": "herself.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "333",
+      "type": "substitution",
+      "page_line": "566.26",
+      "trent": "the second porkego.",
+      "correct": "porkego!",
+      "elaboration": "an exclamation mark (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "334",
+      "type": "substitution",
+      "page_line": "569.21",
+      "trent": "the first exclamation mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "335",
+      "type": "substitution",
+      "page_line": "570.34",
+      "trent": "crockodeyled",
+      "correct": "crookodeyled",
+      "elaboration": "an \"o\" (not a \"c\")",
+      "contributor": ""
+    },
+    {
+      "no": "336",
+      "type": "substitution",
+      "page_line": "571.10",
+      "trent": "ferm.",
+      "correct": "ferm,",
+      "elaboration": "a comma (not a full stop)",
+      "contributor": ""
+    },
+    {
+      "no": "337",
+      "type": "substitution",
+      "page_line": "573.30",
+      "trent": "the exclamation mark",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "338",
+      "type": "substitution",
+      "page_line": "575.32",
+      "trent": "Jeremy Doyler",
+      "correct": "JeremyDoyler",
+      "elaboration": "no space",
+      "contributor": ""
+    },
+    {
+      "no": "339",
+      "type": "substitution",
+      "page_line": "576.01",
+      "trent": "scabie",
+      "correct": "scabie,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "340",
+      "type": "substitution",
+      "page_line": "580.35",
+      "trent": "arid",
+      "correct": "and",
+      "elaboration": "an \"n\" (not an \"ri\")",
+      "contributor": ""
+    },
+    {
+      "no": "341",
+      "type": "substitution",
+      "page_line": "588.35",
+      "trent": "mistletots",
+      "correct": "mistletots,",
+      "elaboration": "a comma missing",
+      "contributor": ""
+    },
+    {
+      "no": "342",
+      "type": "placement",
+      "wrong_page_line": "594.19",
+      "correct_page_line": "594.19",
+      "word": "the pub of clubpubber",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "594.18-.19"
+    },
+    {
+      "no": "343",
+      "type": "placement",
+      "wrong_page_line": "594.21",
+      "correct_page_line": "594.21",
+      "word": "of",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "594.20-.21"
+    },
+    {
+      "no": "344",
+      "type": "substitution",
+      "page_line": "596.24",
+      "trent": "freeflawforms; parasama",
+      "correct": "freeflawforms;parasama",
+      "elaboration": "no space",
+      "contributor": ""
+    },
+    {
+      "no": "345",
+      "type": "substitution",
+      "page_line": "596.27",
+      "trent": "colour; stoatters",
+      "correct": "colour;stoatters",
+      "elaboration": "no space",
+      "contributor": ""
+    },
+    {
+      "no": "346",
+      "type": "substitution",
+      "page_line": "599.13",
+      "trent": "even;",
+      "correct": "even",
+      "elaboration": "no semicolon",
+      "contributor": ""
+    },
+    {
+      "no": "347",
+      "type": "placement",
+      "wrong_page_line": "600.02",
+      "correct_page_line": "600.02",
+      "word": "to",
+      "elaboration": "",
+      "contributor": "",
+      "raw_lines": "600.01-.02"
+    },
+    {
+      "no": "348",
+      "type": "substitution",
+      "page_line": "608.29",
+      "trent": "the semicolon",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "349",
+      "type": "range",
+      "lines": "609.24-610.32",
+      "primary_page_line": "609.24",
+      "trent": "all the introductory colons",
+      "correct": "italicised",
+      "elaboration": "",
+      "contributor": ""
+    },
+    {
+      "no": "350",
+      "type": "substitution",
+      "page_line": "612.15",
+      "trent": "sennacassia",
+      "correct": "sennacassia.",
+      "elaboration": "a full stop missing",
+      "contributor": ""
+    },
+    {
+      "no": "351",
+      "type": "substitution",
+      "page_line": "614.29",
+      "trent": "scandaller, be",
+      "correct": "scandaller,be",
+      "elaboration": "no space",
+      "contributor": ""
+    },
+    {
+      "no": "352",
+      "type": "substitution",
+      "page_line": "615.01",
+      "trent": "past;",
+      "correct": "past,",
+      "elaboration": "a comma (not a semicolon)",
+      "contributor": ""
+    },
+    {
+      "no": "353",
+      "type": "substitution",
+      "page_line": "616.23",
+      "trent": "oldfirm's",
+      "correct": "old firm's",
+      "elaboration": "a space missing",
+      "contributor": ""
+    },
+    {
+      "no": "354",
+      "type": "substitution",
+      "page_line": "618.01",
+      "trent": "the MacCrawls",
+      "correct": "theMacCrawls",
+      "elaboration": "no space",
+      "contributor": ""
+    },
+    {
+      "no": "355",
+      "type": "substitution",
+      "page_line": "623.03",
+      "trent": "homer",
+      "correct": "horner",
+      "elaboration": "an \"rn\" (not an \"m\")",
+      "contributor": ""
+    }
+  ]
+}

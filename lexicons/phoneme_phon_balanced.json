@@ -1,0 +1,30 @@
+{
+  "name": "phoneme_phon_balanced",
+  "description": "Balanced version of phoneme_phon_demo. Drops `shore` so the shared phoneme /ɹ/ appears in exactly 1 noun (river) and 1 verb (run), removing the noun-bias that polluted the held-out riverrun probe in the demo run.",
+  "source_artifact": "data/ipa/joyce-derived/",
+  "ipa_variant": "en-us-joyce-rule-applied",
+  "balance_audit": {
+    "ɹ": "1N (river), 1V (run) — balanced",
+    "ɪ": "1N (river), 0V — noun-only",
+    "v": "1N (river), 0V — noun-only",
+    "ʌ": "0N, 1V (run) — verb-only",
+    "n": "0N, 2V (run, sends) — verb-biased",
+    "all_other": "appears in only one bucket"
+  },
+  "training_words": [
+    {"text": "river", "bucket": "noun", "page_line": "085.01", "phonemes": ["ɹ", "ɪ", "v", "ɚ"]},
+    {"text": "bay",   "bucket": "noun", "page_line": "003.02", "phonemes": ["b", "eɪ"]},
+    {"text": "run",   "bucket": "verb", "page_line": "012.03", "phonemes": ["ɹ", "ʌ", "n"]},
+    {"text": "goes",  "bucket": "verb", "page_line": "011.08", "phonemes": ["ɡ", "oʊ", "z"]},
+    {"text": "sends", "bucket": "verb", "page_line": "003.20", "phonemes": ["s", "ɛ", "n", "d", "z"]}
+  ],
+  "probe_words": [
+    {
+      "text": "riverrun",
+      "page_line": "003.01",
+      "phonemes": ["ɹ", "ɪ", "v", "ʌ", "n"],
+      "expected_composition": "/ɹ/ balanced (1N:1V), /ɪ v/ noun-trained, /ʌ/ verb-trained, /n/ verb-trained (2 supervisions)",
+      "prediction": "N/V ratio should be near 1, possibly slightly verb-leaning because /n/ was supervised twice (run + sends)."
+    }
+  ]
+}

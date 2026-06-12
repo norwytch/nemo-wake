@@ -1,0 +1,1670 @@
+{
+  "name": "phoneme_gallery_book01_ep01",
+  "description": "Design-B phoneme gallery: segmenter morphemes (en-us IPA, POS-bucketed) as trained sub-units; portmanteaus as probes.",
+  "source_artifact": "data/pos/joyce-pos-hypotheses/book01_ep01.jsonl",
+  "ipa_variant": "en-us-baseline (espeak, isolated)",
+  "balance_audit": {
+    "training_nouns": 65,
+    "training_verbs": 21,
+    "num_portmanteaus": 24
+  },
+  "training_words": [
+    {
+      "text": "(Da",
+      "bucket": "noun",
+      "phonemes": [
+        "d",
+        "ɑː"
+      ]
+    },
+    {
+      "text": "C",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "iː"
+      ]
+    },
+    {
+      "text": "Ca",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "ɑː"
+      ]
+    },
+    {
+      "text": "Cave",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "eɪ",
+        "v"
+      ]
+    },
+    {
+      "text": "D",
+      "bucket": "noun",
+      "phonemes": [
+        "d",
+        "iː"
+      ]
+    },
+    {
+      "text": "Do",
+      "bucket": "verb",
+      "phonemes": [
+        "d",
+        "uː"
+      ]
+    },
+    {
+      "text": "Dor",
+      "bucket": "noun",
+      "phonemes": [
+        "d",
+        "ɔːɹ"
+      ]
+    },
+    {
+      "text": "L",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "l"
+      ]
+    },
+    {
+      "text": "La",
+      "bucket": "noun",
+      "phonemes": [
+        "l",
+        "æ"
+      ]
+    },
+    {
+      "text": "T",
+      "bucket": "noun",
+      "phonemes": [
+        "t",
+        "iː"
+      ]
+    },
+    {
+      "text": "Touch",
+      "bucket": "verb",
+      "phonemes": [
+        "t",
+        "ʌ",
+        "tʃ"
+      ]
+    },
+    {
+      "text": "ant",
+      "bucket": "noun",
+      "phonemes": [
+        "æ",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "are",
+      "bucket": "verb",
+      "phonemes": [
+        "ɑːɹ"
+      ]
+    },
+    {
+      "text": "ask",
+      "bucket": "verb",
+      "phonemes": [
+        "æ",
+        "s",
+        "k"
+      ]
+    },
+    {
+      "text": "ated",
+      "bucket": "verb",
+      "phonemes": [
+        "eɪ",
+        "ɾ",
+        "ᵻ",
+        "d"
+      ]
+    },
+    {
+      "text": "ave",
+      "bucket": "noun",
+      "phonemes": [
+        "ɑː",
+        "v",
+        "eɪ"
+      ]
+    },
+    {
+      "text": "b",
+      "bucket": "noun",
+      "phonemes": [
+        "b",
+        "iː"
+      ]
+    },
+    {
+      "text": "be",
+      "bucket": "verb",
+      "phonemes": [
+        "b",
+        "iː"
+      ]
+    },
+    {
+      "text": "bel",
+      "bucket": "noun",
+      "phonemes": [
+        "b",
+        "ɛ",
+        "l"
+      ]
+    },
+    {
+      "text": "ca",
+      "bucket": "verb",
+      "phonemes": [
+        "k",
+        "ɑː"
+      ]
+    },
+    {
+      "text": "ce",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "iː"
+      ]
+    },
+    {
+      "text": "ch",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "iː",
+        "eɪ",
+        "tʃ"
+      ]
+    },
+    {
+      "text": "co",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "oʊ"
+      ]
+    },
+    {
+      "text": "core",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "ɔːɹ"
+      ]
+    },
+    {
+      "text": "de",
+      "bucket": "noun",
+      "phonemes": [
+        "d",
+        "ə"
+      ]
+    },
+    {
+      "text": "e",
+      "bucket": "noun",
+      "phonemes": [
+        "iː"
+      ]
+    },
+    {
+      "text": "e!",
+      "bucket": "noun",
+      "phonemes": [
+        "iː"
+      ]
+    },
+    {
+      "text": "eat",
+      "bucket": "verb",
+      "phonemes": [
+        "iː",
+        "t"
+      ]
+    },
+    {
+      "text": "ed",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "d"
+      ]
+    },
+    {
+      "text": "els",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "l",
+        "z"
+      ]
+    },
+    {
+      "text": "en",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "n"
+      ]
+    },
+    {
+      "text": "encore",
+      "bucket": "verb",
+      "phonemes": [
+        "ɑː",
+        "ŋ",
+        "k",
+        "ɔːɹ"
+      ]
+    },
+    {
+      "text": "enfranchi",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "n",
+        "f",
+        "ɹ",
+        "æ",
+        "n",
+        "tʃ",
+        "i"
+      ]
+    },
+    {
+      "text": "ex",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "k",
+        "s"
+      ]
+    },
+    {
+      "text": "excel",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "k",
+        "s",
+        "ɛ",
+        "l"
+      ]
+    },
+    {
+      "text": "f",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "f"
+      ]
+    },
+    {
+      "text": "ga",
+      "bucket": "noun",
+      "phonemes": [
+        "ɡ",
+        "ɑː"
+      ]
+    },
+    {
+      "text": "gap",
+      "bucket": "noun",
+      "phonemes": [
+        "ɡ",
+        "æ",
+        "p"
+      ]
+    },
+    {
+      "text": "gape",
+      "bucket": "verb",
+      "phonemes": [
+        "ɡ",
+        "eɪ",
+        "p"
+      ]
+    },
+    {
+      "text": "ger",
+      "bucket": "noun",
+      "phonemes": [
+        "dʒ",
+        "ɜː"
+      ]
+    },
+    {
+      "text": "gger",
+      "bucket": "noun",
+      "phonemes": [
+        "dʒ",
+        "iː",
+        "dʒ",
+        "ɜː"
+      ]
+    },
+    {
+      "text": "go",
+      "bucket": "verb",
+      "phonemes": [
+        "ɡ",
+        "oʊ"
+      ]
+    },
+    {
+      "text": "ham",
+      "bucket": "noun",
+      "phonemes": [
+        "h",
+        "æ",
+        "m"
+      ]
+    },
+    {
+      "text": "ides",
+      "bucket": "noun",
+      "phonemes": [
+        "aɪ",
+        "d",
+        "iː",
+        "z"
+      ]
+    },
+    {
+      "text": "is",
+      "bucket": "verb",
+      "phonemes": [
+        "ɪ",
+        "z"
+      ]
+    },
+    {
+      "text": "ise",
+      "bucket": "noun",
+      "phonemes": [
+        "aɪ",
+        "z"
+      ]
+    },
+    {
+      "text": "issi",
+      "bucket": "noun",
+      "phonemes": [
+        "ɪ",
+        "s",
+        "i"
+      ]
+    },
+    {
+      "text": "issim",
+      "bucket": "noun",
+      "phonemes": [
+        "ɪ",
+        "s",
+        "ɪ",
+        "m"
+      ]
+    },
+    {
+      "text": "iv",
+      "bucket": "noun",
+      "phonemes": [
+        "ɹ",
+        "oʊ",
+        "m",
+        "ə",
+        "n|f",
+        "ɔːɹ"
+      ]
+    },
+    {
+      "text": "k",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "eɪ"
+      ]
+    },
+    {
+      "text": "kes",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "ɛ",
+        "s"
+      ]
+    },
+    {
+      "text": "kis",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "ɪ",
+        "s"
+      ]
+    },
+    {
+      "text": "liar",
+      "bucket": "noun",
+      "phonemes": [
+        "l",
+        "aɪɚ"
+      ]
+    },
+    {
+      "text": "lin",
+      "bucket": "noun",
+      "phonemes": [
+        "l",
+        "ɪ",
+        "n"
+      ]
+    },
+    {
+      "text": "ls",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "l",
+        "ɛ",
+        "s"
+      ]
+    },
+    {
+      "text": "moni",
+      "bucket": "noun",
+      "phonemes": [
+        "m",
+        "oʊ",
+        "n",
+        "i"
+      ]
+    },
+    {
+      "text": "ob",
+      "bucket": "noun",
+      "phonemes": [
+        "ɑː",
+        "b"
+      ]
+    },
+    {
+      "text": "otter",
+      "bucket": "noun",
+      "phonemes": [
+        "ɑː",
+        "ɾ",
+        "ɚ"
+      ]
+    },
+    {
+      "text": "ou",
+      "bucket": "noun",
+      "phonemes": [
+        "uː"
+      ]
+    },
+    {
+      "text": "pa",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "ɑː"
+      ]
+    },
+    {
+      "text": "paisi",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "eɪ",
+        "s",
+        "i"
+      ]
+    },
+    {
+      "text": "pass",
+      "bucket": "verb",
+      "phonemes": [
+        "p",
+        "æ",
+        "s"
+      ]
+    },
+    {
+      "text": "pe",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "iː"
+      ]
+    },
+    {
+      "text": "porca!",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "ɔːɹ",
+        "k",
+        "ə"
+      ]
+    },
+    {
+      "text": "pour",
+      "bucket": "verb",
+      "phonemes": [
+        "p",
+        "ɔːɹ"
+      ]
+    },
+    {
+      "text": "poursu",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "ɔːɹ",
+        "s",
+        "uː"
+      ]
+    },
+    {
+      "text": "pre",
+      "bucket": "noun",
+      "phonemes": [
+        "p",
+        "ɹ",
+        "iː"
+      ]
+    },
+    {
+      "text": "pretend",
+      "bucket": "verb",
+      "phonemes": [
+        "p",
+        "ɹ",
+        "ɪ",
+        "t",
+        "ɛ",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "qu",
+      "bucket": "noun",
+      "phonemes": [
+        "k"
+      ]
+    },
+    {
+      "text": "quo",
+      "bucket": "noun",
+      "phonemes": [
+        "k",
+        "w",
+        "oʊ"
+      ]
+    },
+    {
+      "text": "ran",
+      "bucket": "verb",
+      "phonemes": [
+        "ɹ",
+        "æ",
+        "n"
+      ]
+    },
+    {
+      "text": "s",
+      "bucket": "noun",
+      "phonemes": [
+        "ɛ",
+        "s"
+      ]
+    },
+    {
+      "text": "sable",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "eɪ",
+        "b",
+        "əl"
+      ]
+    },
+    {
+      "text": "sal",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "æ",
+        "l"
+      ]
+    },
+    {
+      "text": "salv",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "æ",
+        "l",
+        "v"
+      ]
+    },
+    {
+      "text": "salve",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "æ",
+        "l",
+        "v"
+      ]
+    },
+    {
+      "text": "sim",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "ɪ",
+        "m"
+      ]
+    },
+    {
+      "text": "st",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "ə",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "su",
+      "bucket": "noun",
+      "phonemes": [
+        "s",
+        "uː"
+      ]
+    },
+    {
+      "text": "t",
+      "bucket": "noun",
+      "phonemes": [
+        "t",
+        "iː"
+      ]
+    },
+    {
+      "text": "tend",
+      "bucket": "verb",
+      "phonemes": [
+        "t",
+        "ɛ",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "tered",
+      "bucket": "verb",
+      "phonemes": [
+        "t",
+        "ɜː",
+        "d"
+      ]
+    },
+    {
+      "text": "totter",
+      "bucket": "verb",
+      "phonemes": [
+        "t",
+        "ɑː",
+        "ɾ",
+        "ɚ"
+      ]
+    },
+    {
+      "text": "twill",
+      "bucket": "noun",
+      "phonemes": [
+        "t",
+        "w",
+        "ɪ",
+        "l"
+      ]
+    },
+    {
+      "text": "ve",
+      "bucket": "verb",
+      "phonemes": [
+        "v",
+        "iː"
+      ]
+    },
+    {
+      "text": "will",
+      "bucket": "verb",
+      "phonemes": [
+        "w",
+        "ɪ",
+        "l"
+      ]
+    }
+  ],
+  "probe_words": [
+    {
+      "text": "passencore",
+      "page_line": "003.04",
+      "phonemes": [
+        "p",
+        "æ",
+        "s",
+        "ə",
+        "ŋ",
+        "k",
+        "ɔːɹ"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "pass",
+          "en",
+          "core"
+        ],
+        "unigram-4000": [
+          "pass",
+          "en",
+          "co"
+        ],
+        "morfessor": [
+          "pass",
+          "encore"
+        ],
+        "flatcat": [
+          "pass",
+          "encore"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "fr-fr",
+          "source_form": "pas encore"
+        },
+        {
+          "language": "fr-fr",
+          "source_form": "passe encore"
+        }
+      ]
+    },
+    {
+      "text": "exaggerated",
+      "page_line": "003.07",
+      "phonemes": [
+        "ɛ",
+        "ɡ",
+        "z",
+        "æ",
+        "dʒ",
+        "ɚ",
+        "ɹ",
+        "eɪ",
+        "ɾ",
+        "ᵻ",
+        "d"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "ex",
+          "ated"
+        ],
+        "unigram-4000": [
+          "ex",
+          "ger",
+          "ated"
+        ],
+        "morfessor": [
+          "ex",
+          "gger",
+          "ated"
+        ],
+        "flatcat": [
+          "ex",
+          "gger",
+          "ated"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "la",
+          "source_form": "exaggerare"
+        }
+      ]
+    },
+    {
+      "text": "askes",
+      "page_line": "004.15",
+      "phonemes": [
+        "æ",
+        "s",
+        "k",
+        "s"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "kes"
+        ],
+        "unigram-4000": [
+          "ask"
+        ],
+        "morfessor": [
+          "kes"
+        ],
+        "flatcat": [
+          "ask"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "nb",
+          "source_form": "aske"
+        }
+      ]
+    },
+    {
+      "text": "poursuivant",
+      "page_line": "005.07",
+      "phonemes": [
+        "p",
+        "ɔːɹ",
+        "s",
+        "uː",
+        "ɪ",
+        "v",
+        "ə",
+        "n",
+        "t"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "pour",
+          "su",
+          "iv",
+          "ant"
+        ],
+        "unigram-4000": [
+          "pour",
+          "su",
+          "iv",
+          "ant"
+        ],
+        "morfessor": [
+          "pour",
+          "su",
+          "iv",
+          "ant"
+        ],
+        "flatcat": [
+          "poursu",
+          "iv",
+          "ant"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "fr-fr",
+          "source_form": "poursuivant"
+        }
+      ]
+    },
+    {
+      "text": "stottered",
+      "page_line": "006.09",
+      "phonemes": [
+        "s",
+        "t",
+        "ɑː",
+        "ɾ",
+        "ɚ",
+        "d"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "t",
+          "tered"
+        ],
+        "unigram-4000": [
+          "st",
+          "otter",
+          "ed"
+        ],
+        "morfessor": [
+          "s",
+          "totter",
+          "ed"
+        ],
+        "flatcat": [
+          "st",
+          "otter",
+          "ed"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "de",
+          "source_form": "stottern"
+        }
+      ]
+    },
+    {
+      "text": "Dobbelin",
+      "page_line": "007.12",
+      "phonemes": [
+        "d",
+        "ɑː",
+        "b",
+        "ɪ",
+        "l",
+        "ɪ",
+        "n"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "D",
+          "ob",
+          "be",
+          "lin"
+        ],
+        "unigram-4000": [
+          "Do",
+          "b",
+          "bel"
+        ],
+        "morfessor": [
+          "Do",
+          "b",
+          "bel"
+        ],
+        "flatcat": [
+          "Do",
+          "b",
+          "bel"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "nl",
+          "source_form": "dobbelen"
+        }
+      ]
+    },
+    {
+      "text": "Agapemonides",
+      "page_line": "007.16",
+      "phonemes": [
+        "æ",
+        "ɡ",
+        "eɪ",
+        "p",
+        "m",
+        "ɑː",
+        "n",
+        "aɪ",
+        "d",
+        "z"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "ga",
+          "pe",
+          "ides"
+        ],
+        "unigram-4000": [
+          "gap",
+          "e",
+          "moni",
+          "de",
+          "s"
+        ],
+        "morfessor": [
+          "gape",
+          "moni",
+          "de",
+          "s"
+        ],
+        "flatcat": [
+          "gape"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "el",
+          "source_form": "agapêmonides"
+        }
+      ]
+    },
+    {
+      "text": "goliar's",
+      "page_line": "008.20",
+      "phonemes": [
+        "ɡ",
+        "oʊ",
+        "l",
+        "ɪɹ",
+        "z"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "go",
+          "liar",
+          "s"
+        ],
+        "unigram-4000": [
+          "go",
+          "liar",
+          "s"
+        ],
+        "morfessor": [
+          "go",
+          "liar",
+          "s"
+        ],
+        "flatcat": [
+          "go",
+          "liar",
+          "s"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "fr-fr",
+          "source_form": "goliard"
+        }
+      ]
+    },
+    {
+      "text": "porca",
+      "page_line": "009.36",
+      "phonemes": [
+        "p",
+        "ɔːɹ",
+        "k",
+        "ə"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "ca"
+        ],
+        "unigram-4000": [
+          "ca"
+        ],
+        "morfessor": [],
+        "flatcat": []
+      },
+      "fweet_source_forms": [
+        {
+          "language": "it",
+          "source_form": "pòrca"
+        }
+      ]
+    },
+    {
+      "text": "salve",
+      "page_line": "012.34",
+      "phonemes": [
+        "s",
+        "æ",
+        "l",
+        "v"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "sal",
+          "ve"
+        ],
+        "unigram-4000": [
+          "salv",
+          "e"
+        ],
+        "morfessor": [
+          "salve"
+        ],
+        "flatcat": [
+          "salve"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "la",
+          "source_form": "salve"
+        }
+      ]
+    },
+    {
+      "text": "pretendant",
+      "page_line": "013.11",
+      "phonemes": [
+        "p",
+        "ɹ",
+        "ɪ",
+        "t",
+        "ɛ",
+        "n",
+        "d",
+        "ə",
+        "n",
+        "t"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "pre",
+          "tend",
+          "ant"
+        ],
+        "unigram-4000": [
+          "pre",
+          "tend",
+          "ant"
+        ],
+        "morfessor": [
+          "pretend",
+          "ant"
+        ],
+        "flatcat": [
+          "pretend",
+          "ant"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "fr-fr",
+          "source_form": "prétendant"
+        }
+      ]
+    },
+    {
+      "text": "excelsissimost",
+      "page_line": "014.19",
+      "phonemes": [
+        "ɛ",
+        "k",
+        "s",
+        "ɪ",
+        "l",
+        "s",
+        "ɪ",
+        "s",
+        "i",
+        "m",
+        "oʊ",
+        "s",
+        "t"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "ex",
+          "ce",
+          "ls",
+          "issi"
+        ],
+        "unigram-4000": [
+          "ex",
+          "els",
+          "is",
+          "s"
+        ],
+        "morfessor": [
+          "excel",
+          "s",
+          "issim"
+        ],
+        "flatcat": [
+          "excel",
+          "s",
+          "issim"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "la",
+          "source_form": "excelsissimus"
+        }
+      ]
+    },
+    {
+      "text": "paisibly",
+      "page_line": "014.30",
+      "phonemes": [
+        "p",
+        "eɪ",
+        "z",
+        "ᵻ",
+        "b",
+        "l",
+        "i"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "pa",
+          "is"
+        ],
+        "unigram-4000": [
+          "pa",
+          "is"
+        ],
+        "morfessor": [
+          "paisi"
+        ],
+        "flatcat": [
+          "paisi"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "fr-fr",
+          "source_form": "paisible"
+        }
+      ]
+    },
+    {
+      "text": "Lave",
+      "page_line": "015.24",
+      "phonemes": [
+        "l",
+        "eɪ",
+        "v"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "La",
+          "ve"
+        ],
+        "unigram-4000": [
+          "La",
+          "ve"
+        ],
+        "morfessor": [
+          "La",
+          "ve"
+        ],
+        "flatcat": [
+          "L",
+          "ave"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "da",
+          "source_form": "lave"
+        }
+      ]
+    },
+    {
+      "text": "Cave",
+      "page_line": "016.03",
+      "phonemes": [
+        "k",
+        "eɪ",
+        "v"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "C",
+          "ave"
+        ],
+        "unigram-4000": [
+          "Ca",
+          "ve"
+        ],
+        "morfessor": [
+          "Cave"
+        ],
+        "flatcat": [
+          "Cave"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "la",
+          "source_form": "cave!"
+        }
+      ]
+    },
+    {
+      "text": "pourquose",
+      "page_line": "018.31",
+      "phonemes": [
+        "p",
+        "ɔːɹ",
+        "k",
+        "w",
+        "oʊ",
+        "s"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "pour",
+          "qu"
+        ],
+        "unigram-4000": [
+          "pour",
+          "quo",
+          "s",
+          "e"
+        ],
+        "morfessor": [
+          "pour",
+          "quo"
+        ],
+        "flatcat": [
+          "pour",
+          "quo"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "fr-fr",
+          "source_form": "pourquoi"
+        }
+      ]
+    },
+    {
+      "text": "Toucheaterre",
+      "page_line": "019.14",
+      "phonemes": [
+        "t",
+        "ʌ",
+        "tʃ",
+        "iː",
+        "t",
+        "ɛ",
+        "ɹ",
+        "ə"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "T",
+          "ou"
+        ],
+        "unigram-4000": [
+          "T",
+          "e"
+        ],
+        "morfessor": [
+          "Touch",
+          "eat"
+        ],
+        "flatcat": [
+          "Touch",
+          "eat"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "fr-fr",
+          "source_form": "toucher terre"
+        }
+      ]
+    },
+    {
+      "text": "Dor",
+      "page_line": "020.18",
+      "phonemes": [
+        "d",
+        "ɔːɹ"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "D"
+        ],
+        "unigram-4000": [
+          "D"
+        ],
+        "morfessor": [
+          "Do"
+        ],
+        "flatcat": [
+          "Dor"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "he",
+          "source_form": "dor"
+        }
+      ]
+    },
+    {
+      "text": "Dare",
+      "page_line": "022.23",
+      "phonemes": [
+        "d",
+        "ɛɹ"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "D",
+          "are"
+        ],
+        "unigram-4000": [
+          "D",
+          "are"
+        ],
+        "morfessor": [
+          "e"
+        ],
+        "flatcat": []
+      },
+      "fweet_source_forms": [
+        {
+          "language": "it",
+          "source_form": "dare"
+        }
+      ]
+    },
+    {
+      "text": "enfranchisable",
+      "page_line": "024.27",
+      "phonemes": [
+        "ɛ",
+        "n",
+        "f",
+        "ɹ",
+        "æ",
+        "n",
+        "tʃ",
+        "aɪ",
+        "z",
+        "ə",
+        "b",
+        "əl"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "en",
+          "f",
+          "ran",
+          "ch",
+          "is"
+        ],
+        "unigram-4000": [
+          "en",
+          "f",
+          "ran"
+        ],
+        "morfessor": [
+          "enfranchi",
+          "s"
+        ],
+        "flatcat": [
+          "enfranchi",
+          "sable"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "fr-fr",
+          "source_form": "en franchise"
+        },
+        {
+          "language": "fr-fr",
+          "source_form": "infranchissable"
+        }
+      ]
+    },
+    {
+      "text": "reise",
+      "page_line": "025.32",
+      "phonemes": [
+        "ɹ",
+        "aɪ",
+        "z"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "ise"
+        ],
+        "unigram-4000": [
+          "is",
+          "e"
+        ],
+        "morfessor": [
+          "ise"
+        ],
+        "flatcat": [
+          "ise"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "de",
+          "source_form": "Reise"
+        }
+      ]
+    },
+    {
+      "text": "kis",
+      "page_line": "026.03",
+      "phonemes": [
+        "k",
+        "ɪ",
+        "s"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "kis"
+        ],
+        "unigram-4000": [
+          "k",
+          "is"
+        ],
+        "morfessor": [
+          "k",
+          "is"
+        ],
+        "flatcat": [
+          "k",
+          "is"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "hu",
+          "source_form": "kis"
+        }
+      ]
+    },
+    {
+      "text": "twilling",
+      "page_line": "029.08",
+      "phonemes": [
+        "t",
+        "w",
+        "ɪ",
+        "l",
+        "ɪ",
+        "ŋ"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "t",
+          "will"
+        ],
+        "unigram-4000": [
+          "t",
+          "will"
+        ],
+        "morfessor": [
+          "t",
+          "will"
+        ],
+        "flatcat": [
+          "twill"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "da",
+          "source_form": "tvilling"
+        }
+      ]
+    },
+    {
+      "text": "hamissim",
+      "page_line": "029.33",
+      "phonemes": [
+        "h",
+        "æ",
+        "m",
+        "ɪ",
+        "s",
+        "ɪ",
+        "m"
+      ],
+      "constituents_by_segmenter": {
+        "bpe-4000": [
+          "ham",
+          "is",
+          "sim"
+        ],
+        "unigram-4000": [
+          "ham",
+          "is",
+          "s"
+        ],
+        "morfessor": [
+          "ham",
+          "issim"
+        ],
+        "flatcat": [
+          "ham",
+          "issim"
+        ]
+      },
+      "fweet_source_forms": [
+        {
+          "language": "he",
+          "source_form": "khamishim"
+        }
+      ]
+    }
+  ]
+}

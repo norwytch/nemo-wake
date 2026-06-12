@@ -1,0 +1,3 @@
+[submodule "nemo-core"]
+	path = nemo-core
+	url = https://github.com/dmitropolsky/assemblies.git

@@ -1,0 +1,33 @@
+{
+  "_comment": "Special-element annotation overlay for Book I Episode 2. Two concordance entries: page 36 line 17 ('upside-down backwards E') and page 44 line 25 ('The Ballad of Persse O'Reilly' sheet music). Source: Hart Concordance Symbols and Music pages.",
+  "book": 1,
+  "episode": 2,
+  "source": "Hart Concordance Symbols page ('36.17: upside-down backwards E'); Hart Concordance Music page ('44.25: The Ballad of Persse O'Reilly'); 1939 edition screenshot confirming Ǝ at 036.17.",
+  "encoding_note": "See data/annotations/README.md for the full sigla Unicode reference table.",
+  "sigla_legend": {
+    "Ǝ": {
+      "referent": "HCE (or HCE addressing the cad)",
+      "unicode": "U+018E",
+      "unicode_name": "LATIN CAPITAL LETTER REVERSED E",
+      "concordance": "036.17 — 'upside-down backwards E'",
+      "note": "Confirmed as Ǝ from 1939 edition screenshot. Same visual form as HCE's siglum at I.5 119.17. McHugh (1976) p.145: 'used by M to address the cad at 036.17'. Stripped with no space gap — immediately preceded '!'."
+    }
+  },
+  "music": [
+    {
+      "concordance_page_line": "44.25",
+      "description": "The Ballad of Persse O'Reilly",
+      "in_corpus": false,
+      "representable": false,
+      "note": "Printed sheet music (musical staff with notation for the tune of the Ballad) appearing before or within the ballad lyrics. The musical notation itself was a printed image; completely absent from the Trent corpus. Only the lyrics survive."
+    }
+  ],
+  "annotations": [
+    {
+      "page_line": "036.17",
+      "char_offset": -1,
+      "siglum": "Ǝ",
+      "note": "Concordance 036.17. Confirmed Ǝ (U+018E) from 1939 edition screenshot. McHugh: 'used by M to address the cad'. Stripped with no space gap — '!' immediately follows in the corpus. 1939 text: 'signlore his gesture meaning: Ǝ!) pointed at an angle of thirty'. char_offset is -1 pending verification against Trent corpus line 036.17."
+    }
+  ]
+}

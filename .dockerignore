@@ -1,0 +1,10 @@
+.git
+.gitignore
+data/raw
+data/audio
+data/ipa
+data/tokenizers
+papers
+projects
+*.md
+LICENSE

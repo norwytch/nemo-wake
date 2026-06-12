@@ -1,0 +1,73 @@
+{
+  "name": "page3_portmanteau_gallery",
+  "description": "Five Wake portmanteaus from page 3, probed under all four segmenters' decompositions (20 probe entries). Each morpheme is trained as a single-morpheme word with its tagger-assigned POS. Untrained morphemes (POS = INTJ/PUNCT/DET/ADJ) have PHON blocks but no N/V supervision. The spread of N/V ratios across segmenters per portmanteau is the experimental result.",
+  "source_artifact": "data/pos/joyce-pos-hypotheses/book01_ep01.jsonl",
+  "selected_portmanteaus": ["passencore (003.04)", "rearrived (003.05)", "penisolate (003.06)", "topsawyer's (003.07)", "bellowsed (003.09)"],
+  "pos_to_bucket_rule": "NOUN/PROPN -> noun; VERB/AUX -> verb; INTJ/PUNCT/DET/ADJ/etc -> untrained (no N/V signal)",
+  "caveat": "Morpheme POS tags from Stanza's English tagger on standalone morphemes are noisy by construction. The experiment treats them as the input and measures the consequence; it doesn't endorse them as ground truth.",
+  "training_words": [
+    {"text": "river",   "bucket": "noun", "morphemes": ["river"],   "note": "control"},
+    {"text": "bay",     "bucket": "noun", "morphemes": ["bay"],     "note": "control"},
+    {"text": "run",     "bucket": "verb", "morphemes": ["run"],     "note": "control"},
+    {"text": "goes",    "bucket": "verb", "morphemes": ["goes"],    "note": "control"},
+    {"text": "pass",    "bucket": "verb", "morphemes": ["pass"],    "tagger_pos": "VERB", "from": "passencore"},
+    {"text": "encore",  "bucket": "verb", "morphemes": ["encore"],  "tagger_pos": "VERB", "from": "passencore (morfessor/flatcat)"},
+    {"text": "en",      "bucket": "noun", "morphemes": ["en"],      "tagger_pos": "PROPN", "from": "passencore (bpe/unigram)"},
+    {"text": "core",    "bucket": "noun", "morphemes": ["core"],    "tagger_pos": "NOUN",  "from": "passencore (bpe)"},
+    {"text": "co",      "bucket": "noun", "morphemes": ["co"],      "tagger_pos": "PROPN", "from": "passencore (unigram)"},
+    {"text": "rear",    "bucket": "noun", "morphemes": ["rear"],    "tagger_pos": "NOUN",  "from": "rearrived (unigram/morfessor/flatcat)"},
+    {"text": "arri",    "bucket": "noun", "morphemes": ["arri"],    "tagger_pos": "NOUN",  "from": "rearrived (bpe)"},
+    {"text": "ved",     "bucket": "noun", "morphemes": ["ved"],     "tagger_pos": "PROPN", "from": "rearrived (bpe/unigram)"},
+    {"text": "ri",      "bucket": "noun", "morphemes": ["ri"],      "tagger_pos": "PROPN", "from": "rearrived (unigram)"},
+    {"text": "rived",   "bucket": "verb", "morphemes": ["rived"],   "tagger_pos": "VERB",  "from": "rearrived (morfessor/flatcat)"},
+    {"text": "pen",     "bucket": "noun", "morphemes": ["pen"],     "tagger_pos": "NOUN",  "from": "penisolate"},
+    {"text": "is",      "bucket": "verb", "morphemes": ["is"],      "tagger_pos": "VERB",  "from": "penisolate (bpe/unigram)"},
+    {"text": "ate",     "bucket": "verb", "morphemes": ["ate"],     "tagger_pos": "VERB",  "from": "penisolate (bpe)"},
+    {"text": "o",       "bucket": "noun", "morphemes": ["o"],       "tagger_pos": "NOUN",  "from": "penisolate (unigram)"},
+    {"text": "isolate", "bucket": "verb", "morphemes": ["isolate"], "tagger_pos": "VERB",  "from": "penisolate (morfessor/flatcat)"},
+    {"text": "top",     "bucket": "noun", "morphemes": ["top"],     "tagger_pos": "NOUN",  "from": "topsawyer's"},
+    {"text": "saw",     "bucket": "verb", "morphemes": ["saw"],     "tagger_pos": "VERB",  "from": "topsawyer's (bpe)"},
+    {"text": "s",       "bucket": "noun", "morphemes": ["s"],       "tagger_pos": "PROPN", "from": "topsawyer's (bpe/unigram) and bellowsed (unigram)"},
+    {"text": "wyer",    "bucket": "noun", "morphemes": ["wyer"],    "tagger_pos": "PROPN", "from": "topsawyer's (unigram)"},
+    {"text": "sawyer",  "bucket": "noun", "morphemes": ["sawyer"],  "tagger_pos": "PROPN", "from": "topsawyer's (morfessor/flatcat)"},
+    {"text": "be",      "bucket": "verb", "morphemes": ["be"],      "tagger_pos": "VERB",  "from": "bellowsed (bpe/unigram)"},
+    {"text": "llow",    "bucket": "noun", "morphemes": ["llow"],    "tagger_pos": "NOUN",  "from": "bellowsed (bpe/unigram)"},
+    {"text": "sed",     "bucket": "noun", "morphemes": ["sed"],     "tagger_pos": "PROPN", "from": "bellowsed (bpe)"},
+    {"text": "ed",      "bucket": "noun", "morphemes": ["ed"],      "tagger_pos": "PROPN", "from": "bellowsed (unigram/morfessor/flatcat)"},
+    {"text": "bellows", "bucket": "noun", "morphemes": ["bellows"], "tagger_pos": "NOUN",  "from": "bellowsed (morfessor/flatcat)"}
+  ],
+  "untrained_morphemes_in_inventory": [
+    {"morpheme": "re",   "tagger_pos": "INTJ", "from": "passencore (unigram) / rearrived (bpe)"},
+    {"morpheme": "ol",   "tagger_pos": "INTJ", "from": "penisolate (bpe)"},
+    {"morpheme": "late", "tagger_pos": "ADJ",  "from": "penisolate (unigram)"},
+    {"morpheme": "yer",  "tagger_pos": "INTJ", "from": "topsawyer's (bpe)"},
+    {"morpheme": "a",    "tagger_pos": "DET",  "from": "topsawyer's (unigram)"},
+    {"morpheme": "'s",   "tagger_pos": "PUNCT","from": "topsawyer's (morfessor/flatcat)"}
+  ],
+  "probe_words": [
+    {"text": "passencore_bpe",       "portmanteau": "passencore", "segmenter": "bpe-4000",      "morphemes": ["pass", "en", "core"]},
+    {"text": "passencore_unigram",   "portmanteau": "passencore", "segmenter": "unigram-4000", "morphemes": ["pass", "en", "co", "re"]},
+    {"text": "passencore_morfessor", "portmanteau": "passencore", "segmenter": "morfessor",     "morphemes": ["pass", "encore"]},
+    {"text": "passencore_flatcat",   "portmanteau": "passencore", "segmenter": "flatcat",       "morphemes": ["pass", "encore"]},
+
+    {"text": "rearrived_bpe",        "portmanteau": "rearrived",  "segmenter": "bpe-4000",      "morphemes": ["re", "arri", "ved"]},
+    {"text": "rearrived_unigram",    "portmanteau": "rearrived",  "segmenter": "unigram-4000",  "morphemes": ["rear", "ri", "ved"]},
+    {"text": "rearrived_morfessor",  "portmanteau": "rearrived",  "segmenter": "morfessor",     "morphemes": ["rear", "rived"]},
+    {"text": "rearrived_flatcat",    "portmanteau": "rearrived",  "segmenter": "flatcat",       "morphemes": ["rear", "rived"]},
+
+    {"text": "penisolate_bpe",       "portmanteau": "penisolate", "segmenter": "bpe-4000",      "morphemes": ["pen", "is", "ol", "ate"]},
+    {"text": "penisolate_unigram",   "portmanteau": "penisolate", "segmenter": "unigram-4000",  "morphemes": ["pen", "is", "o", "late"]},
+    {"text": "penisolate_morfessor", "portmanteau": "penisolate", "segmenter": "morfessor",     "morphemes": ["pen", "isolate"]},
+    {"text": "penisolate_flatcat",   "portmanteau": "penisolate", "segmenter": "flatcat",       "morphemes": ["pen", "isolate"]},
+
+    {"text": "topsawyers_bpe",       "portmanteau": "topsawyer's","segmenter": "bpe-4000",      "morphemes": ["top", "saw", "yer", "s"]},
+    {"text": "topsawyers_unigram",   "portmanteau": "topsawyer's","segmenter": "unigram-4000",  "morphemes": ["top", "s", "a", "wyer", "s"]},
+    {"text": "topsawyers_morfessor", "portmanteau": "topsawyer's","segmenter": "morfessor",     "morphemes": ["top", "sawyer", "'s"]},
+    {"text": "topsawyers_flatcat",   "portmanteau": "topsawyer's","segmenter": "flatcat",       "morphemes": ["top", "sawyer", "'s"]},
+
+    {"text": "bellowsed_bpe",        "portmanteau": "bellowsed",  "segmenter": "bpe-4000",      "morphemes": ["be", "llow", "sed"]},
+    {"text": "bellowsed_unigram",    "portmanteau": "bellowsed",  "segmenter": "unigram-4000",  "morphemes": ["be", "llow", "s", "ed"]},
+    {"text": "bellowsed_morfessor",  "portmanteau": "bellowsed",  "segmenter": "morfessor",     "morphemes": ["bellows", "ed"]},
+    {"text": "bellowsed_flatcat",    "portmanteau": "bellowsed",  "segmenter": "flatcat",       "morphemes": ["bellows", "ed"]}
+  ]
+}

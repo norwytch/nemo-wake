@@ -1,0 +1,146 @@
+[   0.0s] ngram=2  num_units=160  PHON_n=3200
+[   2.0s] Training 20 rounds × 86 words
+  [4775.0s] round 10/20
+  [9713.1s] round 20/20
+
+[9713.1s] === Recording trained-word anchor assemblies ===
+
+[9888.4s] === Trained words ===
+  (Da        (noun)  NOUN_in=   6610.9  VERB_in=   1366.7  N/V=   4.84
+  C          (noun)  NOUN_in= 668040.4  VERB_in=  11599.4  N/V=  57.59
+  Ca         (noun)  NOUN_in=  19755.1  VERB_in=  17569.2  N/V=   1.12
+  Cave       (noun)  NOUN_in=  46805.2  VERB_in=   3807.5  N/V=  12.29
+  D          (noun)  NOUN_in=  28803.7  VERB_in=   2271.5  N/V=  12.68
+  Do         (verb)  NOUN_in=   1390.3  VERB_in=   5865.7  N/V=   0.24
+  Dor        (noun)  NOUN_in=   5571.3  VERB_in=   1359.7  N/V=   4.10
+  L          (noun)  NOUN_in=761848320.0  VERB_in=  80439.5  N/V=9471.07
+  La         (noun)  NOUN_in=   6317.0  VERB_in=   1423.0  N/V=   4.44
+  T          (noun)  NOUN_in=  61797.6  VERB_in=   4337.2  N/V=  14.25
+  Touch      (verb)  NOUN_in=   2113.0  VERB_in=  11991.9  N/V=   0.18
+  ant        (noun)  NOUN_in=  91714.2  VERB_in=  37435.5  N/V=   2.45
+  are        (verb)  NOUN_in=   1369.0  VERB_in=   5961.1  N/V=   0.23
+  ask        (verb)  NOUN_in=   2875.6  VERB_in=  42063.6  N/V=   0.07
+  ated       (verb)  NOUN_in=   2641.8  VERB_in=  17992.5  N/V=   0.15
+  ave        (noun)  NOUN_in=  11822.9  VERB_in=   2097.3  N/V=   5.64
+  b          (noun)  NOUN_in=  17442.8  VERB_in=  14531.5  N/V=   1.20
+  be         (verb)  NOUN_in=  17442.8  VERB_in=  14531.5  N/V=   1.20
+  bel        (noun)  NOUN_in=761851776.0  VERB_in=  80895.6  N/V=9417.71
+  ca         (verb)  NOUN_in=  19755.1  VERB_in=  17569.2  N/V=   1.12
+  ce         (noun)  NOUN_in= 668040.4  VERB_in=  11599.4  N/V=  57.59
+  ch         (noun)  NOUN_in= 675514.2  VERB_in=  12189.9  N/V=  55.42
+  co         (noun)  NOUN_in=   5807.8  VERB_in=   1394.3  N/V=   4.17
+  core       (noun)  NOUN_in=  12039.9  VERB_in=  19051.2  N/V=   0.63
+  de         (noun)  NOUN_in=   5746.0  VERB_in=   1410.3  N/V=   4.07
+  e          (noun)  NOUN_in=  40989.6  VERB_in=   4607.4  N/V=   8.90
+  e!         (noun)  NOUN_in=  40989.6  VERB_in=   4607.4  N/V=   8.90
+  eat        (verb)  NOUN_in=   1382.4  VERB_in=   5842.2  N/V=   0.24
+  ed         (noun)  NOUN_in=   6037.3  VERB_in=   1436.0  N/V=   4.20
+  els        (noun)  NOUN_in=761851712.0  VERB_in=  80801.3  N/V=9428.71
+  en         (noun)  NOUN_in= 376172.3  VERB_in= 774852.2  N/V=   0.49
+  encore     (verb)  NOUN_in=  12665.8  VERB_in=  30631.3  N/V=   0.41
+  enfranchi  (noun)  NOUN_in= 464154.5  VERB_in= 810098.8  N/V=   0.57
+  ex         (noun)  NOUN_in= 110239.9  VERB_in=   3078.9  N/V=  35.81
+  excel      (noun)  NOUN_in=761955520.0  VERB_in=  81688.7  N/V=9327.56
+  f          (noun)  NOUN_in=   5621.6  VERB_in=   1384.3  N/V=   4.06
+  ga         (noun)  NOUN_in=   5786.0  VERB_in=   1388.1  N/V=   4.17
+  gap        (noun)  NOUN_in=  11643.8  VERB_in=   2026.3  N/V=   5.75
+  gape       (verb)  NOUN_in=   2051.2  VERB_in=  11392.7  N/V=   0.18
+  ger        (noun)  NOUN_in=  37284.3  VERB_in=   2097.5  N/V=  17.78
+  gger       (noun)  NOUN_in=  47845.9  VERB_in=   3367.2  N/V=  14.21
+  go         (verb)  NOUN_in=   1357.0  VERB_in=   6786.0  N/V=   0.20
+  ham        (noun)  NOUN_in=  12674.0  VERB_in=   2048.0  N/V=   6.19
+  ides       (noun)  NOUN_in=  37896.1  VERB_in=   3650.2  N/V=  10.38
+  is         (verb)  NOUN_in=   1348.7  VERB_in=   5790.5  N/V=   0.23
+  ise        (noun)  NOUN_in=   5460.0  VERB_in=   1331.9  N/V=   4.10
+  issi       (noun)  NOUN_in= 891485.5  VERB_in=   6472.0  N/V= 137.74
+  issim      (noun)  NOUN_in= 992041.4  VERB_in=   9167.5  N/V= 108.21
+  iv         (noun)  NOUN_in=  29347.2  VERB_in=   3694.1  N/V=   7.94
+  k          (noun)  NOUN_in=  42614.8  VERB_in=   3086.0  N/V=  13.81
+  kes        (noun)  NOUN_in= 576019.9  VERB_in=   5833.7  N/V=  98.74
+  kis        (noun)  NOUN_in= 886245.3  VERB_in=   6035.8  N/V= 146.83
+  liar       (noun)  NOUN_in=   6030.5  VERB_in=   1361.3  N/V=   4.43
+  lin        (noun)  NOUN_in=  11027.9  VERB_in=   2042.4  N/V=   5.40
+  ls         (noun)  NOUN_in=762419008.0  VERB_in=  82823.8  N/V=9205.32
+  moni       (noun)  NOUN_in=  18005.0  VERB_in=   2718.6  N/V=   6.62
+  ob         (noun)  NOUN_in=   5623.1  VERB_in=   1344.9  N/V=   4.18
+  otter      (noun)  NOUN_in=  31187.6  VERB_in=  34227.1  N/V=   0.91
+  ou         (noun)  NOUN_in=   5650.0  VERB_in=   1360.6  N/V=   4.15
+  pa         (noun)  NOUN_in=   6224.9  VERB_in=   1341.4  N/V=   4.64
+  paisi      (noun)  NOUN_in=  22549.2  VERB_in=   3162.0  N/V=   7.13
+  pass       (verb)  NOUN_in=   2782.1  VERB_in=  41875.7  N/V=   0.07
+  pe         (noun)  NOUN_in=   5460.4  VERB_in=   1373.5  N/V=   3.98
+  porca!     (noun)  NOUN_in= 186306.6  VERB_in=  33766.2  N/V=   5.52
+  pour       (verb)  NOUN_in= 178308.9  VERB_in=  33197.9  N/V=   5.37
+  poursu     (noun)  NOUN_in= 226163.4  VERB_in=  34371.3  N/V=   6.58
+  pre        (noun)  NOUN_in=  13981.6  VERB_in=  13366.9  N/V=   1.05
+  pretend    (verb)  NOUN_in= 382699.8  VERB_in= 975893.2  N/V=   0.39
+  qu         (noun)  NOUN_in=   6014.3  VERB_in=   1329.1  N/V=   4.52
+  quo        (noun)  NOUN_in=  10987.6  VERB_in=   2023.6  N/V=   5.43
+  ran        (verb)  NOUN_in=  80482.6  VERB_in=  47937.8  N/V=   1.68
+  s          (noun)  NOUN_in= 572148.1  VERB_in=   5240.2  N/V= 109.18
+  sable      (noun)  NOUN_in=  16755.9  VERB_in=   2673.2  N/V=   6.27
+  sal        (noun)  NOUN_in=4946327.5  VERB_in=  16842.0  N/V= 293.69
+  salv       (noun)  NOUN_in=5039654.5  VERB_in=  19570.0  N/V= 257.52
+  salve      (noun)  NOUN_in=5039654.5  VERB_in=  19570.0  N/V= 257.52
+  sim        (noun)  NOUN_in= 115281.8  VERB_in=   4798.6  N/V=  24.02
+  st         (noun)  NOUN_in=  36860.2  VERB_in=   3110.1  N/V=  11.85
+  su         (noun)  NOUN_in=  48558.1  VERB_in=   2230.7  N/V=  21.77
+  t          (noun)  NOUN_in=  61797.6  VERB_in=   4337.2  N/V=  14.25
+  tend       (verb)  NOUN_in= 378017.3  VERB_in= 956463.0  N/V=   0.40
+  tered      (verb)  NOUN_in=   2029.2  VERB_in=  11735.9  N/V=   0.17
+  totter     (verb)  NOUN_in=  31487.9  VERB_in=  39648.9  N/V=   0.79
+  twill      (noun)  NOUN_in=  40854.3  VERB_in=  33990.8  N/V=   1.20
+  ve         (verb)  NOUN_in=   1362.4  VERB_in=   6290.0  N/V=   0.22
+  will       (verb)  NOUN_in=  35028.7  VERB_in=  33708.8  N/V=   1.04
+
+[10064.4s] === Held-out probe words + activation profile ===
+  passencore (HELDOUT)  NOUN_in=  15368.8  VERB_in=  57577.6  N/V=   0.27
+    activates: encore(v):0.64, core(n):0.63, pass(v):0.39, st(n):0.38, ask(v):0.29
+  exaggerated (HELDOUT)  NOUN_in=   3339.8  VERB_in=  18690.5  N/V=   0.18
+    activates: ated(v):1.0, ave(n):0.03, ed(n):0.03, porca!(n):0.03, totter(v):0.03
+  askes      (HELDOUT)  NOUN_in=  54992.7  VERB_in=  42179.8  N/V=   1.30
+    activates: ask(v):1.0, ex(n):0.75, pass(v):0.56, excel(n):0.52, L(n):0.15
+  poursuivant (HELDOUT)  NOUN_in= 244788.9  VERB_in=  34931.5  N/V=   7.01
+    activates: poursu(n):0.86, pour(v):0.73, porca!(n):0.68, su(n):0.34, st(n):0.18
+  stottered  (HELDOUT)  NOUN_in=  31670.9  VERB_in=  39834.9  N/V=   0.80
+    activates: totter(v):1.0, otter(n):0.97, C(n):0.04, ce(n):0.04, liar(n):0.04
+  Dobbelin   (HELDOUT)  NOUN_in=  23151.2  VERB_in=  17722.7  N/V=   1.31
+    activates: will(v):0.93, twill(n):0.55, lin(n):0.39, (Da(n):0.07, T(n):0.05
+  Agapemonides (HELDOUT)  NOUN_in=   6681.4  VERB_in=  12125.3  N/V=   0.55
+    activates: gape(v):0.97, ides(n):0.82, D(n):0.51, excel(n):0.04, ex(n):0.03
+  goliar's   (HELDOUT)  NOUN_in=   1669.0  VERB_in=   7119.8  N/V=   0.23
+    activates: go(v):0.93, Cave(n):0.03, encore(v):0.03, k(n):0.03, ran(v):0.03
+  porca      (HELDOUT)  NOUN_in= 186306.6  VERB_in=  33766.2  N/V=   5.52
+    activates: porca!(n):1.0, pour(v):0.9, poursu(n):0.7, su(n):0.19, Ca(n):0.04
+  salve      (HELDOUT)  NOUN_in=5039654.5  VERB_in=  19570.0  N/V= 257.52
+    activates: salv(n):1.0, salve(n):1.0, sal(n):0.87, kis(n):0.04, Cave(n):0.03
+  pretendant (HELDOUT)  NOUN_in= 403143.4  VERB_in= 976215.3  N/V=   0.41
+    activates: pretend(v):1.0, tend(v):0.81, en(n):0.57, enfranchi(n):0.49, ant(n):0.29
+  excelsissimost (HELDOUT)  NOUN_in=1045066.4  VERB_in=  21269.4  N/V=  49.13
+    activates: will(v):0.72, issim(n):0.46, sim(n):0.31, twill(n):0.27, excel(n):0.26
+  paisibly   (HELDOUT)  NOUN_in=   6620.3  VERB_in=   1584.0  N/V=   4.18
+    activates: paisi(n):0.77, issi(n):0.07, sable(n):0.05, ated(v):0.04, be(v):0.04
+  Lave       (HELDOUT)  NOUN_in=   5689.3  VERB_in=   1155.2  N/V=   4.92
+    activates: Cave(n):0.67, k(n):0.46, de(n):0.03, ise(n):0.03, (Da(n):0.02
+  Cave       (HELDOUT)  NOUN_in=  46805.2  VERB_in=   3807.5  N/V=  12.29
+    activates: Cave(n):1.0, k(n):0.78, f(n):0.03, go(v):0.03, ham(n):0.03
+  pourquose  (HELDOUT)  NOUN_in= 183126.2  VERB_in=  33848.6  N/V=   5.41
+    activates: pour(v):0.94, porca!(n):0.87, poursu(n):0.7, su(n):0.19, quo(n):0.13
+  Toucheaterre (HELDOUT)  NOUN_in=   3045.5  VERB_in=  95487.0  N/V=   0.03
+    activates: Touch(v):0.48, tend(v):0.48, pretend(v):0.46, en(n):0.13, enfranchi(n):0.12
+  Dor        (HELDOUT)  NOUN_in=   5571.3  VERB_in=   1359.7  N/V=   4.10
+    activates: Dor(n):1.0, ed(n):0.05, qu(n):0.03, Do(v):0.02, ant(n):0.02
+  Dare       (HELDOUT)  NOUN_in=    417.0  VERB_in=    429.0  N/V=   0.97
+    activates: st(n):0.04, moni(n):0.03, pa(n):0.03, porca!(n):0.03, poursu(n):0.03
+  enfranchisable (HELDOUT)  NOUN_in= 460412.7  VERB_in= 810331.1  N/V=   0.57
+    activates: enfranchi(n):0.97, en(n):0.67, pretend(v):0.55, tend(v):0.55, ant(n):0.47
+  reise      (HELDOUT)  NOUN_in=   5573.1  VERB_in=   1414.9  N/V=   3.94
+    activates: ise(n):0.96, eat(v):0.05, ated(v):0.04, ca(v):0.04, ch(n):0.04
+  kis        (HELDOUT)  NOUN_in= 886245.3  VERB_in=   6035.8  N/V= 146.83
+    activates: kis(n):1.0, issi(n):0.62, issim(n):0.4, sim(n):0.17, paisi(n):0.07
+  twilling   (HELDOUT)  NOUN_in=  41666.5  VERB_in=  34208.1  N/V=   1.22
+    activates: will(v):0.98, twill(n):0.9, lin(n):0.12, kes(n):0.05, T(n):0.04
+  hamissim   (HELDOUT)  NOUN_in= 993352.5  VERB_in=   9513.2  N/V= 104.42
+    activates: issim(n):0.84, sim(n):0.61, kis(n):0.35, issi(n):0.32, ham(n):0.17
+
+[10163.7s] Results written to: /Users/juliaquinn/finnegans-wake/projects/01-biological-language-organ/results/ngram2_phon_20260529-182913

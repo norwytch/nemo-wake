@@ -1,0 +1,91 @@
+{
+  "_comment": "Special-element annotation overlay for Book I Episode 5. Covers all non-standard printed elements per the Hart Concordance Symbols/Math pages. Source: Hart Concordance (rosenlake.net); 1939 Faber & Faber edition.",
+  "book": 1,
+  "episode": 5,
+  "source": "Hart Concordance Symbols page; McHugh (1976) pp. 133-134; 1939 edition text supplied for 121.03, 121.07, 124.09, 124.10.",
+  "encoding_note": "See data/annotations/README.md for the full sigla Unicode reference table.",
+  "sigla_legend": {
+    "Ǝ": {
+      "referent": "HCE",
+      "full_name": "Humphrey Chimpden Earwicker",
+      "unicode": "U+018E",
+      "unicode_name": "LATIN CAPITAL LETTER REVERSED E",
+      "concordance": "119.17 — 'E pointing down'",
+      "note": "The text describes it as 'the meant to be baffling chrismon trilithon sign...finally called after some his hes hecitency Hec'. Stripped by Trent, leaving 'sign , finally'."
+    },
+    "△": {
+      "referent": "ALP",
+      "full_name": "Anna Livia Plurabelle",
+      "unicode": "U+25B3",
+      "unicode_name": "WHITE UP-POINTING TRIANGLE",
+      "concordance": "119.18 — 'delta'",
+      "note": "The text describes it as 'the smaller...fontly called following a certain change of state of grace of nature alp or delta'. Stripped by Trent, leaving 'smaller , fontly'."
+    },
+    "Ⅎ": {
+      "referent": "F-variant (laterally inverted pair)",
+      "unicode": "U+2132",
+      "unicode_name": "TURNED CAPITAL F",
+      "concordance": "121.03 — 'upside-down backwards F'; 121.07 — 'upside-down F'",
+      "note": "McHugh (1976) p.136: 'laterally inverted pairs of Fs'. No standard Unicode equivalent; U+2132 is the closest. Both the 121.03 and 121.07 variants are represented by the same codepoint — they are distinguishable only by position."
+    },
+    "Λ": {
+      "referent": "lambda (mathematical/logical symbol)",
+      "unicode": "U+039B",
+      "unicode_name": "GREEK CAPITAL LETTER LAMDA",
+      "concordance": "124.09 — 'lambda'",
+      "note": "Appears between an arrow (124.08, → U+2192, confirmed in corpus) and an equals sign (124.10, = U+003D, confirmed in corpus). In the 1939 text: 'ay [Λ] fork, of à grave Brofèsor'. Joyce draws on Bertrand Russell's Introduction to Mathematical Philosophy (1919) throughout the math notation in I.5 and II.2."
+    }
+  },
+  "math": [
+    {
+      "concordance_page_line": "124.08",
+      "description": "arrow",
+      "character": "→",
+      "unicode": "U+2192",
+      "in_corpus": true,
+      "page_line": "124.08",
+      "note": "CONFIRMED IN CORPUS. → (U+2192 RIGHTWARDS ARROW) survives in I.5 line 124.08. 1939 context: 'pointed out → that they ad bîn \"provoked\"'."
+    },
+    {
+      "concordance_page_line": "124.10",
+      "description": "equals",
+      "character": "=",
+      "unicode": "U+003D",
+      "in_corpus": true,
+      "page_line": "124.10",
+      "note": "CONFIRMED IN CORPUS. = (U+003D) survives in I.5 line 124.10. 1939 text: 'to = introduce' — spaces stripped in telelib, producing 'to=introdùce'. The Trent line should preserve or restore the spaces. Confirmed as the concordance 124.10 equals sign, not a hyphenation artifact."
+    }
+  ],
+  "annotations": [
+    {
+      "page_line": "119.17",
+      "char_offset": -1,
+      "siglum": "Ǝ",
+      "note": "Concordance 119.17. Follows 'chrismon trilithon sign'; space before comma is the stripped siglum gap. 1939 context: 'sign [Ǝ], finally called after some his hes hecitency Hec'. char_offset is -1 pending verification against Trent corpus line 119.17."
+    },
+    {
+      "page_line": "119.18",
+      "char_offset": -1,
+      "siglum": "△",
+      "note": "Concordance 119.18. Follows 'smaller'; space before comma is the stripped siglum gap. 1939 context: 'as the smaller [△], fontly called following a certain change of state of grace of nature alp or delta'. char_offset is -1 pending verification against Trent corpus line 119.18."
+    },
+    {
+      "page_line": "121.03",
+      "char_offset": -1,
+      "siglum": "Ⅎ",
+      "note": "Concordance 121.03: 'upside-down backwards F'. 1939 text: 'page, broods [Ⅎ] sensationseeking an idea, amid the verbiage'. Corpus has 'broods sensationseeking' — siglum stripped, one space survives. char_offset is -1 pending verification against Trent corpus line 121.03."
+    },
+    {
+      "page_line": "121.07",
+      "char_offset": -1,
+      "siglum": "Ⅎ",
+      "note": "Concordance 121.07: 'upside-down F'. 1939 text: 'returns inhibited, with some half-halted suggestion, [Ⅎ], dragging'. Corpus has 'suggestion, , dragging' — siglum stripped between two commas; double-comma pattern is the detectable trace. char_offset is -1 pending verification against Trent corpus line 121.07."
+    },
+    {
+      "page_line": "124.09",
+      "char_offset": -1,
+      "siglum": "Λ",
+      "note": "Concordance 124.09: 'lambda'. 1939 text: 'ad bin \"provoked\" ay [Λ] fork, of à grave Brofèsor'. Corpus has 'ay fork' — siglum stripped, space survives. Arrow (124.08) and equals (124.10) confirmed in corpus. char_offset is -1 pending verification against Trent corpus line 124.09."
+    }
+  ]
+}

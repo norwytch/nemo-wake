@@ -1,0 +1,30 @@
+{
+  "_comment": "Special-element annotation overlay for Book I Episode 1. One concordance entry: page 18 line 36 ('F pointing down, F pointing up') — a pair of F-variant sigla embedded as initial letters of 'face to face'. Source: Hart Concordance Symbols page; McHugh (1976) p.136; 1939 Faber & Faber edition.",
+  "book": 1,
+  "episode": 1,
+  "source": "Hart Concordance Symbols page ('18.36: F pointing down, F pointing up'); McHugh (1976) p.136; 1939 edition text: 'Upwap and dump em, [F-down]ace to [F-up]ace! When a'",
+  "encoding_note": "See data/annotations/README.md for the full sigla Unicode reference table.",
+  "sigla_legend": {
+    "Ⅎ": {
+      "referent": "F-variant (laterally inverted pair)",
+      "unicode": "U+2132",
+      "unicode_name": "TURNED CAPITAL F",
+      "concordance": "018.36 — 'F pointing down, F pointing up'",
+      "note": "McHugh (1976) p.136: 'laterally inverted pairs of Fs to be encountered at 018.36, 121.03, 07 and 266.22'. The pair consists of an F and its mirror image; both are represented here by U+2132 since no Unicode distinguishes the two orientations. In the 1939 text they are the initial letters of 'face to face' — '[F-down]ace to [F-up]ace'. Both stripped without leaving any gap or space marker; 'ace to ace' is what survives in the corpus."
+    }
+  },
+  "annotations": [
+    {
+      "page_line": "018.36",
+      "char_offset": -1,
+      "siglum": "Ⅎ",
+      "note": "Concordance 018.36: 'F pointing down'. Initial letter of first 'face' in '[F-down]ace to [F-up]ace'. 1939 text: 'Upwap and dump em, [F-down]ace to [F-up]ace! When a part so ptee'. Corpus has 'dump em, ace to ace!' — both F characters stripped with no space gap. char_offset is -1 pending verification against Trent corpus line 018.36."
+    },
+    {
+      "page_line": "018.36",
+      "char_offset": -1,
+      "siglum": "Ⅎ",
+      "note": "Concordance 018.36: 'F pointing up'. Initial letter of second 'face' in '[F-down]ace to [F-up]ace'. Both F-variants are represented by U+2132; they are distinguishable only by their position (first vs. second) within line 018.36. char_offset is -1 pending verification against Trent corpus line 018.36."
+    }
+  ]
+}

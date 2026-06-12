@@ -1,0 +1,34 @@
+[   0.0s] ngram=2  units=1109  PHON_n=22180  CONTEXT_n=500
+  Training instances after class-balanced cap (max_per_lang=25):
+    de         25
+    en-us      25
+    fr-fr      25
+    it         25
+    la         25
+[  10.3s] Training 10 rounds × 125 instances
+  [ 313.9s] round 1/10
+  [ 617.6s] round 2/10
+  [ 922.7s] round 3/10
+  [1227.4s] round 4/10
+  [1532.9s] round 5/10
+  [1840.1s] round 6/10
+  [2150.0s] round 7/10
+  [2463.3s] round 8/10
+  [2793.0s] round 9/10
+  [3115.7s] round 10/10
+
+[3115.7s] === Probing 292 held-out lines ===
+
+=== Held-out attribution (top-1 ∈ gold) ===
+  Overall: 120/292 = 41.1%
+
+  Per-language recall (top1 == L | L ∈ gold):
+    de       1/40 = 2.5%
+    en-us    98/191 = 51.3%
+    fr-fr    8/28 = 28.6%
+    it       3/15 = 20.0%
+    la       10/40 = 25.0%
+
+  Foreign-gold subset (101 lines): 22/101 = 21.8%
+
+[3145.6s] Results: /Users/juliaquinn/finnegans-wake/projects/01-biological-language-organ/results/mlctx_ngram2_20260530-100148
