@@ -1,0 +1,970 @@
+{
+  "experiment": "ngram_phon",
+  "ngram": 1,
+  "n_scored": 24,
+  "mean_separation": {
+    "bpe-4000": 0.18584294360659195,
+    "unigram-4000": 0.16601871728409692,
+    "morfessor": 0.26431586160892445,
+    "flatcat": 0.32128060139718534
+  },
+  "mean_precision_at_k": {
+    "bpe-4000": 0.18333333333333332,
+    "unigram-4000": 0.15763888888888888,
+    "morfessor": 0.24637681159420288,
+    "flatcat": 0.446969696969697
+  },
+  "fweet_concordance": {
+    "bpe-4000": {
+      "matches": 16,
+      "total": 24
+    },
+    "unigram-4000": {
+      "matches": 13,
+      "total": 24
+    },
+    "morfessor": {
+      "matches": 16,
+      "total": 23
+    },
+    "flatcat": {
+      "matches": 16,
+      "total": 22
+    }
+  },
+  "nemo_fweet_agreement": {
+    "agree": 17,
+    "total": 20
+  },
+  "rows": [
+    {
+      "portmanteau": "passencore",
+      "page_line": "003.04",
+      "fweet_source_forms": [
+        "pas encore",
+        "passe encore"
+      ],
+      "scholarly_modal_count": 2,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.21546184738955798,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.04,
+          "n_constituents": 3
+        },
+        "unigram-4000": {
+          "separation": 0.21891566265060208,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.04,
+          "n_constituents": 3
+        },
+        "morfessor": {
+          "separation": 0.14464285714285685,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.04,
+          "n_constituents": 2
+        },
+        "flatcat": {
+          "separation": 0.14464285714285685,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.04,
+          "n_constituents": 2
+        }
+      },
+      "nemo_favoured": "unigram-4000",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "exaggerated",
+      "page_line": "003.07",
+      "fweet_source_forms": [
+        "exaggerare"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.13988095238095227,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.0625,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": -0.020763052208835453,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.0625,
+          "n_constituents": 3
+        },
+        "morfessor": {
+          "separation": 0.024136546184738872,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.0625,
+          "n_constituents": 3
+        },
+        "flatcat": {
+          "separation": 0.024136546184738872,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.0625,
+          "n_constituents": 3
+        }
+      },
+      "nemo_favoured": "bpe-4000",
+      "fweet_favoured": [
+        "bpe-4000"
+      ]
+    },
+    {
+      "portmanteau": "askes",
+      "page_line": "004.15",
+      "fweet_source_forms": [
+        "aske"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.49588235294117666,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.25,
+          "n_constituents": 1
+        },
+        "unigram-4000": {
+          "separation": 0.5869411764705883,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        },
+        "morfessor": {
+          "separation": 0.49588235294117666,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.25,
+          "n_constituents": 1
+        },
+        "flatcat": {
+          "separation": 0.5869411764705883,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "unigram-4000",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "poursuivant",
+      "page_line": "005.07",
+      "fweet_source_forms": [
+        "poursuivant"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.036829268292682904,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.14285714285714285,
+          "n_constituents": 4
+        },
+        "unigram-4000": {
+          "separation": 0.036829268292682904,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.14285714285714285,
+          "n_constituents": 4
+        },
+        "morfessor": {
+          "separation": 0.036829268292682904,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.14285714285714285,
+          "n_constituents": 4
+        },
+        "flatcat": {
+          "separation": 0.0968273092369476,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 3
+        }
+      },
+      "nemo_favoured": "flatcat",
+      "fweet_favoured": []
+    },
+    {
+      "portmanteau": "stottered",
+      "page_line": "006.09",
+      "fweet_source_forms": [
+        "stottern"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": -0.12380952380952376,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.02,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": 0.07847389558232937,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 3
+        },
+        "morfessor": {
+          "separation": 0.1510040160642569,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.125,
+          "n_constituents": 3
+        },
+        "flatcat": {
+          "separation": 0.07847389558232937,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 3
+        }
+      },
+      "nemo_favoured": "morfessor",
+      "fweet_favoured": [
+        "bpe-4000"
+      ]
+    },
+    {
+      "portmanteau": "Dobbelin",
+      "page_line": "007.12",
+      "fweet_source_forms": [
+        "dobbelen"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.008902439024390196,
+          "precision_at_k": 0.25,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 4
+        },
+        "unigram-4000": {
+          "separation": 0.02433734939759019,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1,
+          "n_constituents": 3
+        },
+        "morfessor": {
+          "separation": 0.02433734939759019,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1,
+          "n_constituents": 3
+        },
+        "flatcat": {
+          "separation": 0.02433734939759019,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1,
+          "n_constituents": 3
+        }
+      },
+      "nemo_favoured": "unigram-4000",
+      "fweet_favoured": []
+    },
+    {
+      "portmanteau": "Agapemonides",
+      "page_line": "007.16",
+      "fweet_source_forms": [
+        "agapêmonides"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.032690763052208915,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.045454545454545456,
+          "n_constituents": 3
+        },
+        "unigram-4000": {
+          "separation": 0.017925925925926012,
+          "precision_at_k": 0.2,
+          "reciprocal_rank": 0.25,
+          "n_constituents": 5
+        },
+        "morfessor": {
+          "separation": -0.01585365853658527,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.025,
+          "n_constituents": 4
+        },
+        "flatcat": {
+          "separation": -0.005176470588235227,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.0196078431372549,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "bpe-4000",
+      "fweet_favoured": [
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "goliar's",
+      "page_line": "008.20",
+      "fweet_source_forms": [
+        "goliard"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.26795180722891543,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 3
+        },
+        "unigram-4000": {
+          "separation": 0.26795180722891543,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 3
+        },
+        "morfessor": {
+          "separation": 0.26795180722891543,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 3
+        },
+        "flatcat": {
+          "separation": 0.26795180722891543,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 3
+        }
+      },
+      "nemo_favoured": "bpe-4000",
+      "fweet_favoured": []
+    },
+    {
+      "portmanteau": "porca",
+      "page_line": "009.36",
+      "fweet_source_forms": [
+        "pòrca"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.35647058823529415,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1,
+          "n_constituents": 1
+        },
+        "unigram-4000": {
+          "separation": 0.35647058823529415,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "bpe-4000",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000"
+      ]
+    },
+    {
+      "portmanteau": "salve",
+      "page_line": "012.34",
+      "fweet_source_forms": [
+        "salve"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.12071428571428572,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": 0.223095238095238,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 2
+        },
+        "morfessor": {
+          "separation": 0.589764705882353,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "n_constituents": 1
+        },
+        "flatcat": {
+          "separation": 0.589764705882353,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "morfessor",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "pretendant",
+      "page_line": "013.11",
+      "fweet_source_forms": [
+        "prétendant"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.18188755020080316,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 3
+        },
+        "unigram-4000": {
+          "separation": 0.18188755020080316,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 3
+        },
+        "morfessor": {
+          "separation": 0.38107142857142845,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 2
+        },
+        "flatcat": {
+          "separation": 0.38107142857142845,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 2
+        }
+      },
+      "nemo_favoured": "morfessor",
+      "fweet_favoured": [
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "excelsissimost",
+      "page_line": "014.19",
+      "fweet_source_forms": [
+        "excelsissimus"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.3939634146341463,
+          "precision_at_k": 0.25,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 4
+        },
+        "unigram-4000": {
+          "separation": 0.23402439024390215,
+          "precision_at_k": 0.25,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 4
+        },
+        "morfessor": {
+          "separation": 0.4367068273092367,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 3
+        },
+        "flatcat": {
+          "separation": 0.4367068273092367,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 3
+        }
+      },
+      "nemo_favoured": "morfessor",
+      "fweet_favoured": []
+    },
+    {
+      "portmanteau": "paisibly",
+      "page_line": "014.30",
+      "fweet_source_forms": [
+        "paisible"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": -0.08011904761904765,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.023809523809523808,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": -0.08011904761904765,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.023809523809523808,
+          "n_constituents": 2
+        },
+        "morfessor": {
+          "separation": 0.3912941176470588,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        },
+        "flatcat": {
+          "separation": 0.3912941176470588,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "morfessor",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "Lave",
+      "page_line": "015.24",
+      "fweet_source_forms": [
+        "lave"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.07761904761904764,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": 0.07761904761904764,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "n_constituents": 2
+        },
+        "morfessor": {
+          "separation": 0.07761904761904764,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "n_constituents": 2
+        },
+        "flatcat": {
+          "separation": 0.2311904761904761,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 2
+        }
+      },
+      "nemo_favoured": "flatcat",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "Cave",
+      "page_line": "016.03",
+      "fweet_source_forms": [
+        "cave!"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.12285714285714266,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.034482758620689655,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": 0.06654761904761886,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.125,
+          "n_constituents": 2
+        },
+        "morfessor": {
+          "separation": 0.682941176470588,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        },
+        "flatcat": {
+          "separation": 0.682941176470588,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "morfessor",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "pourquose",
+      "page_line": "018.31",
+      "fweet_source_forms": [
+        "pourquoi"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.08238095238095233,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.041666666666666664,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": 0.08439024390243893,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1,
+          "n_constituents": 4
+        },
+        "morfessor": {
+          "separation": 0.07726190476190464,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.04,
+          "n_constituents": 2
+        },
+        "flatcat": {
+          "separation": 0.07726190476190464,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.04,
+          "n_constituents": 2
+        }
+      },
+      "nemo_favoured": "unigram-4000",
+      "fweet_favoured": [
+        "bpe-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "Toucheaterre",
+      "page_line": "019.14",
+      "fweet_source_forms": [
+        "toucher terre"
+      ],
+      "scholarly_modal_count": 2,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.05726190476190485,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.25,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": 0.32857142857142874,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.25,
+          "n_constituents": 2
+        },
+        "morfessor": {
+          "separation": 0.20059523809523822,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 2
+        },
+        "flatcat": {
+          "separation": 0.20059523809523822,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 2
+        }
+      },
+      "nemo_favoured": "unigram-4000",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "Dor",
+      "page_line": "020.18",
+      "fweet_source_forms": [
+        "dor"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.2515294117647058,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1111111111111111,
+          "n_constituents": 1
+        },
+        "unigram-4000": {
+          "separation": 0.2515294117647058,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1111111111111111,
+          "n_constituents": 1
+        },
+        "morfessor": {
+          "separation": 0.5550588235294116,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 1
+        },
+        "flatcat": {
+          "separation": 0.8687058823529411,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "flatcat",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "Dare",
+      "page_line": "022.23",
+      "fweet_source_forms": [
+        "dare"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.10178571428571445,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1111111111111111,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": 0.10178571428571445,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.1111111111111111,
+          "n_constituents": 2
+        },
+        "morfessor": {
+          "separation": -0.025882352941176204,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.05263157894736842,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "bpe-4000",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor"
+      ]
+    },
+    {
+      "portmanteau": "enfranchisable",
+      "page_line": "024.27",
+      "fweet_source_forms": [
+        "en franchise",
+        "infranchissable"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.2240246913580246,
+          "precision_at_k": 0.4,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 5
+        },
+        "unigram-4000": {
+          "separation": 0.40236947791164646,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 3
+        },
+        "morfessor": {
+          "separation": 0.5067857142857142,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 2
+        },
+        "flatcat": {
+          "separation": 0.4555952380952381,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 2
+        }
+      },
+      "nemo_favoured": "morfessor",
+      "fweet_favoured": [
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "reise",
+      "page_line": "025.32",
+      "fweet_source_forms": [
+        "Reise"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.4621176470588236,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        },
+        "unigram-4000": {
+          "separation": 0.10416666666666674,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 2
+        },
+        "morfessor": {
+          "separation": 0.4621176470588236,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        },
+        "flatcat": {
+          "separation": 0.4621176470588236,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "bpe-4000",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "kis",
+      "page_line": "026.03",
+      "fweet_source_forms": [
+        "kis"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.5857647058823529,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        },
+        "unigram-4000": {
+          "separation": 0.03476190476190466,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.05,
+          "n_constituents": 2
+        },
+        "morfessor": {
+          "separation": 0.03476190476190466,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.05,
+          "n_constituents": 2
+        },
+        "flatcat": {
+          "separation": 0.03476190476190466,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.05,
+          "n_constituents": 2
+        }
+      },
+      "nemo_favoured": "bpe-4000",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "twilling",
+      "page_line": "029.08",
+      "fweet_source_forms": [
+        "tvilling"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.21750000000000003,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "n_constituents": 2
+        },
+        "unigram-4000": {
+          "separation": 0.21750000000000003,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "n_constituents": 2
+        },
+        "morfessor": {
+          "separation": 0.21750000000000003,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.3333333333333333,
+          "n_constituents": 2
+        },
+        "flatcat": {
+          "separation": 0.6752941176470588,
+          "precision_at_k": 1.0,
+          "reciprocal_rank": 1.0,
+          "n_constituents": 1
+        }
+      },
+      "nemo_favoured": "flatcat",
+      "fweet_favoured": [
+        "bpe-4000",
+        "unigram-4000",
+        "morfessor",
+        "flatcat"
+      ]
+    },
+    {
+      "portmanteau": "hamissim",
+      "page_line": "029.33",
+      "fweet_source_forms": [
+        "khamishim"
+      ],
+      "scholarly_modal_count": 1,
+      "per_segmenter": {
+        "bpe-4000": {
+          "separation": 0.23068273092369457,
+          "precision_at_k": 0.3333333333333333,
+          "reciprocal_rank": 0.3333333333333333,
+          "n_constituents": 3
+        },
+        "unigram-4000": {
+          "separation": 0.18923694779116462,
+          "precision_at_k": 0.0,
+          "reciprocal_rank": 0.07692307692307693,
+          "n_constituents": 3
+        },
+        "morfessor": {
+          "separation": 0.3627380952380952,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 2
+        },
+        "flatcat": {
+          "separation": 0.3627380952380952,
+          "precision_at_k": 0.5,
+          "reciprocal_rank": 0.5,
+          "n_constituents": 2
+        }
+      },
+      "nemo_favoured": "morfessor",
+      "fweet_favoured": [
+        "morfessor",
+        "flatcat"
+      ]
+    }
+  ]
+}

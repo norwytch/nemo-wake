@@ -224,7 +224,8 @@ data/tokenizers/
 data/ipa/
 data/audio/
 data/finnegans_wake.txt
-results/
+results/*
+!results/summary/
 
 # Marimo
 marimo/_static/

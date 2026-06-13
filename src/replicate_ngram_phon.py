@@ -35,6 +35,8 @@ import sys
 import time
 from pathlib import Path
 
+import numpy as np
+
 from _common import (
     add_nemo_to_path,
     ensure_hash_seed,
@@ -71,6 +73,12 @@ def parse_args():
     p.add_argument("--beta", type=float, default=0.06)
     p.add_argument("--proj-rounds", type=int, default=2)
     p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--clamp", type=float, default=None,
+                   help="If set, clip all connectome weights to this max after each "
+                        "training round (wrapper-side; nemo-core left unmodified). "
+                        "Prevents float32 Hebbian overflow on sparse-PHON (bag) runs. "
+                        "Use e.g. 1e6 — well above legitimate assembly weights, far "
+                        "below the ~1e38 float32 overflow ceiling.")
     return p.parse_args()
 
 
@@ -118,6 +126,23 @@ def load_lexicon(path: Path, ngram: int):
         w["motor_idx"] = None
     meta = {k: v for k, v in data.items() if k not in ("training_words", "probe_words")}
     return train, probe, unit_to_idx, visual_counter, motor_counter, meta
+
+
+def clamp_weights(b, w_max):
+    """Clip every connectome (area->area and stimulus->area) to w_max in place.
+
+    Wrapper-side equivalent of a per-projection weight clamp in brain.py. Keeps
+    nemo-core pristine while bounding float32 Hebbian weight growth so sparse-PHON
+    (bag/ngram=1) runs don't overflow to ~1e33 and saturate to nonsense.
+    """
+    for dst_map in b.connectomes.values():
+        for arr in dst_map.values():
+            if arr.size:
+                np.clip(arr, None, w_max, out=arr)
+    for area_map in b.connectomes_by_stimulus.values():
+        for arr in area_map.values():
+            if arr.size:
+                np.clip(arr, None, w_max, out=arr)
 
 
 def build_brain(unit_to_idx, num_visual, num_motor, args):
@@ -213,6 +238,7 @@ def main():
         "rounds": args.rounds, "n": args.n, "lex_k": args.lex_k,
         "phon_k": args.phon_k, "ctx_k": args.ctx_k, "p": args.p,
         "beta": args.beta, "proj_rounds": args.proj_rounds, "seed": args.seed,
+        "clamp": args.clamp,
     })
 
     t0 = time.time()
@@ -224,6 +250,8 @@ def main():
     for r in range(args.rounds):
         for w in train:
             train_word(b, w, unit_to_idx, args)
+        if args.clamp is not None:
+            clamp_weights(b, args.clamp)
         if (r + 1) % 10 == 0 or r == args.rounds - 1:
             print(f"  [{time.time()-t0:6.1f}s] round {r+1}/{args.rounds}", flush=True)
 

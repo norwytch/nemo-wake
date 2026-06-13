@@ -30,7 +30,7 @@
 ### New findings on Wake-applied model
 
 - Wake-derived 5N+5V lexicon converges in **3 rounds** vs ~30 for toy 2N+2V. More co-firing variety accelerates rather than slows convergence. Single data point; worth confirming.
-- Tutoring effect on 5N+5V: **10–14% reduction** in word-presentations, not the 40% in README idea #7. Effect barely scales with frequency (freq=2 ≈ freq=10).
+- Tutoring effect on 5N+5V: **10–14% reduction** in word-presentations, well below the ~40% originally hypothesized for the (now-retired) individual-word-tutoring idea. Effect barely scales with frequency (freq=2 ≈ freq=10).
 - Wake-distinctive items (`vicus`, `riverrun`) sort into their assigned hubs as cleanly as English ones — confirming the POS tag IS the supervision signal, not a feature of the word itself.
 
 ### Central design limitation

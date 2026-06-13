@@ -46,6 +46,10 @@ def parse_args():
                    help="Optional class-balanced cap to match the NEMO run.")
     p.add_argument("--smoothing", type=float, default=1.0, help="Laplace alpha.")
     p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--dedup-line", action="store_true",
+                   help="Score each line's bigrams as a set (one occurrence each), "
+                        "matching NEMO's set-union PHON firing, instead of the standard "
+                        "multiset LangID (repeats counted).")
     p.add_argument("--output", type=Path, required=True)
     return p.parse_args()
 
@@ -146,6 +150,8 @@ def main():
         bigrams_in_line = []
         for t in ln["tokens"]:
             bigrams_in_line.extend(word_units(t["phonemes"], args.ngram))
+        if args.dedup_line:
+            bigrams_in_line = sorted(set(bigrams_in_line))
         gold = ln["gold_languages"]
         freq_results.append({
             "page_line": ln["page_line"], "split": ln["split"],
@@ -174,6 +180,7 @@ def main():
         "ngram": args.ngram,
         "max_per_lang": args.max_per_lang,
         "smoothing": args.smoothing,
+        "dedup_line": args.dedup_line,
         "languages": languages,
         "training_instances_by_language": dict(lang_counts),
         "training_bigrams_by_language": total_per_lang,

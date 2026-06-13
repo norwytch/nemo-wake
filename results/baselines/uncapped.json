@@ -4,6 +4,7 @@
   "ngram": 2,
   "max_per_lang": null,
   "smoothing": 1.0,
+  "dedup_line": false,
   "languages": [
     "de",
     "en-us",

@@ -4,7 +4,7 @@
   "ngram": 2,
   "max_per_lang": 100,
   "smoothing": 1.0,
-  "dedup_line": false,
+  "dedup_line": true,
   "languages": [
     "de",
     "en-us",
@@ -8882,23 +8882,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -167.048
+          "score": -163.0917
         },
         {
           "language": "de",
-          "score": -171.6335
+          "score": -166.8727
         },
         {
           "language": "fr-fr",
-          "score": -176.7774
+          "score": -170.2164
         },
         {
           "language": "it",
-          "score": -177.0739
+          "score": -170.6218
         },
         {
           "language": "la",
-          "score": -177.4198
+          "score": -171.2875
         }
       ]
     },
@@ -8943,23 +8943,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -190.219
+          "score": -183.3935
         },
         {
           "language": "en-us",
-          "score": -190.3981
+          "score": -183.7337
         },
         {
           "language": "it",
-          "score": -190.6711
+          "score": -184.219
         },
         {
           "language": "de",
-          "score": -191.3177
+          "score": -184.7652
         },
         {
           "language": "fr-fr",
-          "score": -192.9597
+          "score": -186.3987
         }
       ]
     },
@@ -8973,23 +8973,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -188.7152
+          "score": -184.7589
         },
         {
           "language": "de",
-          "score": -191.6965
+          "score": -185.8371
         },
         {
           "language": "it",
-          "score": -194.6382
+          "score": -188.1862
         },
         {
           "language": "la",
-          "score": -195.3059
+          "score": -189.8668
         },
         {
           "language": "fr-fr",
-          "score": -197.4413
+          "score": -192.2666
         }
       ]
     },
@@ -9003,23 +9003,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -200.3701
+          "score": -195.3151
         },
         {
           "language": "fr-fr",
-          "score": -202.7032
+          "score": -196.8353
         },
         {
           "language": "la",
-          "score": -204.0108
-        },
-        {
-          "language": "de",
-          "score": -204.9838
+          "score": -197.8785
         },
         {
           "language": "it",
-          "score": -205.4629
+          "score": -200.1095
+        },
+        {
+          "language": "de",
+          "score": -200.7339
         }
       ]
     },
@@ -9034,23 +9034,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -206.469
+          "score": -167.1028
         },
         {
           "language": "en-us",
-          "score": -207.3311
+          "score": -171.5035
         },
         {
           "language": "la",
-          "score": -208.6035
+          "score": -171.6397
         },
         {
           "language": "it",
-          "score": -210.4327
+          "score": -171.7204
         },
         {
           "language": "de",
-          "score": -210.9753
+          "score": -172.3534
         }
       ]
     },
@@ -9064,23 +9064,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -193.3002
+          "score": -173.445
         },
         {
           "language": "la",
-          "score": -197.2261
-        },
-        {
-          "language": "de",
-          "score": -198.3543
+          "score": -174.4886
         },
         {
           "language": "fr-fr",
-          "score": -198.7448
+          "score": -175.2733
+        },
+        {
+          "language": "de",
+          "score": -175.3224
         },
         {
           "language": "it",
-          "score": -202.9998
+          "score": -177.8848
         }
       ]
     },
@@ -9094,23 +9094,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -179.0107
+          "score": -156.1598
         },
         {
           "language": "de",
-          "score": -180.1601
-        },
-        {
-          "language": "it",
-          "score": -182.1396
+          "score": -156.2526
         },
         {
           "language": "fr-fr",
-          "score": -182.933
+          "score": -157.382
+        },
+        {
+          "language": "it",
+          "score": -157.43
         },
         {
           "language": "la",
-          "score": -185.9193
+          "score": -159.3106
         }
       ]
     },
@@ -9124,23 +9124,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -150.7437
+          "score": -145.6887
         },
         {
           "language": "de",
-          "score": -153.48
+          "score": -146.9275
         },
         {
           "language": "la",
-          "score": -156.6952
+          "score": -149.8698
         },
         {
           "language": "it",
-          "score": -157.43
+          "score": -150.978
         },
         {
           "language": "fr-fr",
-          "score": -160.1546
+          "score": -153.5935
         }
       ]
     },
@@ -9154,23 +9154,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -222.0465
+          "score": -209.8355
         },
         {
           "language": "la",
-          "score": -223.786
+          "score": -211.9269
         },
         {
           "language": "fr-fr",
-          "score": -224.4294
+          "score": -212.0004
         },
         {
           "language": "en-us",
-          "score": -225.6616
+          "score": -212.3328
         },
         {
           "language": "de",
-          "score": -226.8261
+          "score": -214.4143
         }
       ]
     },
@@ -9184,23 +9184,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -164.3602
+          "score": -151.7245
         },
         {
           "language": "de",
-          "score": -165.9564
+          "score": -153.5446
         },
         {
           "language": "la",
-          "score": -166.9292
+          "score": -154.8877
         },
         {
           "language": "it",
-          "score": -168.2547
+          "score": -155.3506
         },
         {
           "language": "fr-fr",
-          "score": -170.9095
+          "score": -157.7874
         }
       ]
     },
@@ -9241,27 +9241,27 @@
       "gold_languages": [
         "la"
       ],
-      "top1": "en-us",
+      "top1": "fr-fr",
       "profile": [
         {
-          "language": "en-us",
-          "score": -181.0902
-        },
-        {
           "language": "fr-fr",
-          "score": -181.4289
+          "score": -174.8678
         },
         {
-          "language": "la",
-          "score": -184.0867
+          "language": "en-us",
+          "score": -175.5244
         },
         {
           "language": "it",
-          "score": -184.3368
+          "score": -177.8848
+        },
+        {
+          "language": "la",
+          "score": -177.9544
         },
         {
           "language": "de",
-          "score": -185.2352
+          "score": -178.6827
         }
       ]
     },
@@ -9305,23 +9305,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -218.0483
-        },
-        {
-          "language": "fr-fr",
-          "score": -224.725
-        },
-        {
-          "language": "de",
-          "score": -225.8453
+          "score": -178.3821
         },
         {
           "language": "it",
-          "score": -227.7094
+          "score": -182.5451
+        },
+        {
+          "language": "fr-fr",
+          "score": -182.7098
+        },
+        {
+          "language": "de",
+          "score": -183.1558
         },
         {
           "language": "la",
-          "score": -229.7085
+          "score": -185.5138
         }
       ]
     },
@@ -9335,23 +9335,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -167.0924
-        },
-        {
-          "language": "de",
-          "score": -181.8749
+          "score": -142.4053
         },
         {
           "language": "fr-fr",
-          "score": -185.3001
+          "score": -152.4949
+        },
+        {
+          "language": "de",
+          "score": -153.389
         },
         {
           "language": "la",
-          "score": -185.6316
+          "score": -153.9892
         },
         {
           "language": "it",
-          "score": -186.4163
+          "score": -154.156
         }
       ]
     },
@@ -9398,23 +9398,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -219.2321
+          "score": -192.0193
         },
         {
           "language": "de",
-          "score": -228.2389
+          "score": -198.6544
         },
         {
           "language": "la",
-          "score": -232.5166
+          "score": -203.1768
         },
         {
           "language": "it",
-          "score": -235.5478
+          "score": -203.2875
         },
         {
           "language": "fr-fr",
-          "score": -236.9898
+          "score": -205.571
         }
       ]
     },
@@ -9424,27 +9424,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "la",
+      "top1": "it",
       "profile": [
         {
-          "language": "la",
-          "score": -169.3259
-        },
-        {
-          "language": "fr-fr",
-          "score": -170.3863
+          "language": "it",
+          "score": -107.6054
         },
         {
           "language": "en-us",
-          "score": -171.909
+          "score": -108.0375
         },
         {
-          "language": "it",
-          "score": -172.1259
+          "language": "fr-fr",
+          "score": -108.3595
+        },
+        {
+          "language": "la",
+          "score": -109.389
         },
         {
           "language": "de",
-          "score": -174.1451
+          "score": -110.0063
         }
       ]
     },
@@ -9458,23 +9458,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -185.9508
+          "score": -158.0041
         },
         {
           "language": "la",
-          "score": -196.3507
-        },
-        {
-          "language": "it",
-          "score": -201.0903
+          "score": -167.1932
         },
         {
           "language": "de",
-          "score": -201.2447
+          "score": -169.1753
+        },
+        {
+          "language": "it",
+          "score": -169.9287
         },
         {
           "language": "fr-fr",
-          "score": -203.5969
+          "score": -171.4849
         }
       ]
     },
@@ -9488,23 +9488,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -176.9473
+          "score": -139.3729
         },
         {
           "language": "it",
-          "score": -178.8656
+          "score": -140.1533
         },
         {
           "language": "en-us",
-          "score": -180.6528
+          "score": -140.6664
         },
         {
           "language": "de",
-          "score": -180.6976
+          "score": -141.3826
         },
         {
           "language": "la",
-          "score": -184.639
+          "score": -145.478
         }
       ]
     },
@@ -9518,23 +9518,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -219.2729
+          "score": -213.7071
         },
         {
           "language": "fr-fr",
-          "score": -230.5849
+          "score": -224.0239
         },
         {
           "language": "de",
-          "score": -231.2992
+          "score": -224.7467
         },
         {
           "language": "it",
-          "score": -233.0629
+          "score": -226.6108
         },
         {
           "language": "la",
-          "score": -234.1668
+          "score": -227.3414
         }
       ]
     },
@@ -9548,23 +9548,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -182.4563
-        },
-        {
-          "language": "de",
-          "score": -187.4465
-        },
-        {
-          "language": "la",
-          "score": -188.0105
+          "score": -174.5436
         },
         {
           "language": "it",
-          "score": -189.2848
+          "score": -176.3807
+        },
+        {
+          "language": "la",
+          "score": -176.439
+        },
+        {
+          "language": "de",
+          "score": -176.8264
         },
         {
           "language": "fr-fr",
-          "score": -190.1871
+          "score": -178.4514
         }
       ]
     },
@@ -9578,23 +9578,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -179.2985
+          "score": -174.5525
         },
         {
           "language": "en-us",
-          "score": -184.2243
-        },
-        {
-          "language": "fr-fr",
-          "score": -185.7563
+          "score": -179.3517
         },
         {
           "language": "it",
-          "score": -185.8191
+          "score": -180.4656
+        },
+        {
+          "language": "fr-fr",
+          "score": -180.987
         },
         {
           "language": "de",
-          "score": -187.0411
+          "score": -182.2803
         }
       ]
     },
@@ -9669,23 +9669,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -194.6924
+          "score": -183.8141
         },
         {
           "language": "en-us",
-          "score": -195.9313
+          "score": -184.3942
         },
         {
           "language": "it",
-          "score": -196.2383
+          "score": -185.1259
         },
         {
           "language": "fr-fr",
-          "score": -198.2498
+          "score": -186.9195
         },
         {
           "language": "de",
-          "score": -201.9379
+          "score": -191.3177
         }
       ]
     },
@@ -9699,23 +9699,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -153.6103
+          "score": -142.361
         },
         {
           "language": "la",
-          "score": -157.2957
+          "score": -145.4365
         },
         {
           "language": "it",
-          "score": -158.5286
+          "score": -145.6245
         },
         {
           "language": "fr-fr",
-          "score": -161.9463
+          "score": -148.8243
         },
         {
           "language": "de",
-          "score": -162.0209
+          "score": -148.9159
         }
       ]
     },
@@ -9729,23 +9729,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -221.7791
-        },
-        {
-          "language": "la",
-          "score": -223.0929
+          "score": -192.616
         },
         {
           "language": "it",
-          "score": -226.3231
+          "score": -194.0629
+        },
+        {
+          "language": "la",
+          "score": -194.3409
         },
         {
           "language": "de",
-          "score": -227.5725
+          "score": -195.5031
         },
         {
           "language": "fr-fr",
-          "score": -232.0382
+          "score": -199.9262
         }
       ]
     },
@@ -9759,23 +9759,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -177.2198
+          "score": -166.5646
         },
         {
           "language": "en-us",
-          "score": -177.689
-        },
-        {
-          "language": "fr-fr",
-          "score": -180.448
+          "score": -168.1668
         },
         {
           "language": "it",
-          "score": -181.1588
+          "score": -168.9478
+        },
+        {
+          "language": "fr-fr",
+          "score": -169.4054
         },
         {
           "language": "de",
-          "score": -183.3789
+          "score": -170.9671
         }
       ]
     },
@@ -9849,23 +9849,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -162.7916
+          "score": -156.8203
         },
         {
           "language": "fr-fr",
-          "score": -166.4787
+          "score": -159.9177
         },
         {
           "language": "de",
-          "score": -167.0959
+          "score": -160.5434
         },
         {
           "language": "it",
-          "score": -168.2547
+          "score": -161.8026
         },
         {
           "language": "la",
-          "score": -169.3904
+          "score": -162.5649
         }
       ]
     },
@@ -9879,23 +9879,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -218.6124
+          "score": -194.4396
         },
         {
           "language": "la",
-          "score": -225.067
+          "score": -198.4583
         },
         {
           "language": "it",
-          "score": -226.7286
+          "score": -200.9204
         },
         {
           "language": "fr-fr",
-          "score": -227.8793
+          "score": -202.3284
         },
         {
           "language": "de",
-          "score": -229.9396
+          "score": -204.4228
         }
       ]
     },
@@ -9939,23 +9939,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -203.8766
+          "score": -191.9341
         },
         {
           "language": "la",
-          "score": -208.9194
+          "score": -196.8779
         },
         {
           "language": "it",
-          "score": -210.4327
-        },
-        {
-          "language": "de",
-          "score": -210.9753
+          "score": -197.5286
         },
         {
           "language": "fr-fr",
-          "score": -211.2565
+          "score": -198.1345
+        },
+        {
+          "language": "de",
+          "score": -198.5634
         }
       ]
     },
@@ -9965,27 +9965,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "it",
       "profile": [
         {
+          "language": "it",
+          "score": -155.6383
+        },
+        {
           "language": "en-us",
-          "score": -178.2892
+          "score": -157.153
         },
         {
           "language": "de",
-          "score": -179.2438
-        },
-        {
-          "language": "it",
-          "score": -179.2492
+          "score": -157.6389
         },
         {
           "language": "fr-fr",
-          "score": -183.6261
+          "score": -158.7683
         },
         {
           "language": "la",
-          "score": -186.3247
+          "score": -160.4092
         }
       ]
     },
@@ -9999,23 +9999,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -250.743
+          "score": -216.7217
         },
         {
           "language": "it",
-          "score": -254.5944
+          "score": -218.7725
         },
         {
           "language": "de",
-          "score": -255.5351
-        },
-        {
-          "language": "fr-fr",
-          "score": -256.9832
+          "score": -221.1899
         },
         {
           "language": "en-us",
-          "score": -257.1149
+          "score": -221.8106
+        },
+        {
+          "language": "fr-fr",
+          "score": -221.8937
         }
       ]
     },
@@ -10029,23 +10029,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -174.5109
+          "score": -149.6451
         },
         {
           "language": "la",
-          "score": -179.2992
+          "score": -154.2999
         },
         {
           "language": "fr-fr",
-          "score": -181.4289
-        },
-        {
-          "language": "it",
-          "score": -182.5451
+          "score": -155.8779
         },
         {
           "language": "de",
-          "score": -182.568
+          "score": -156.358
+        },
+        {
+          "language": "it",
+          "score": -158.1232
         }
       ]
     },
@@ -10089,23 +10089,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -205.522
+          "score": -163.9663
         },
         {
           "language": "de",
-          "score": -213.3689
+          "score": -168.1945
         },
         {
           "language": "en-us",
-          "score": -213.6545
+          "score": -168.39
         },
         {
           "language": "fr-fr",
-          "score": -214.0799
+          "score": -168.8458
         },
         {
           "language": "it",
-          "score": -214.8053
+          "score": -169.641
         }
       ]
     },
@@ -10181,23 +10181,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -198.534
+          "score": -180.3325
         },
         {
           "language": "it",
-          "score": -201.4958
+          "score": -182.1396
         },
         {
           "language": "de",
-          "score": -202.8133
+          "score": -183.8489
         },
         {
           "language": "fr-fr",
-          "score": -204.4078
+          "score": -185.4179
         },
         {
           "language": "la",
-          "score": -207.7819
+          "score": -188.4042
         }
       ]
     },
@@ -10241,23 +10241,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -145.0402
+          "score": -140.2709
         },
         {
           "language": "it",
-          "score": -145.7726
+          "score": -140.4192
         },
         {
           "language": "la",
-          "score": -145.9828
+          "score": -141.2368
         },
         {
           "language": "en-us",
-          "score": -146.8281
+          "score": -141.9555
         },
         {
           "language": "de",
-          "score": -147.4383
+          "score": -142.6776
         }
       ]
     },
@@ -10271,23 +10271,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -173.4898
-        },
-        {
-          "language": "la",
-          "score": -174.8611
+          "score": -143.0298
         },
         {
           "language": "en-us",
-          "score": -176.623
+          "score": -143.9941
+        },
+        {
+          "language": "la",
+          "score": -144.8769
         },
         {
           "language": "it",
-          "score": -178.1725
+          "score": -145.9122
         },
         {
           "language": "fr-fr",
-          "score": -179.1445
+          "score": -147.0325
         }
       ]
     },
@@ -10331,23 +10331,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -214.7835
-        },
-        {
-          "language": "de",
-          "score": -216.0739
-        },
-        {
-          "language": "en-us",
-          "score": -218.4218
+          "score": -197.2191
         },
         {
           "language": "la",
-          "score": -218.7805
+          "score": -198.9973
+        },
+        {
+          "language": "de",
+          "score": -199.4121
         },
         {
           "language": "fr-fr",
-          "score": -219.6964
+          "score": -200.7065
+        },
+        {
+          "language": "en-us",
+          "score": -201.4243
         }
       ]
     },
@@ -10391,23 +10391,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -203.3013
-        },
-        {
-          "language": "la",
-          "score": -208.0721
+          "score": -185.3875
         },
         {
           "language": "it",
-          "score": -208.7587
+          "score": -189.4026
+        },
+        {
+          "language": "la",
+          "score": -189.5416
         },
         {
           "language": "fr-fr",
-          "score": -208.9051
+          "score": -189.9152
         },
         {
           "language": "de",
-          "score": -209.1835
+          "score": -190.6246
         }
       ]
     },
@@ -10421,23 +10421,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -216.725
+          "score": -205.2713
         },
         {
           "language": "fr-fr",
-          "score": -219.5911
+          "score": -206.469
         },
         {
           "language": "en-us",
-          "score": -220.2136
+          "score": -208.2711
         },
         {
           "language": "it",
-          "score": -222.6437
+          "score": -209.7396
         },
         {
           "language": "de",
-          "score": -223.0995
+          "score": -209.9944
         }
       ]
     },
@@ -10451,23 +10451,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -216.5202
+          "score": -203.4152
         },
         {
           "language": "en-us",
-          "score": -216.7592
+          "score": -203.4303
         },
         {
           "language": "it",
-          "score": -218.7725
+          "score": -205.8684
         },
         {
           "language": "la",
-          "score": -219.5633
+          "score": -205.9123
         },
         {
           "language": "fr-fr",
-          "score": -220.7951
+          "score": -207.673
         }
       ]
     },
@@ -10481,23 +10481,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -177.5982
+          "score": -172.8374
         },
         {
           "language": "en-us",
-          "score": -179.4808
+          "score": -175.5244
         },
         {
           "language": "it",
-          "score": -182.5451
+          "score": -176.093
         },
         {
           "language": "fr-fr",
-          "score": -183.9138
+          "score": -177.3528
         },
         {
           "language": "la",
-          "score": -186.0371
+          "score": -179.9047
         }
       ]
     },
@@ -10511,23 +10511,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -171.8566
+          "score": -165.9973
         },
         {
           "language": "en-us",
-          "score": -174.3204
+          "score": -167.656
         },
         {
           "language": "la",
-          "score": -176.0335
+          "score": -169.2081
         },
         {
           "language": "fr-fr",
-          "score": -176.3719
+          "score": -170.504
         },
         {
           "language": "it",
-          "score": -176.7862
+          "score": -171.0273
         }
       ]
     },
@@ -10541,23 +10541,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -223.1767
+          "score": -217.2054
         },
         {
           "language": "fr-fr",
-          "score": -227.4739
+          "score": -220.9128
         },
         {
           "language": "la",
-          "score": -227.5237
+          "score": -221.3914
         },
         {
           "language": "de",
-          "score": -228.1479
+          "score": -221.5954
         },
         {
           "language": "it",
-          "score": -229.5012
+          "score": -223.0491
         }
       ]
     },
@@ -10571,23 +10571,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -194.2697
-        },
-        {
-          "language": "la",
-          "score": -198.2351
+          "score": -183.0204
         },
         {
           "language": "fr-fr",
-          "score": -198.303
+          "score": -185.1809
         },
         {
           "language": "it",
-          "score": -198.4355
+          "score": -185.5314
+        },
+        {
+          "language": "la",
+          "score": -186.376
         },
         {
           "language": "de",
-          "score": -199.9229
+          "score": -186.8179
         }
       ]
     },
@@ -10601,23 +10601,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -224.3523
+          "score": -211.7166
         },
         {
           "language": "de",
-          "score": -225.5576
+          "score": -213.1457
         },
         {
           "language": "it",
-          "score": -227.7094
-        },
-        {
-          "language": "la",
-          "score": -231.0664
+          "score": -215.4985
         },
         {
           "language": "fr-fr",
-          "score": -231.2273
+          "score": -218.1052
+        },
+        {
+          "language": "la",
+          "score": -219.7181
         }
       ]
     },
@@ -10661,23 +10661,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -201.0796
+          "score": -190.4244
         },
         {
           "language": "it",
-          "score": -205.9861
+          "score": -194.4683
         },
         {
           "language": "fr-fr",
-          "score": -206.4202
+          "score": -194.6845
         },
         {
           "language": "en-us",
-          "score": -209.7627
+          "score": -198.2257
         },
         {
           "language": "de",
-          "score": -210.6876
+          "score": -198.2757
         }
       ]
     },
@@ -10691,23 +10691,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -161.5468
+          "score": -156.4918
         },
         {
           "language": "de",
-          "score": -170.7439
+          "score": -164.1914
         },
         {
           "language": "it",
-          "score": -171.0273
+          "score": -164.5752
         },
         {
           "language": "fr-fr",
-          "score": -171.1972
+          "score": -164.6362
         },
         {
           "language": "la",
-          "score": -172.3861
+          "score": -166.947
         }
       ]
     },
@@ -10717,27 +10717,27 @@
       "gold_languages": [
         "la"
       ],
-      "top1": "en-us",
+      "top1": "de",
       "profile": [
         {
-          "language": "en-us",
-          "score": -231.4541
+          "language": "de",
+          "score": -201.218
         },
         {
-          "language": "de",
-          "score": -233.2874
+          "language": "en-us",
+          "score": -202.044
         },
         {
           "language": "it",
-          "score": -234.1396
+          "score": -202.978
         },
         {
           "language": "fr-fr",
-          "score": -234.9487
+          "score": -203.2422
         },
         {
           "language": "la",
-          "score": -238.872
+          "score": -204.7447
         }
       ]
     },
@@ -10751,23 +10751,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -217.4536
+          "score": -210.6282
         },
         {
           "language": "fr-fr",
-          "score": -221.1823
+          "score": -214.6213
         },
         {
           "language": "en-us",
-          "score": -221.5673
-        },
-        {
-          "language": "it",
-          "score": -225.2245
+          "score": -215.596
         },
         {
           "language": "de",
-          "score": -226.0684
+          "score": -219.5159
+        },
+        {
+          "language": "it",
+          "score": -219.8711
         }
       ]
     },
@@ -10781,23 +10781,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -174.2967
-        },
-        {
-          "language": "de",
-          "score": -178.9059
+          "score": -150.124
         },
         {
           "language": "fr-fr",
-          "score": -178.9214
+          "score": -152.6772
+        },
+        {
+          "language": "de",
+          "score": -153.389
         },
         {
           "language": "it",
-          "score": -179.2711
+          "score": -153.4629
         },
         {
           "language": "la",
-          "score": -183.2119
+          "score": -157.5195
         }
       ]
     },
@@ -10807,27 +10807,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "de",
+      "top1": "en-us",
       "profile": [
         {
-          "language": "de",
-          "score": -200.9162
-        },
-        {
           "language": "en-us",
-          "score": -201.0958
+          "score": -183.4052
         },
         {
-          "language": "fr-fr",
-          "score": -202.5752
+          "language": "de",
+          "score": -184.2544
         },
         {
           "language": "it",
-          "score": -203.5752
+          "score": -185.3177
+        },
+        {
+          "language": "fr-fr",
+          "score": -185.8879
         },
         {
           "language": "la",
-          "score": -206.4602
+          "score": -187.7756
         }
       ]
     },
@@ -10867,27 +10867,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "de",
       "profile": [
         {
-          "language": "en-us",
-          "score": -184.4712
+          "language": "de",
+          "score": -173.6484
         },
         {
-          "language": "de",
-          "score": -184.9616
+          "language": "en-us",
+          "score": -174.5436
         },
         {
           "language": "fr-fr",
-          "score": -189.0885
+          "score": -175.9665
         },
         {
           "language": "it",
-          "score": -191.0766
+          "score": -178.1725
         },
         {
           "language": "la",
-          "score": -191.6743
+          "score": -178.7165
         }
       ]
     },
@@ -10901,23 +10901,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -164.6685
-        },
-        {
-          "language": "de",
-          "score": -173.6484
+          "score": -143.6093
         },
         {
           "language": "it",
-          "score": -174.7067
+          "score": -149.5917
         },
         {
-          "language": "la",
-          "score": -175.5464
+          "language": "de",
+          "score": -149.9233
         },
         {
           "language": "fr-fr",
-          "score": -177.5351
+          "score": -151.9841
+        },
+        {
+          "language": "la",
+          "score": -152.1566
         }
       ]
     },
@@ -10931,23 +10931,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -177.6404
+          "score": -171.0794
         },
         {
           "language": "it",
-          "score": -178.5779
+          "score": -172.1259
         },
         {
           "language": "en-us",
-          "score": -179.1487
+          "score": -172.4843
         },
         {
           "language": "de",
-          "score": -179.1936
+          "score": -172.641
         },
         {
           "language": "la",
-          "score": -179.7506
+          "score": -172.9251
         }
       ]
     },
@@ -10961,23 +10961,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -228.6371
-        },
-        {
-          "language": "la",
-          "score": -230.8302
+          "score": -198.7163
         },
         {
           "language": "it",
-          "score": -231.7943
+          "score": -200.2272
         },
         {
           "language": "fr-fr",
-          "score": -232.4255
+          "score": -200.3135
+        },
+        {
+          "language": "la",
+          "score": -201.2672
         },
         {
           "language": "de",
-          "score": -234.9881
+          "score": -204.0173
         }
       ]
     },
@@ -10991,23 +10991,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -219.1764
-        },
-        {
-          "language": "la",
-          "score": -224.8157
+          "score": -195.6968
         },
         {
           "language": "it",
-          "score": -225.7999
+          "score": -201.0903
+        },
+        {
+          "language": "la",
+          "score": -201.2027
         },
         {
           "language": "fr-fr",
-          "score": -227.9315
+          "score": -204.5777
         },
         {
           "language": "de",
-          "score": -230.9205
+          "score": -206.5022
         }
       ]
     },
@@ -11021,23 +11021,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -174.5755
-        },
-        {
-          "language": "de",
-          "score": -177.8983
+          "score": -159.9983
         },
         {
           "language": "it",
-          "score": -178.9616
+          "score": -160.704
+        },
+        {
+          "language": "de",
+          "score": -161.4188
         },
         {
           "language": "fr-fr",
-          "score": -180.2939
+          "score": -162.6902
         },
         {
           "language": "la",
-          "score": -183.8398
+          "score": -166.5415
         }
       ]
     },
@@ -11081,23 +11081,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -165.9696
+          "score": -153.7394
         },
         {
           "language": "de",
-          "score": -168.8876
+          "score": -156.4758
         },
         {
           "language": "la",
-          "score": -170.1481
+          "score": -157.8835
         },
         {
           "language": "it",
-          "score": -172.4136
+          "score": -159.5095
         },
         {
           "language": "fr-fr",
-          "score": -172.9889
+          "score": -160.56
         }
       ]
     },
@@ -11107,27 +11107,27 @@
       "gold_languages": [
         "de"
       ],
-      "top1": "en-us",
+      "top1": "de",
       "profile": [
         {
-          "language": "en-us",
-          "score": -152.7823
-        },
-        {
           "language": "de",
-          "score": -154.2785
+          "score": -142.9653
         },
         {
           "language": "fr-fr",
-          "score": -156.2834
+          "score": -143.1613
+        },
+        {
+          "language": "en-us",
+          "score": -143.771
         },
         {
           "language": "it",
-          "score": -159.2218
+          "score": -146.3177
         },
         {
           "language": "la",
-          "score": -160.2393
+          "score": -147.2815
         }
       ]
     },
@@ -11141,23 +11141,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -223.8904
+          "score": -217.3293
         },
         {
           "language": "it",
-          "score": -224.819
+          "score": -218.367
         },
         {
           "language": "la",
-          "score": -225.9143
-        },
-        {
-          "language": "en-us",
-          "score": -226.9834
+          "score": -219.0888
         },
         {
           "language": "de",
-          "score": -227.1262
+          "score": -220.5737
+        },
+        {
+          "language": "en-us",
+          "score": -221.4176
         }
       ]
     },
@@ -11171,23 +11171,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -200.2523
+          "score": -195.1973
         },
         {
           "language": "de",
-          "score": -200.3017
+          "score": -196.0517
         },
         {
           "language": "fr-fr",
-          "score": -202.9545
+          "score": -197.0866
         },
         {
           "language": "it",
-          "score": -207.2547
+          "score": -201.9012
         },
         {
           "language": "la",
-          "score": -208.6849
+          "score": -202.5526
         }
       ]
     },
@@ -11201,23 +11201,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -178.6496
-        },
-        {
-          "language": "la",
-          "score": -185.2128
+          "score": -174.6933
         },
         {
           "language": "de",
-          "score": -185.5494
+          "score": -179.6901
         },
         {
-          "language": "fr-fr",
-          "score": -189.494
+          "language": "la",
+          "score": -179.7737
         },
         {
           "language": "it",
-          "score": -189.6903
+          "score": -183.2382
+        },
+        {
+          "language": "fr-fr",
+          "score": -184.3192
         }
       ]
     },
@@ -11231,23 +11231,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -201.4081
+          "score": -189.5489
         },
         {
           "language": "en-us",
-          "score": -202.8958
+          "score": -191.6464
         },
         {
           "language": "de",
-          "score": -206.0055
+          "score": -192.9004
         },
         {
           "language": "fr-fr",
-          "score": -208.3661
+          "score": -195.2441
         },
         {
           "language": "it",
-          "score": -210.4327
+          "score": -197.5286
         }
       ]
     },
@@ -11261,23 +11261,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -204.4963
-        },
-        {
-          "language": "la",
-          "score": -206.9413
+          "score": -157.2903
         },
         {
           "language": "de",
-          "score": -208.4636
+          "score": -160.3202
         },
         {
-          "language": "fr-fr",
-          "score": -211.1738
+          "language": "la",
+          "score": -160.3677
         },
         {
           "language": "it",
-          "score": -211.6273
+          "score": -161.3972
+        },
+        {
+          "language": "fr-fr",
+          "score": -161.8636
         }
       ]
     },
@@ -11291,23 +11291,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -203.0544
-        },
-        {
-          "language": "la",
-          "score": -206.0665
+          "score": -179.8625
         },
         {
           "language": "fr-fr",
-          "score": -207.673
+          "score": -181.4289
+        },
+        {
+          "language": "la",
+          "score": -181.655
         },
         {
           "language": "de",
-          "score": -209.589
+          "score": -183.3789
         },
         {
           "language": "it",
-          "score": -211.5313
+          "score": -185.7231
         }
       ]
     },
@@ -11321,23 +11321,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -175.3999
+          "score": -168.9478
         },
         {
           "language": "en-us",
-          "score": -176.153
+          "score": -169.4886
         },
         {
           "language": "de",
-          "score": -179.3113
+          "score": -172.7588
         },
         {
           "language": "fr-fr",
-          "score": -179.55
+          "score": -172.9889
         },
         {
           "language": "la",
-          "score": -181.5379
+          "score": -174.7124
         }
       ]
     },
@@ -11347,27 +11347,27 @@
       "gold_languages": [
         "la"
       ],
-      "top1": "en-us",
+      "top1": "de",
       "profile": [
         {
-          "language": "en-us",
-          "score": -220.0756
+          "language": "de",
+          "score": -178.5914
         },
         {
-          "language": "de",
-          "score": -221.9741
+          "language": "en-us",
+          "score": -178.9054
         },
         {
           "language": "it",
-          "score": -222.2164
+          "score": -180.6355
         },
         {
           "language": "fr-fr",
-          "score": -222.7917
+          "score": -180.7357
         },
         {
           "language": "la",
-          "score": -230.1264
+          "score": -186.2194
         }
       ]
     },
@@ -11381,23 +11381,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -196.8477
+          "score": -191.673
         },
         {
           "language": "de",
-          "score": -199.1653
+          "score": -192.6128
         },
         {
           "language": "it",
-          "score": -201.9012
+          "score": -196.1423
         },
         {
           "language": "en-us",
-          "score": -202.993
+          "score": -196.3285
         },
         {
           "language": "la",
-          "score": -203.5053
+          "score": -197.7784
         }
       ]
     },
@@ -11441,23 +11441,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -172.9217
+          "score": -152.9285
         },
         {
           "language": "fr-fr",
-          "score": -174.2925
+          "score": -156.6888
         },
         {
           "language": "it",
-          "score": -176.093
-        },
-        {
-          "language": "de",
-          "score": -177.8073
+          "score": -157.43
         },
         {
           "language": "la",
-          "score": -178.1775
+          "score": -158.7998
+        },
+        {
+          "language": "de",
+          "score": -158.8429
         }
       ]
     },
@@ -11501,23 +11501,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -169.1718
-        },
-        {
-          "language": "de",
-          "score": -177.3875
+          "score": -149.1342
         },
         {
           "language": "la",
-          "score": -177.8892
+          "score": -153.3599
         },
         {
           "language": "fr-fr",
-          "score": -178.2145
+          "score": -154.7429
+        },
+        {
+          "language": "de",
+          "score": -155.5595
         },
         {
           "language": "it",
-          "score": -181.4465
+          "score": -156.7369
         }
       ]
     },
@@ -11531,23 +11531,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -212.4179
-        },
-        {
-          "language": "de",
-          "score": -216.2201
+          "score": -208.4616
         },
         {
           "language": "it",
-          "score": -217.6738
+          "score": -211.2218
+        },
+        {
+          "language": "de",
+          "score": -211.4593
         },
         {
           "language": "fr-fr",
-          "score": -220.5074
+          "score": -213.9463
         },
         {
           "language": "la",
-          "score": -220.9859
+          "score": -214.8536
         }
       ]
     },
@@ -11557,27 +11557,27 @@
       "gold_languages": [
         "la"
       ],
-      "top1": "it",
+      "top1": "en-us",
       "profile": [
         {
-          "language": "it",
-          "score": -200.3971
+          "language": "en-us",
+          "score": -176.3761
         },
         {
-          "language": "en-us",
-          "score": -202.3406
+          "language": "it",
+          "score": -176.3807
         },
         {
           "language": "de",
-          "score": -202.3433
+          "score": -176.8264
         },
         {
           "language": "fr-fr",
-          "score": -204.29
+          "score": -178.739
         },
         {
           "language": "la",
-          "score": -208.9983
+          "score": -182.3896
         }
       ]
     },
@@ -11591,23 +11591,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -233.0629
+          "score": -207.2547
         },
         {
           "language": "en-us",
-          "score": -234.7056
+          "score": -208.0479
         },
         {
           "language": "de",
-          "score": -235.5759
-        },
-        {
-          "language": "fr-fr",
-          "score": -239.2924
+          "score": -209.3658
         },
         {
           "language": "la",
-          "score": -239.9713
+          "score": -212.6695
+        },
+        {
+          "language": "fr-fr",
+          "score": -213.0483
         }
       ]
     },
@@ -11681,23 +11681,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -162.2807
+          "score": -150.0505
         },
         {
           "language": "de",
-          "score": -164.7933
+          "score": -152.3814
         },
         {
           "language": "it",
-          "score": -169.9287
+          "score": -157.0246
         },
         {
           "language": "fr-fr",
-          "score": -173.6821
+          "score": -160.56
         },
         {
           "language": "la",
-          "score": -174.9356
+          "score": -161.2847
         }
       ]
     },
@@ -11707,27 +11707,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "fr-fr",
       "profile": [
         {
-          "language": "en-us",
-          "score": -193.1097
-        },
-        {
           "language": "fr-fr",
-          "score": -193.1646
-        },
-        {
-          "language": "de",
-          "score": -196.954
-        },
-        {
-          "language": "it",
-          "score": -197.5286
+          "score": -161.0526
         },
         {
           "language": "la",
-          "score": -197.5553
+          "score": -163.428
+        },
+        {
+          "language": "de",
+          "score": -164.8846
+        },
+        {
+          "language": "it",
+          "score": -165.2684
+        },
+        {
+          "language": "en-us",
+          "score": -165.3091
         }
       ]
     },
@@ -11741,23 +11741,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -227.6382
-        },
-        {
-          "language": "fr-fr",
-          "score": -240.2412
+          "score": -212.4193
         },
         {
           "language": "en-us",
-          "score": -240.5027
+          "score": -222.3012
+        },
+        {
+          "language": "fr-fr",
+          "score": -223.0431
         },
         {
           "language": "it",
-          "score": -243.1944
+          "score": -224.9368
         },
         {
           "language": "de",
-          "score": -246.0136
+          "score": -228.841
         }
       ]
     },
@@ -11771,23 +11771,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -157.948
+          "score": -106.5632
         },
         {
           "language": "de",
-          "score": -158.1497
+          "score": -107.5214
         },
         {
           "language": "it",
-          "score": -159.9149
+          "score": -108.2985
         },
         {
           "language": "en-us",
-          "score": -159.9664
+          "score": -108.7306
         },
         {
           "language": "fr-fr",
-          "score": -160.4422
+          "score": -109.0526
         }
       ]
     },
@@ -11801,23 +11801,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -195.7851
-        },
-        {
-          "language": "de",
-          "score": -200.5516
+          "score": -191.8287
         },
         {
           "language": "fr-fr",
-          "score": -200.7065
+          "score": -194.1455
+        },
+        {
+          "language": "de",
+          "score": -195.7908
         },
         {
           "language": "it",
-          "score": -202.882
+          "score": -196.43
         },
         {
           "language": "la",
-          "score": -204.6809
+          "score": -198.5485
         }
       ]
     },
@@ -11832,23 +11832,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -207.8044
+          "score": -185.4723
         },
         {
           "language": "fr-fr",
-          "score": -212.0368
-        },
-        {
-          "language": "en-us",
-          "score": -212.386
+          "score": -187.5844
         },
         {
           "language": "de",
-          "score": -212.8456
+          "score": -188.4274
         },
         {
           "language": "it",
-          "score": -213.7067
+          "score": -188.9971
+        },
+        {
+          "language": "en-us",
+          "score": -189.5996
         }
       ]
     },
@@ -11862,23 +11862,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -72.9882
+          "score": -60.758
         },
         {
           "language": "fr-fr",
-          "score": -73.4749
+          "score": -61.7391
         },
         {
           "language": "la",
-          "score": -74.7509
+          "score": -61.7931
         },
         {
           "language": "de",
-          "score": -76.5507
+          "score": -63.4456
         },
         {
           "language": "it",
-          "score": -76.7314
+          "score": -63.8273
         }
       ]
     },
@@ -11892,23 +11892,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -166.1928
-        },
-        {
-          "language": "fr-fr",
-          "score": -166.4944
+          "score": -154.6557
         },
         {
           "language": "de",
-          "score": -167.0959
+          "score": -154.684
+        },
+        {
+          "language": "fr-fr",
+          "score": -155.3183
         },
         {
           "language": "it",
-          "score": -170.3341
+          "score": -158.8163
         },
         {
           "language": "la",
-          "score": -170.8821
+          "score": -159.716
         }
       ]
     },
@@ -11918,27 +11918,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "fr-fr",
+      "top1": "it",
       "profile": [
         {
-          "language": "fr-fr",
-          "score": -162.1512
-        },
-        {
           "language": "it",
-          "score": -162.2081
+          "score": -137.7862
         },
         {
-          "language": "la",
-          "score": -164.5911
+          "language": "fr-fr",
+          "score": -137.9866
         },
         {
           "language": "en-us",
-          "score": -165.4144
+          "score": -140.1431
         },
         {
           "language": "de",
-          "score": -166.8995
+          "score": -140.6894
+        },
+        {
+          "language": "la",
+          "score": -140.8728
         }
       ]
     },
@@ -11952,23 +11952,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -192.6766
+          "score": -179.7725
         },
         {
           "language": "en-us",
-          "score": -193.1913
+          "score": -179.8625
         },
         {
           "language": "fr-fr",
-          "score": -195.0899
-        },
-        {
-          "language": "la",
-          "score": -197.1135
+          "score": -181.9679
         },
         {
           "language": "de",
-          "score": -197.4648
+          "score": -184.3598
+        },
+        {
+          "language": "la",
+          "score": -184.5611
         }
       ]
     },
@@ -11982,23 +11982,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -197.5558
-        },
-        {
-          "language": "en-us",
-          "score": -199.4094
+          "score": -172.7321
         },
         {
           "language": "fr-fr",
-          "score": -200.5366
+          "score": -174.9856
+        },
+        {
+          "language": "en-us",
+          "score": -175.9299
         },
         {
           "language": "la",
-          "score": -202.8121
+          "score": -176.8966
         },
         {
           "language": "it",
-          "score": -204.2683
+          "score": -178.4601
         }
       ]
     },
@@ -12012,23 +12012,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -193.1646
+          "score": -186.6036
         },
         {
           "language": "it",
-          "score": -193.6574
+          "score": -187.2054
         },
         {
           "language": "la",
-          "score": -195.0296
+          "score": -189.8135
         },
         {
           "language": "de",
-          "score": -196.484
+          "score": -190.6246
         },
         {
           "language": "en-us",
-          "score": -197.7557
+          "score": -191.7844
         }
       ]
     },
@@ -12072,23 +12072,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -177.9654
-        },
-        {
-          "language": "la",
-          "score": -181.5372
+          "score": -171.9941
         },
         {
           "language": "de",
-          "score": -181.7695
+          "score": -175.217
+        },
+        {
+          "language": "la",
+          "score": -175.4049
         },
         {
           "language": "fr-fr",
-          "score": -182.3043
+          "score": -175.7433
         },
         {
           "language": "it",
-          "score": -185.03
+          "score": -178.5779
         }
       ]
     },
@@ -12102,23 +12102,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -170.7777
-        },
-        {
-          "language": "la",
-          "score": -175.3517
+          "score": -165.2119
         },
         {
           "language": "fr-fr",
-          "score": -175.6788
+          "score": -169.8109
+        },
+        {
+          "language": "la",
+          "score": -170.1357
         },
         {
           "language": "de",
-          "score": -177.0088
+          "score": -170.4562
         },
         {
           "language": "it",
-          "score": -178.1725
+          "score": -172.4136
         }
       ]
     },
@@ -12133,23 +12133,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -209.8479
+          "score": -197.2122
         },
         {
           "language": "fr-fr",
-          "score": -210.1397
+          "score": -197.7108
         },
         {
           "language": "de",
-          "score": -211.8648
+          "score": -198.7598
         },
         {
           "language": "it",
-          "score": -215.7861
+          "score": -202.882
         },
         {
           "language": "la",
-          "score": -220.1644
+          "score": -207.2066
         }
       ]
     },
@@ -12163,23 +12163,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -166.5237
+          "score": -153.566
         },
         {
           "language": "it",
-          "score": -167.4437
+          "score": -154.5397
         },
         {
           "language": "fr-fr",
-          "score": -170.504
+          "score": -157.382
         },
         {
           "language": "de",
-          "score": -171.1494
+          "score": -158.7375
         },
         {
           "language": "en-us",
-          "score": -174.4584
+          "score": -161.1296
         }
       ]
     },
@@ -12193,23 +12193,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -155.0612
+          "score": -149.0899
         },
         {
           "language": "la",
-          "score": -156.5617
+          "score": -150.8349
         },
         {
           "language": "fr-fr",
-          "score": -157.382
+          "score": -151.5141
         },
         {
           "language": "de",
-          "score": -158.5552
+          "score": -152.0027
         },
         {
           "language": "it",
-          "score": -159.2218
+          "score": -152.7697
         }
       ]
     },
@@ -12223,23 +12223,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -157.6958
+          "score": -152.13
         },
         {
           "language": "de",
-          "score": -159.1571
+          "score": -152.6046
         },
         {
           "language": "it",
-          "score": -164.9807
+          "score": -158.5286
         },
         {
           "language": "fr-fr",
-          "score": -165.3293
+          "score": -158.7683
         },
         {
           "language": "la",
-          "score": -166.4361
+          "score": -159.6107
         }
       ]
     },
@@ -12249,27 +12249,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "it",
       "profile": [
         {
-          "language": "en-us",
-          "score": -136.4542
-        },
-        {
           "language": "it",
-          "score": -136.6876
+          "score": -123.7835
         },
         {
           "language": "de",
-          "score": -137.2882
+          "score": -124.1832
+        },
+        {
+          "language": "en-us",
+          "score": -124.9172
         },
         {
           "language": "fr-fr",
-          "score": -137.4112
+          "score": -124.9823
         },
         {
           "language": "la",
-          "score": -142.4177
+          "score": -130.5586
         }
       ]
     },
@@ -12283,23 +12283,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -170.8423
-        },
-        {
-          "language": "fr-fr",
-          "score": -173.1732
+          "score": -165.2765
         },
         {
           "language": "it",
-          "score": -173.3204
+          "score": -168.2547
         },
         {
           "language": "la",
-          "score": -173.4954
+          "score": -168.4617
+        },
+        {
+          "language": "fr-fr",
+          "score": -168.5581
         },
         {
           "language": "de",
-          "score": -175.3224
+          "score": -168.7698
         }
       ]
     },
@@ -12313,23 +12313,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -212.4712
+          "score": -202.5436
         },
         {
           "language": "de",
-          "score": -218.4173
+          "score": -207.1041
         },
         {
           "language": "it",
-          "score": -219.0601
+          "score": -207.2547
         },
         {
           "language": "la",
-          "score": -219.312
+          "score": -207.7405
         },
         {
           "language": "fr-fr",
-          "score": -219.4088
+          "score": -208.0785
         }
       ]
     },
@@ -12369,27 +12369,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "fr-fr",
+      "top1": "it",
       "profile": [
         {
-          "language": "fr-fr",
-          "score": -151.0678
+          "language": "it",
+          "score": -138.3616
         },
         {
-          "language": "it",
-          "score": -151.2657
+          "language": "fr-fr",
+          "score": -139.5552
         },
         {
           "language": "en-us",
-          "score": -153.0789
+          "score": -140.4432
         },
         {
           "language": "de",
-          "score": -155.1807
+          "score": -142.7689
         },
         {
           "language": "la",
-          "score": -158.4358
+          "score": -145.8835
         }
       ]
     },
@@ -12403,23 +12403,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -135.2911
+          "score": -129.7253
         },
         {
           "language": "de",
-          "score": -139.1854
+          "score": -132.6329
         },
         {
           "language": "it",
-          "score": -139.8656
+          "score": -133.4136
         },
         {
           "language": "fr-fr",
-          "score": -140.1838
+          "score": -133.6228
         },
         {
           "language": "la",
-          "score": -140.8728
+          "score": -134.7405
         }
       ]
     },
@@ -12433,23 +12433,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -203.4152
+          "score": -185.144
         },
         {
           "language": "fr-fr",
-          "score": -204.3896
+          "score": -185.3996
         },
         {
           "language": "la",
-          "score": -206.1637
-        },
-        {
-          "language": "it",
-          "score": -206.5615
+          "score": -187.6332
         },
         {
           "language": "en-us",
-          "score": -207.2902
+          "score": -187.9902
+        },
+        {
+          "language": "it",
+          "score": -188.5917
         }
       ]
     },
@@ -12463,23 +12463,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -167.9845
+          "score": -155.7543
         },
         {
           "language": "la",
-          "score": -170.5693
-        },
-        {
-          "language": "de",
-          "score": -170.7439
+          "score": -156.9184
         },
         {
           "language": "it",
-          "score": -171.0273
+          "score": -158.1232
+        },
+        {
+          "language": "de",
+          "score": -158.3321
         },
         {
           "language": "fr-fr",
-          "score": -171.6672
+          "score": -158.5451
         }
       ]
     },
@@ -12523,23 +12523,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -129.2382
+          "score": -104.8831
         },
         {
           "language": "de",
-          "score": -133.7315
-        },
-        {
-          "language": "it",
-          "score": -134.7999
-        },
-        {
-          "language": "fr-fr",
-          "score": -135.0091
+          "score": -107.5214
         },
         {
           "language": "la",
-          "score": -135.1868
+          "score": -107.885
+        },
+        {
+          "language": "fr-fr",
+          "score": -108.7649
+        },
+        {
+          "language": "it",
+          "score": -108.9917
         }
       ]
     },
@@ -12553,23 +12553,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -178.7876
+          "score": -159.4875
         },
         {
           "language": "de",
-          "score": -179.86
+          "score": -161.301
         },
         {
           "language": "fr-fr",
-          "score": -180.2939
+          "score": -161.9971
         },
         {
           "language": "it",
-          "score": -182.5451
+          "score": -163.8821
         },
         {
           "language": "la",
-          "score": -183.3935
+          "score": -164.3035
         }
       ]
     },
@@ -12583,23 +12583,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -159.3495
+          "score": -145.871
         },
         {
           "language": "de",
-          "score": -167.0959
+          "score": -149.9233
         },
         {
           "language": "it",
-          "score": -172.4136
+          "score": -153.0574
         },
         {
           "language": "la",
-          "score": -173.7724
+          "score": -156.0686
         },
         {
           "language": "fr-fr",
-          "score": -174.3752
+          "score": -156.0784
         }
       ]
     },
@@ -12613,23 +12613,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -168.728
+          "score": -162.167
         },
         {
           "language": "en-us",
-          "score": -169.8816
+          "score": -163.9104
         },
         {
           "language": "it",
-          "score": -171.4327
+          "score": -164.9807
         },
         {
           "language": "de",
-          "score": -172.7588
+          "score": -166.2063
         },
         {
           "language": "la",
-          "score": -174.4248
+          "score": -169.2087
         }
       ]
     },
@@ -12644,23 +12644,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -149.5178
+          "score": -136.4128
         },
         {
           "language": "en-us",
-          "score": -149.9654
-        },
-        {
-          "language": "it",
-          "score": -153.4629
+          "score": -136.6365
         },
         {
           "language": "la",
-          "score": -153.9892
+          "score": -140.3383
+        },
+        {
+          "language": "it",
+          "score": -140.5588
         },
         {
           "language": "fr-fr",
-          "score": -153.999
+          "score": -141.5701
         }
       ]
     },
@@ -12674,23 +12674,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -147.9505
+          "score": -141.2861
         },
         {
           "language": "it",
-          "score": -151.6711
+          "score": -145.2191
         },
         {
           "language": "de",
-          "score": -152.6958
+          "score": -146.1433
         },
         {
           "language": "fr-fr",
-          "score": -154.6921
+          "score": -148.1311
         },
         {
           "language": "la",
-          "score": -157.0495
+          "score": -150.224
         }
       ]
     },
@@ -12700,27 +12700,27 @@
       "gold_languages": [
         "la"
       ],
-      "top1": "it",
+      "top1": "la",
       "profile": [
         {
-          "language": "it",
-          "score": -174.9944
+          "language": "la",
+          "score": -162.7348
         },
         {
-          "language": "la",
-          "score": -174.9995
+          "language": "it",
+          "score": -162.7835
         },
         {
           "language": "fr-fr",
-          "score": -175.9665
+          "score": -163.5375
         },
         {
           "language": "en-us",
-          "score": -176.8461
+          "score": -164.2105
         },
         {
           "language": "de",
-          "score": -177.1141
+          "score": -164.7022
         }
       ]
     },
@@ -12764,23 +12764,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -158.2509
+          "score": -150.3382
         },
         {
           "language": "de",
-          "score": -167.5659
+          "score": -156.9458
         },
         {
           "language": "fr-fr",
-          "score": -170.504
+          "score": -158.7683
         },
         {
           "language": "it",
-          "score": -171.7204
+          "score": -158.8163
         },
         {
           "language": "la",
-          "score": -175.1587
+          "score": -163.5872
         }
       ]
     },
@@ -12794,23 +12794,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -184.3332
+          "score": -172.4641
         },
         {
           "language": "fr-fr",
-          "score": -191.6242
-        },
-        {
-          "language": "de",
-          "score": -193.5936
-        },
-        {
-          "language": "la",
-          "score": -196.1045
+          "score": -173.3274
         },
         {
           "language": "it",
-          "score": -196.8355
+          "score": -177.4793
+        },
+        {
+          "language": "de",
+          "score": -178.2127
+        },
+        {
+          "language": "la",
+          "score": -178.4007
         }
       ]
     },
@@ -12824,23 +12824,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -177.4421
+          "score": -147.7036
         },
         {
           "language": "it",
-          "score": -179.7725
+          "score": -150.2848
         },
         {
           "language": "fr-fr",
-          "score": -182.122
+          "score": -150.7032
         },
         {
           "language": "de",
-          "score": -182.3981
+          "score": -151.715
         },
         {
           "language": "la",
-          "score": -182.5181
+          "score": -152.6674
         }
       ]
     },
@@ -12854,23 +12854,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -207.5676
+          "score": -182.7098
         },
         {
           "language": "en-us",
-          "score": -208.5996
+          "score": -183.7337
         },
         {
           "language": "it",
-          "score": -209.4519
-        },
-        {
-          "language": "la",
-          "score": -210.12
+          "score": -184.3368
         },
         {
           "language": "de",
-          "score": -211.2629
+          "score": -185.0529
+        },
+        {
+          "language": "la",
+          "score": -185.1208
         }
       ]
     },
@@ -12884,23 +12884,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -172.915
+          "score": -148.4931
         },
         {
           "language": "en-us",
-          "score": -174.0611
+          "score": -148.5021
         },
         {
           "language": "fr-fr",
-          "score": -174.1541
-        },
-        {
-          "language": "la",
-          "score": -178.4007
+          "score": -151.6476
         },
         {
           "language": "de",
-          "score": -179.3113
+          "score": -153.1013
+        },
+        {
+          "language": "la",
+          "score": -154.2769
         }
       ]
     },
@@ -12910,27 +12910,27 @@
       "gold_languages": [
         "fr-fr"
       ],
-      "top1": "en-us",
+      "top1": "it",
       "profile": [
         {
-          "language": "en-us",
-          "score": -121.986
+          "language": "it",
+          "score": -115.5397
         },
         {
-          "language": "it",
-          "score": -121.9917
+          "language": "en-us",
+          "score": -116.931
         },
         {
           "language": "fr-fr",
-          "score": -124.4227
+          "score": -117.8616
         },
         {
           "language": "de",
-          "score": -125.5695
+          "score": -119.017
         },
         {
           "language": "la",
-          "score": -127.8505
+          "score": -121.025
         }
       ]
     },
@@ -12944,23 +12944,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -195.1328
-        },
-        {
-          "language": "la",
-          "score": -196.9134
+          "score": -184.512
         },
         {
           "language": "fr-fr",
-          "score": -197.1512
+          "score": -184.7222
         },
         {
-          "language": "it",
-          "score": -200.5149
+          "language": "la",
+          "score": -184.8719
         },
         {
           "language": "de",
-          "score": -201.2447
+          "score": -188.1397
+        },
+        {
+          "language": "it",
+          "score": -188.304
         }
       ]
     },
@@ -12974,23 +12974,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -191.3587
-        },
-        {
-          "language": "it",
-          "score": -193.3697
+          "score": -185.3875
         },
         {
           "language": "la",
-          "score": -193.7123
+          "score": -186.8868
+        },
+        {
+          "language": "it",
+          "score": -186.9177
         },
         {
           "language": "fr-fr",
-          "score": -198.5399
+          "score": -191.9789
         },
         {
           "language": "de",
-          "score": -202.0291
+          "score": -195.4766
         }
       ]
     },
@@ -13034,23 +13034,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -232.9966
+          "score": -195.3811
         },
         {
           "language": "en-us",
-          "score": -236.9192
+          "score": -196.0491
         },
         {
           "language": "fr-fr",
-          "score": -237.9056
+          "score": -198.7606
         },
         {
           "language": "it",
-          "score": -238.9177
+          "score": -199.4163
         },
         {
           "language": "de",
-          "score": -246.7068
+          "score": -203.3241
         }
       ]
     },
@@ -13064,23 +13064,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -165.7352
+          "score": -153.0995
         },
         {
           "language": "de",
-          "score": -169.8276
-        },
-        {
-          "language": "it",
-          "score": -169.9287
+          "score": -156.7226
         },
         {
           "language": "la",
-          "score": -170.7235
+          "score": -157.0725
+        },
+        {
+          "language": "it",
+          "score": -157.7177
         },
         {
           "language": "fr-fr",
-          "score": -174.6629
+          "score": -161.5409
         }
       ]
     },
@@ -13120,27 +13120,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "de",
+      "top1": "en-us",
       "profile": [
         {
-          "language": "de",
-          "score": -232.8033
+          "language": "en-us",
+          "score": -207.8011
         },
         {
-          "language": "en-us",
-          "score": -233.0724
+          "language": "de",
+          "score": -207.9795
         },
         {
           "language": "it",
-          "score": -235.5478
+          "score": -209.7396
         },
         {
           "language": "fr-fr",
-          "score": -235.7089
+          "score": -210.1579
         },
         {
           "language": "la",
-          "score": -235.9222
+          "score": -210.6998
         }
       ]
     },
@@ -13154,23 +13154,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -228.807
+          "score": -185.0465
         },
         {
           "language": "fr-fr",
-          "score": -228.9267
+          "score": -187.4303
         },
         {
           "language": "la",
-          "score": -230.4134
+          "score": -187.605
         },
         {
           "language": "de",
-          "score": -230.4237
+          "score": -187.7342
         },
         {
           "language": "it",
-          "score": -231.2711
+          "score": -188.1862
         }
       ]
     },
@@ -13184,23 +13184,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -190.3111
+          "score": -183.4856
         },
         {
           "language": "it",
-          "score": -192.9643
+          "score": -186.5122
         },
         {
           "language": "en-us",
-          "score": -194.0668
+          "score": -188.0955
         },
         {
           "language": "fr-fr",
-          "score": -196.055
+          "score": -189.494
         },
         {
           "language": "de",
-          "score": -197.4648
+          "score": -190.9123
         }
       ]
     },
@@ -13214,23 +13214,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -169.8614
+          "score": -163.8902
         },
         {
           "language": "fr-fr",
-          "score": -171.9411
+          "score": -166.0732
         },
         {
           "language": "la",
-          "score": -172.8022
+          "score": -167.0754
         },
         {
           "language": "it",
-          "score": -174.3013
+          "score": -167.8492
         },
         {
           "language": "de",
-          "score": -177.2964
+          "score": -170.7439
         }
       ]
     },
@@ -13244,23 +13244,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -187.5077
+          "score": -181.9419
         },
         {
           "language": "de",
-          "score": -189.526
+          "score": -182.9735
         },
         {
           "language": "fr-fr",
-          "score": -191.9789
+          "score": -185.4179
         },
         {
           "language": "it",
-          "score": -192.1752
+          "score": -185.7231
         },
         {
           "language": "la",
-          "score": -194.3133
+          "score": -187.4879
         }
       ]
     },
@@ -13274,23 +13274,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -189.3762
+          "score": -170.3863
         },
         {
           "language": "it",
-          "score": -190.0957
+          "score": -170.7396
         },
         {
           "language": "en-us",
-          "score": -191.0913
+          "score": -172.4843
         },
         {
           "language": "de",
-          "score": -193.3972
+          "score": -173.7397
         },
         {
           "language": "la",
-          "score": -196.4618
+          "score": -175.9854
         }
       ]
     },
@@ -13300,27 +13300,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "la",
       "profile": [
         {
-          "language": "en-us",
-          "score": -194.0377
+          "language": "la",
+          "score": -175.8743
         },
         {
-          "language": "la",
-          "score": -198.3241
+          "language": "en-us",
+          "score": -176.1973
         },
         {
           "language": "de",
-          "score": -201.218
+          "score": -178.186
         },
         {
           "language": "fr-fr",
-          "score": -204.6127
+          "score": -181.1412
         },
         {
           "language": "it",
-          "score": -209.3341
+          "score": -183.5259
         }
       ]
     },
@@ -13330,27 +13330,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "la",
+      "top1": "de",
       "profile": [
         {
-          "language": "la",
-          "score": -210.2247
-        },
-        {
           "language": "de",
-          "score": -211.4185
+          "score": -199.0067
         },
         {
-          "language": "fr-fr",
-          "score": -212.5601
+          "language": "la",
+          "score": -199.7519
         },
         {
           "language": "en-us",
-          "score": -213.2491
+          "score": -199.9203
+        },
+        {
+          "language": "fr-fr",
+          "score": -200.8243
         },
         {
           "language": "it",
-          "score": -215.093
+          "score": -202.1889
         }
       ]
     },
@@ -13364,23 +13364,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -205.083
-        },
-        {
-          "language": "de",
-          "score": -213.042
-        },
-        {
-          "language": "en-us",
-          "score": -213.1519
+          "score": -190.845
         },
         {
           "language": "it",
-          "score": -214.0903
+          "score": -198.03
+        },
+        {
+          "language": "en-us",
+          "score": -198.534
+        },
+        {
+          "language": "de",
+          "score": -198.7598
         },
         {
           "language": "fr-fr",
-          "score": -214.167
+          "score": -199.8592
         }
       ]
     },
@@ -13394,23 +13394,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -195.5382
-        },
-        {
-          "language": "it",
-          "score": -196.9314
+          "score": -184.9175
         },
         {
           "language": "la",
-          "score": -197.003
+          "score": -185.6547
+        },
+        {
+          "language": "it",
+          "score": -185.8191
         },
         {
           "language": "de",
-          "score": -197.045
+          "score": -186.2426
         },
         {
           "language": "fr-fr",
-          "score": -198.5907
+          "score": -186.8549
         }
       ]
     },
@@ -13424,23 +13424,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -140.9657
+          "score": -129.9395
         },
         {
           "language": "la",
-          "score": -149.384
-        },
-        {
-          "language": "it",
-          "score": -150.167
+          "score": -137.1194
         },
         {
           "language": "fr-fr",
-          "score": -150.7032
+          "score": -137.5811
+        },
+        {
+          "language": "it",
+          "score": -138.3616
         },
         {
           "language": "de",
-          "score": -151.5972
+          "score": -138.4922
         }
       ]
     },
@@ -13454,23 +13454,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -221.6205
+          "score": -204.623
         },
         {
           "language": "it",
-          "score": -227.7094
+          "score": -208.3533
         },
         {
           "language": "la",
-          "score": -228.2814
+          "score": -208.9036
         },
         {
           "language": "fr-fr",
-          "score": -229.3302
+          "score": -210.3402
         },
         {
           "language": "de",
-          "score": -230.2273
+          "score": -210.5698
         }
       ]
     },
@@ -13484,23 +13484,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -187.9158
+          "score": -183.1697
         },
         {
           "language": "fr-fr",
-          "score": -189.0215
+          "score": -184.2522
         },
         {
           "language": "de",
-          "score": -189.7224
+          "score": -184.9616
         },
         {
           "language": "en-us",
-          "score": -191.5819
+          "score": -186.7092
         },
         {
           "language": "it",
-          "score": -194.6382
+          "score": -189.2848
         }
       ]
     },
@@ -13544,23 +13544,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -200.8074
+          "score": -181.1753
         },
         {
           "language": "de",
-          "score": -208.2813
+          "score": -185.2493
         },
         {
           "language": "la",
-          "score": -213.0619
-        },
-        {
-          "language": "fr-fr",
-          "score": -215.3326
+          "score": -188.9381
         },
         {
           "language": "it",
-          "score": -216.1916
+          "score": -190.3834
+        },
+        {
+          "language": "fr-fr",
+          "score": -190.4748
         }
       ]
     },
@@ -13574,23 +13574,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -163.428
+          "score": -156.6025
         },
         {
           "language": "fr-fr",
-          "score": -163.943
-        },
-        {
-          "language": "en-us",
-          "score": -165.4914
+          "score": -157.382
         },
         {
           "language": "it",
-          "score": -165.6738
+          "score": -159.2218
         },
         {
           "language": "de",
-          "score": -165.8009
+          "score": -159.2483
+        },
+        {
+          "language": "en-us",
+          "score": -160.4364
         }
       ]
     },
@@ -13604,23 +13604,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -228.904
-        },
-        {
-          "language": "la",
-          "score": -230.2342
+          "score": -223.1451
         },
         {
           "language": "en-us",
-          "score": -230.8752
+          "score": -224.9039
+        },
+        {
+          "language": "la",
+          "score": -225.3547
         },
         {
           "language": "de",
-          "score": -232.2155
+          "score": -225.663
         },
         {
           "language": "fr-fr",
-          "score": -232.3767
+          "score": -225.8156
         }
       ]
     },
@@ -13634,23 +13634,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -231.3889
+          "score": -225.63
         },
         {
           "language": "en-us",
-          "score": -233.06
+          "score": -227.0887
         },
         {
           "language": "de",
-          "score": -233.3141
+          "score": -227.8602
         },
         {
           "language": "fr-fr",
-          "score": -233.3575
+          "score": -227.8951
         },
         {
           "language": "la",
-          "score": -233.8383
+          "score": -228.3992
         }
       ]
     },
@@ -13660,27 +13660,27 @@
       "gold_languages": [
         "it"
       ],
-      "top1": "en-us",
+      "top1": "it",
       "profile": [
         {
-          "language": "en-us",
-          "score": -161.6078
+          "language": "it",
+          "score": -149.5917
         },
         {
-          "language": "it",
-          "score": -162.4958
+          "language": "en-us",
+          "score": -150.4762
         },
         {
           "language": "de",
-          "score": -166.8995
+          "score": -154.4876
         },
         {
           "language": "fr-fr",
-          "score": -167.8142
+          "score": -154.6921
         },
         {
           "language": "la",
-          "score": -168.6209
+          "score": -154.97
         }
       ]
     },
@@ -13785,23 +13785,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -175.3916
+          "score": -149.4761
         },
         {
           "language": "en-us",
-          "score": -176.9313
+          "score": -151.66
         },
         {
           "language": "fr-fr",
-          "score": -178.5021
+          "score": -152.9512
         },
         {
           "language": "it",
-          "score": -179.7725
+          "score": -154.6574
         },
         {
           "language": "de",
-          "score": -181.8749
+          "score": -155.6648
         }
       ]
     },
@@ -13815,23 +13815,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -61.9009
+          "score": -56.846
         },
         {
           "language": "de",
-          "score": -68.2064
+          "score": -61.6539
         },
         {
           "language": "fr-fr",
-          "score": -68.7056
+          "score": -62.1446
         },
         {
           "language": "la",
-          "score": -69.6684
+          "score": -62.843
         },
         {
           "language": "it",
-          "score": -70.2794
+          "score": -63.8273
         }
       ]
     },
@@ -13845,23 +13845,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -170.8221
+          "score": -156.9381
         },
         {
           "language": "de",
-          "score": -178.6968
+          "score": -161.5242
         },
         {
           "language": "la",
-          "score": -179.0115
+          "score": -162.224
         },
         {
           "language": "fr-fr",
-          "score": -181.5467
+          "score": -163.2499
         },
         {
           "language": "it",
-          "score": -184.219
+          "score": -164.8629
         }
       ]
     },
@@ -13875,23 +13875,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -232.1513
-        },
-        {
-          "language": "en-us",
-          "score": -232.3058
+          "score": -202.9938
         },
         {
           "language": "it",
-          "score": -236.7423
+          "score": -204.4821
+        },
+        {
+          "language": "en-us",
+          "score": -205.8507
         },
         {
           "language": "de",
-          "score": -238.2572
+          "score": -206.1878
         },
         {
           "language": "fr-fr",
-          "score": -240.3083
+          "score": -208.8894
         }
       ]
     },
@@ -13906,23 +13906,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -227.474
-        },
-        {
-          "language": "la",
-          "score": -234.6244
+          "score": -181.0256
         },
         {
           "language": "fr-fr",
-          "score": -234.9104
+          "score": -183.1153
         },
         {
           "language": "it",
-          "score": -235.5478
+          "score": -183.9314
+        },
+        {
+          "language": "la",
+          "score": -186.0892
         },
         {
           "language": "de",
-          "score": -239.6702
+          "score": -187.2501
         }
       ]
     },
@@ -13936,23 +13936,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -140.1027
+          "score": -122.8821
         },
         {
           "language": "de",
-          "score": -151.7796
-        },
-        {
-          "language": "la",
-          "score": -152.1974
+          "score": -132.122
         },
         {
           "language": "it",
-          "score": -152.3643
+          "score": -133.0081
         },
         {
           "language": "fr-fr",
-          "score": -152.9004
+          "score": -133.2173
+        },
+        {
+          "language": "la",
+          "score": -134.206
         }
       ]
     },
@@ -13996,23 +13996,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -169.0097
+          "score": -147.7681
         },
         {
           "language": "de",
-          "score": -170.8758
+          "score": -148.537
         },
         {
           "language": "fr-fr",
-          "score": -173.5993
+          "score": -150.1278
         },
         {
           "language": "la",
-          "score": -174.4886
+          "score": -150.6525
         },
         {
           "language": "it",
-          "score": -177.767
+          "score": -151.9588
         }
       ]
     },
@@ -14026,23 +14026,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -164.5425
-        },
-        {
-          "language": "de",
-          "score": -168.0767
-        },
-        {
-          "language": "la",
-          "score": -169.1027
-        },
-        {
-          "language": "fr-fr",
-          "score": -169.5232
+          "score": -137.3297
         },
         {
           "language": "it",
-          "score": -170.0464
+          "score": -137.7862
+        },
+        {
+          "language": "de",
+          "score": -139.1854
+        },
+        {
+          "language": "fr-fr",
+          "score": -139.4906
+        },
+        {
+          "language": "la",
+          "score": -139.8275
         }
       ]
     },
@@ -14086,23 +14086,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -167.8998
+          "score": -145.401
         },
         {
           "language": "la",
-          "score": -173.459
+          "score": -149.7407
         },
         {
           "language": "it",
-          "score": -176.093
+          "score": -150.2848
         },
         {
           "language": "de",
-          "score": -178.2127
+          "score": -152.6958
         },
         {
           "language": "fr-fr",
-          "score": -179.8377
+          "score": -153.5935
         }
       ]
     },
@@ -14116,23 +14116,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -184.6488
-        },
-        {
-          "language": "de",
-          "score": -189.6438
+          "score": -172.6073
         },
         {
           "language": "it",
-          "score": -189.6903
+          "score": -176.7862
         },
         {
-          "language": "en-us",
-          "score": -192.4776
+          "language": "de",
+          "score": -177.2319
         },
         {
           "language": "fr-fr",
-          "score": -192.672
+          "score": -179.55
+        },
+        {
+          "language": "en-us",
+          "score": -179.8419
         }
       ]
     },
@@ -14146,23 +14146,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -211.2466
+          "score": -206.1916
         },
         {
           "language": "it",
-          "score": -214.8053
+          "score": -208.3533
         },
         {
           "language": "fr-fr",
-          "score": -215.3326
+          "score": -208.7716
         },
         {
           "language": "la",
-          "score": -215.9316
+          "score": -209.1061
         },
         {
           "language": "de",
-          "score": -217.0169
+          "score": -210.4644
         }
       ]
     },
@@ -14176,23 +14176,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -191.4233
+          "score": -174.4258
         },
         {
           "language": "it",
-          "score": -195.0437
-        },
-        {
-          "language": "la",
-          "score": -195.0498
+          "score": -176.7862
         },
         {
           "language": "de",
-          "score": -195.3445
+          "score": -177.9896
+        },
+        {
+          "language": "la",
+          "score": -178.3111
         },
         {
           "language": "fr-fr",
-          "score": -197.1536
+          "score": -178.8568
         }
       ]
     },
@@ -14206,23 +14206,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -235.8224
-        },
-        {
-          "language": "fr-fr",
-          "score": -243.168
-        },
-        {
-          "language": "de",
-          "score": -244.1165
+          "score": -213.4904
         },
         {
           "language": "en-us",
-          "score": -244.1632
+          "score": -217.5055
+        },
+        {
+          "language": "fr-fr",
+          "score": -218.3102
+        },
+        {
+          "language": "de",
+          "score": -219.2928
         },
         {
           "language": "it",
-          "score": -246.2546
+          "score": -220.4464
         }
       ]
     },
@@ -14237,23 +14237,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -269.3735
+          "score": -240.6566
         },
         {
           "language": "de",
-          "score": -274.2888
-        },
-        {
-          "language": "fr-fr",
-          "score": -276.9664
+          "score": -245.2151
         },
         {
           "language": "it",
-          "score": -277.4163
+          "score": -246.2546
         },
         {
           "language": "la",
-          "score": -278.3207
+          "score": -246.6783
+        },
+        {
+          "language": "fr-fr",
+          "score": -246.9338
         }
       ]
     },
@@ -14267,23 +14267,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -205.5166
+          "score": -153.5935
         },
         {
           "language": "en-us",
-          "score": -207.8365
+          "score": -157.1849
         },
         {
           "language": "fr-fr",
-          "score": -212.6108
-        },
-        {
-          "language": "de",
-          "score": -217.501
+          "score": -158.819
         },
         {
           "language": "it",
-          "score": -218.367
+          "score": -160.9917
+        },
+        {
+          "language": "de",
+          "score": -161.7065
         }
       ]
     },
@@ -14297,23 +14297,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -170.8955
+          "score": -165.3297
         },
         {
           "language": "la",
-          "score": -175.7163
+          "score": -170.5003
         },
         {
           "language": "it",
-          "score": -177.1916
+          "score": -171.4327
         },
         {
           "language": "fr-fr",
-          "score": -177.4705
+          "score": -171.6027
         },
         {
           "language": "de",
-          "score": -178.9059
+          "score": -172.3534
         }
       ]
     },
@@ -14327,23 +14327,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -188.6915
+          "score": -164.5188
         },
         {
           "language": "it",
-          "score": -196.1423
+          "score": -170.3341
         },
         {
           "language": "de",
-          "score": -196.5485
-        },
-        {
-          "language": "la",
-          "score": -198.6131
+          "score": -170.3385
         },
         {
           "language": "fr-fr",
-          "score": -199.5207
+          "score": -173.2766
+        },
+        {
+          "language": "la",
+          "score": -173.6138
         }
       ]
     },
@@ -14357,23 +14357,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -175.419
+          "score": -170.3641
         },
         {
           "language": "la",
-          "score": -177.2249
+          "score": -170.3994
         },
         {
           "language": "it",
-          "score": -177.4793
+          "score": -171.0273
         },
         {
           "language": "fr-fr",
-          "score": -177.7582
+          "score": -171.1972
         },
         {
           "language": "de",
-          "score": -177.9896
+          "score": -171.4371
         }
       ]
     },
@@ -14387,23 +14387,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -175.561
+          "score": -169.6931
         },
         {
           "language": "en-us",
-          "score": -176.6638
+          "score": -169.9994
         },
         {
           "language": "la",
-          "score": -177.3666
+          "score": -172.7384
         },
         {
           "language": "de",
-          "score": -180.0045
+          "score": -173.452
         },
         {
           "language": "it",
-          "score": -180.6574
+          "score": -174.2053
         }
       ]
     },
@@ -14417,23 +14417,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -172.5007
+          "score": -166.6328
         },
         {
           "language": "la",
-          "score": -173.4954
+          "score": -166.6699
         },
         {
           "language": "en-us",
-          "score": -173.7735
+          "score": -167.109
         },
         {
           "language": "it",
-          "score": -176.7862
+          "score": -170.3341
         },
         {
           "language": "de",
-          "score": -177.1141
+          "score": -170.5616
         }
       ]
     },
@@ -14447,23 +14447,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -166.7805
-        },
-        {
-          "language": "la",
-          "score": -169.378
+          "score": -160.8093
         },
         {
           "language": "de",
-          "score": -169.5808
+          "score": -163.0283
+        },
+        {
+          "language": "la",
+          "score": -164.3443
         },
         {
           "language": "fr-fr",
-          "score": -171.4849
+          "score": -164.9238
         },
         {
           "language": "it",
-          "score": -172.4136
+          "score": -165.9615
         }
       ]
     },
@@ -14477,23 +14477,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -177.4928
+          "score": -157.8353
         },
         {
           "language": "la",
-          "score": -178.6593
+          "score": -160.2624
         },
         {
           "language": "en-us",
-          "score": -178.7231
+          "score": -160.8093
         },
         {
           "language": "it",
-          "score": -181.4465
+          "score": -162.0903
         },
         {
           "language": "fr-fr",
-          "score": -181.9521
+          "score": -162.9622
         }
       ]
     },
@@ -14503,27 +14503,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "it",
       "profile": [
         {
-          "language": "en-us",
-          "score": -49.8495
+          "language": "it",
+          "score": -43.778
         },
         {
-          "language": "it",
-          "score": -50.2301
+          "language": "en-us",
+          "score": -43.8783
         },
         {
           "language": "de",
-          "score": -51.7269
+          "score": -45.1744
         },
         {
           "language": "fr-fr",
-          "score": -51.7951
+          "score": -45.2341
         },
         {
           "language": "la",
-          "score": -52.8119
+          "score": -45.9865
         }
       ]
     },
@@ -14537,23 +14537,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -210.2114
+          "score": -188.8602
         },
         {
           "language": "en-us",
-          "score": -218.2395
+          "score": -194.0668
         },
         {
           "language": "fr-fr",
-          "score": -219.4088
-        },
-        {
-          "language": "de",
-          "score": -219.5159
+          "score": -195.6495
         },
         {
           "language": "it",
-          "score": -220.4464
+          "score": -195.7369
+        },
+        {
+          "language": "de",
+          "score": -196.484
         }
       ]
     },
@@ -14567,23 +14567,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -154.6231
+          "score": -148.6518
         },
         {
           "language": "fr-fr",
-          "score": -161.4581
+          "score": -155.5902
         },
         {
           "language": "de",
-          "score": -162.6228
+          "score": -156.0703
         },
         {
           "language": "it",
-          "score": -167.0601
+          "score": -160.6081
         },
         {
           "language": "la",
-          "score": -168.3333
+          "score": -162.201
         }
       ]
     },
@@ -14627,23 +14627,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -171.1494
+          "score": -164.5969
         },
         {
           "language": "en-us",
-          "score": -171.568
+          "score": -164.9036
         },
         {
           "language": "it",
-          "score": -171.7204
+          "score": -165.2684
         },
         {
           "language": "fr-fr",
-          "score": -174.3752
+          "score": -167.8142
         },
         {
           "language": "la",
-          "score": -176.1396
+          "score": -169.3141
         }
       ]
     },
@@ -14657,23 +14657,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -203.2407
+          "score": -166.5646
         },
         {
           "language": "fr-fr",
-          "score": -206.538
-        },
-        {
-          "language": "en-us",
-          "score": -206.8078
+          "score": -167.865
         },
         {
           "language": "it",
-          "score": -206.967
+          "score": -168.2547
+        },
+        {
+          "language": "en-us",
+          "score": -171.098
         },
         {
           "language": "de",
-          "score": -210.6876
+          "score": -172.0657
         }
       ]
     },
@@ -14687,23 +14687,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -182.3917
+          "score": -176.4205
         },
         {
           "language": "de",
-          "score": -185.6548
+          "score": -179.1023
         },
         {
           "language": "la",
-          "score": -188.2573
+          "score": -181.4319
         },
         {
           "language": "it",
-          "score": -188.4739
+          "score": -182.0218
         },
         {
           "language": "fr-fr",
-          "score": -190.4748
+          "score": -183.9138
         }
       ]
     },
@@ -14717,23 +14717,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -257.3486
+          "score": -239.7626
         },
         {
           "language": "fr-fr",
-          "score": -260.3455
+          "score": -242.6084
         },
         {
           "language": "it",
-          "score": -261.8574
+          "score": -243.8875
         },
         {
           "language": "en-us",
-          "score": -262.1178
+          "score": -244.6095
         },
         {
           "language": "de",
-          "score": -264.6903
+          "score": -245.0328
         }
       ]
     },
@@ -14747,23 +14747,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -249.8661
+          "score": -213.7009
         },
         {
           "language": "fr-fr",
-          "score": -255.5969
+          "score": -217.617
         },
         {
           "language": "it",
-          "score": -258.4656
+          "score": -219.7533
         },
         {
           "language": "en-us",
-          "score": -260.3054
+          "score": -221.0121
         },
         {
           "language": "de",
-          "score": -260.3996
+          "score": -221.7777
         }
       ]
     },
@@ -14777,23 +14777,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -228.3168
+          "score": -200.4754
         },
         {
           "language": "it",
-          "score": -236.7423
-        },
-        {
-          "language": "la",
-          "score": -239.7759
+          "score": -205.1752
         },
         {
           "language": "de",
-          "score": -240.5598
+          "score": -207.7972
+        },
+        {
+          "language": "la",
+          "score": -208.539
         },
         {
           "language": "fr-fr",
-          "score": -241.7591
+          "score": -208.9539
         }
       ]
     },
@@ -14807,23 +14807,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -206.3615
+          "score": -200.7957
         },
         {
           "language": "de",
-          "score": -207.2864
-        },
-        {
-          "language": "it",
-          "score": -208.3533
+          "score": -201.427
         },
         {
           "language": "fr-fr",
-          "score": -208.3661
+          "score": -201.8051
+        },
+        {
+          "language": "it",
+          "score": -201.9012
         },
         {
           "language": "la",
-          "score": -208.6441
+          "score": -202.5118
         }
       ]
     },
@@ -14833,27 +14833,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "it",
       "profile": [
         {
-          "language": "en-us",
-          "score": -170.8139
+          "language": "it",
+          "score": -148.7807
         },
         {
           "language": "de",
-          "score": -172.9144
-        },
-        {
-          "language": "it",
-          "score": -173.4903
+          "score": -149.007
         },
         {
           "language": "fr-fr",
-          "score": -175.1555
+          "score": -149.6046
+        },
+        {
+          "language": "en-us",
+          "score": -149.6777
         },
         {
           "language": "la",
-          "score": -176.3449
+          "score": -149.7362
         }
       ]
     },
@@ -14867,23 +14867,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -179.6547
+          "score": -173.2027
         },
         {
           "language": "la",
-          "score": -180.2357
+          "score": -173.4102
         },
         {
           "language": "fr-fr",
-          "score": -183.6261
+          "score": -177.0651
         },
         {
           "language": "en-us",
-          "score": -184.0983
+          "score": -179.0434
         },
         {
           "language": "de",
-          "score": -187.9433
+          "score": -181.3908
         }
       ]
     },
@@ -14897,23 +14897,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -166.2697
+          "score": -161.2147
         },
         {
           "language": "de",
-          "score": -168.8876
+          "score": -162.3351
         },
         {
           "language": "fr-fr",
-          "score": -169.0
+          "score": -162.4389
         },
         {
           "language": "it",
-          "score": -171.0273
+          "score": -164.5752
         },
         {
           "language": "la",
-          "score": -173.5005
+          "score": -166.675
         }
       ]
     },
@@ -14957,23 +14957,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -193.479
+          "score": -187.9132
         },
         {
           "language": "fr-fr",
-          "score": -194.9564
+          "score": -188.3954
         },
         {
           "language": "it",
-          "score": -197.5286
+          "score": -191.0766
         },
         {
           "language": "la",
-          "score": -198.3944
+          "score": -191.5689
         },
         {
           "language": "de",
-          "score": -198.9689
+          "score": -192.4164
         }
       ]
     },
@@ -14983,27 +14983,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "de",
       "profile": [
         {
-          "language": "en-us",
-          "score": -177.4748
+          "language": "de",
+          "score": -164.4146
         },
         {
-          "language": "de",
-          "score": -177.5196
+          "language": "en-us",
+          "score": -164.8391
         },
         {
           "language": "it",
-          "score": -178.5779
+          "score": -165.6738
         },
         {
           "language": "fr-fr",
-          "score": -179.4322
+          "score": -166.3101
         },
         {
           "language": "la",
-          "score": -185.2958
+          "score": -171.6448
         }
       ]
     },
@@ -15017,23 +15017,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -156.7369
+          "score": -150.2848
         },
         {
           "language": "en-us",
-          "score": -159.7433
-        },
-        {
-          "language": "fr-fr",
-          "score": -160.4422
+          "score": -153.0789
         },
         {
           "language": "de",
-          "score": -160.6346
+          "score": -154.0821
+        },
+        {
+          "language": "fr-fr",
+          "score": -154.9798
         },
         {
           "language": "la",
-          "score": -165.6667
+          "score": -158.8412
         }
       ]
     },
@@ -15047,23 +15047,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -217.7404
+          "score": -198.8014
         },
         {
           "language": "de",
-          "score": -224.3145
+          "score": -202.8919
         },
         {
           "language": "fr-fr",
-          "score": -227.8487
+          "score": -204.3772
         },
         {
           "language": "la",
-          "score": -228.9094
+          "score": -205.0732
         },
         {
           "language": "it",
-          "score": -231.9642
+          "score": -207.9478
         }
       ]
     },
@@ -15077,23 +15077,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -178.7738
-        },
-        {
-          "language": "la",
-          "score": -179.9323
+          "score": -172.9144
         },
         {
           "language": "it",
-          "score": -181.4465
+          "score": -174.9944
+        },
+        {
+          "language": "la",
+          "score": -175.1862
         },
         {
           "language": "en-us",
-          "score": -182.9997
+          "score": -176.3353
         },
         {
           "language": "fr-fr",
-          "score": -186.111
+          "score": -180.2431
         }
       ]
     },
@@ -15107,23 +15107,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -171.1232
+          "score": -159.3177
         },
         {
           "language": "fr-fr",
-          "score": -174.7137
-        },
-        {
-          "language": "en-us",
-          "score": -176.3761
+          "score": -163.3834
         },
         {
           "language": "la",
-          "score": -176.3858
+          "score": -164.8143
+        },
+        {
+          "language": "en-us",
+          "score": -164.8391
         },
         {
           "language": "de",
-          "score": -177.8073
+          "score": -167.1872
         }
       ]
     },
@@ -15137,23 +15137,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -187.1466
+          "score": -183.1902
         },
         {
           "language": "fr-fr",
-          "score": -193.7036
-        },
-        {
-          "language": "de",
-          "score": -193.999
+          "score": -187.1426
         },
         {
           "language": "it",
-          "score": -194.756
+          "score": -188.304
         },
         {
           "language": "la",
-          "score": -194.8188
+          "score": -188.6865
+        },
+        {
+          "language": "de",
+          "score": -189.2383
         }
       ]
     },
@@ -15167,23 +15167,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -184.3534
+          "score": -177.689
         },
         {
           "language": "de",
-          "score": -189.0152
+          "score": -182.4626
         },
         {
           "language": "it",
-          "score": -189.9779
+          "score": -183.5259
         },
         {
           "language": "fr-fr",
-          "score": -190.5926
+          "score": -184.0316
         },
         {
           "language": "la",
-          "score": -195.1243
+          "score": -188.2988
         }
       ]
     },
@@ -15198,23 +15198,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -209.8355
+          "score": -184.7205
         },
         {
           "language": "la",
-          "score": -210.9008
+          "score": -187.511
         },
         {
           "language": "fr-fr",
-          "score": -211.3437
+          "score": -187.9899
         },
         {
           "language": "de",
-          "score": -216.3238
+          "score": -190.1138
         },
         {
           "language": "en-us",
-          "score": -217.2381
+          "score": -191.679
         }
       ]
     },
@@ -15259,23 +15259,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -235.6223
+          "score": -183.7135
         },
         {
           "language": "de",
-          "score": -235.7579
+          "score": -185.5494
         },
         {
           "language": "fr-fr",
-          "score": -240.8009
+          "score": -186.6036
         },
         {
           "language": "la",
-          "score": -240.9633
+          "score": -187.1587
         },
         {
           "language": "it",
-          "score": -243.0766
+          "score": -188.5917
         }
       ]
     },
@@ -15320,23 +15320,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -153.1551
+          "score": -144.1438
         },
         {
           "language": "de",
-          "score": -160.7257
+          "score": -148.3138
         },
         {
           "language": "it",
-          "score": -163.4766
+          "score": -150.5725
         },
         {
           "language": "fr-fr",
-          "score": -163.943
+          "score": -152.2072
         },
         {
           "language": "la",
-          "score": -164.7779
+          "score": -152.5133
         }
       ]
     },
@@ -15350,23 +15350,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -237.7231
+          "score": -231.2711
         },
         {
           "language": "fr-fr",
-          "score": -240.0727
+          "score": -234.6103
         },
         {
           "language": "de",
-          "score": -241.7229
+          "score": -235.1704
         },
         {
           "language": "la",
-          "score": -244.8635
+          "score": -238.038
         },
         {
           "language": "en-us",
-          "score": -247.0738
+          "score": -240.4093
         }
       ]
     },
@@ -15380,23 +15380,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -188.1718
+          "score": -168.722
         },
         {
           "language": "de",
-          "score": -195.6463
-        },
-        {
-          "language": "fr-fr",
-          "score": -197.9339
-        },
-        {
-          "language": "la",
-          "score": -198.6169
+          "score": -173.0198
         },
         {
           "language": "it",
-          "score": -199.0108
+          "score": -173.8958
+        },
+        {
+          "language": "fr-fr",
+          "score": -174.1747
+        },
+        {
+          "language": "la",
+          "score": -174.7808
         }
       ]
     },
@@ -15440,23 +15440,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -129.8661
+          "score": -100.7118
         },
         {
           "language": "de",
-          "score": -137.9955
-        },
-        {
-          "language": "la",
-          "score": -142.8871
-        },
-        {
-          "language": "fr-fr",
-          "score": -143.1613
+          "score": -105.0365
         },
         {
           "language": "it",
-          "score": -143.8328
+          "score": -106.5068
+        },
+        {
+          "language": "fr-fr",
+          "score": -106.5677
+        },
+        {
+          "language": "la",
+          "score": -108.2904
         }
       ]
     },
@@ -15470,23 +15470,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -146.9572
+          "score": -133.6284
         },
         {
           "language": "de",
-          "score": -148.537
+          "score": -136.1251
         },
         {
           "language": "it",
-          "score": -152.0766
+          "score": -139.1725
         },
         {
           "language": "fr-fr",
-          "score": -153.999
+          "score": -141.5701
         },
         {
           "language": "la",
-          "score": -157.1673
+          "score": -144.2095
         }
       ]
     },
@@ -15500,23 +15500,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -183.8834
+          "score": -125.9832
         },
         {
           "language": "de",
-          "score": -187.3288
+          "score": -130.5534
         },
         {
           "language": "fr-fr",
-          "score": -190.7625
+          "score": -133.9104
         },
         {
           "language": "it",
-          "score": -192.1752
+          "score": -134.1067
         },
         {
           "language": "la",
-          "score": -197.2037
+          "score": -136.4677
         }
       ]
     },
@@ -15531,23 +15531,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -186.3481
+          "score": -169.7561
         },
         {
           "language": "de",
-          "score": -190.0225
+          "score": -171.7513
         },
         {
           "language": "it",
-          "score": -191.1725
-        },
-        {
-          "language": "fr-fr",
-          "score": -194.2633
+          "score": -173.2027
         },
         {
           "language": "la",
-          "score": -195.2163
+          "score": -176.8194
+        },
+        {
+          "language": "fr-fr",
+          "score": -177.3528
         }
       ]
     },
@@ -15561,23 +15561,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -177.8068
-        },
-        {
-          "language": "de",
-          "score": -180.894
+          "score": -154.5503
         },
         {
           "language": "la",
-          "score": -181.4319
+          "score": -156.2095
+        },
+        {
+          "language": "de",
+          "score": -156.4758
         },
         {
           "language": "it",
-          "score": -183.6437
+          "score": -157.8355
         },
         {
           "language": "fr-fr",
-          "score": -184.3192
+          "score": -158.0751
         }
       ]
     },
@@ -15591,23 +15591,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -199.6035
+          "score": -170.0438
         },
         {
           "language": "de",
-          "score": -203.9762
+          "score": -171.5281
         },
         {
           "language": "fr-fr",
-          "score": -207.0149
+          "score": -173.1939
         },
         {
           "language": "la",
-          "score": -209.3084
+          "score": -174.3063
         },
         {
           "language": "it",
-          "score": -214.3999
+          "score": -177.4793
         }
       ]
     },
@@ -15621,23 +15621,23 @@
       "profile": [
         {
           "language": "it",
-          "score": -162.7835
+          "score": -136.9753
         },
         {
           "language": "en-us",
-          "score": -163.0065
+          "score": -138.1406
         },
         {
           "language": "de",
-          "score": -164.5969
+          "score": -138.3869
         },
         {
           "language": "fr-fr",
-          "score": -166.0224
+          "score": -139.7783
         },
         {
           "language": "la",
-          "score": -168.2437
+          "score": -140.9418
         }
       ]
     },
@@ -15651,23 +15651,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -182.8493
+          "score": -176.8781
         },
         {
           "language": "la",
-          "score": -187.3286
+          "score": -180.5032
         },
         {
           "language": "it",
-          "score": -188.7094
+          "score": -182.9505
         },
         {
           "language": "fr-fr",
-          "score": -189.6275
+          "score": -183.0665
         },
         {
           "language": "de",
-          "score": -191.3177
+          "score": -185.4584
         }
       ]
     },
@@ -15677,27 +15677,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "de",
       "profile": [
         {
-          "language": "en-us",
-          "score": -205.563
+          "language": "de",
+          "score": -192.7951
         },
         {
-          "language": "de",
-          "score": -205.9001
+          "language": "en-us",
+          "score": -193.6205
         },
         {
           "language": "it",
-          "score": -207.9478
+          "score": -195.0437
         },
         {
           "language": "fr-fr",
-          "score": -209.4648
+          "score": -196.3427
         },
         {
           "language": "la",
-          "score": -210.5663
+          "score": -198.3017
         }
       ]
     },
@@ -15711,23 +15711,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -177.0367
+          "score": -170.3723
         },
         {
           "language": "de",
-          "score": -177.8338
+          "score": -171.9744
         },
         {
           "language": "fr-fr",
-          "score": -179.1263
-        },
-        {
-          "language": "la",
-          "score": -180.5313
+          "score": -173.2584
         },
         {
           "language": "it",
-          "score": -180.6355
+          "score": -174.1835
+        },
+        {
+          "language": "la",
+          "score": -174.399
         }
       ]
     },
@@ -15741,23 +15741,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -178.4999
+          "score": -165.8643
         },
         {
           "language": "fr-fr",
-          "score": -181.729
+          "score": -169.3001
         },
         {
           "language": "de",
-          "score": -181.9926
+          "score": -169.5808
         },
         {
           "language": "it",
-          "score": -182.8328
+          "score": -171.0273
         },
         {
           "language": "la",
-          "score": -184.3631
+          "score": -172.0985
         }
       ]
     },
@@ -15771,23 +15771,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -202.0114
+          "score": -186.9235
         },
         {
           "language": "de",
-          "score": -210.9485
+          "score": -192.6773
         },
         {
           "language": "la",
-          "score": -212.551
+          "score": -195.0704
         },
         {
           "language": "it",
-          "score": -213.9944
+          "score": -195.3314
         },
         {
           "language": "fr-fr",
-          "score": -214.3518
+          "score": -196.7482
         }
       ]
     },
@@ -15831,23 +15831,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -227.336
+          "score": -216.4921
         },
         {
           "language": "fr-fr",
-          "score": -232.8003
+          "score": -222.1631
         },
         {
           "language": "de",
-          "score": -235.0791
+          "score": -223.7659
         },
         {
           "language": "la",
-          "score": -239.3183
+          "score": -227.7469
         },
         {
           "language": "it",
-          "score": -239.8026
+          "score": -227.9971
         }
       ]
     },
@@ -15891,23 +15891,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -172.8572
+          "score": -160.2215
         },
         {
           "language": "fr-fr",
-          "score": -176.1364
+          "score": -164.1129
         },
         {
           "language": "de",
-          "score": -177.925
+          "score": -165.5132
         },
         {
           "language": "it",
-          "score": -179.9642
+          "score": -167.0601
         },
         {
           "language": "la",
-          "score": -181.5379
+          "score": -170.1896
         }
       ]
     },
@@ -15918,27 +15918,27 @@
         "de",
         "it"
       ],
-      "top1": "la",
+      "top1": "it",
       "profile": [
         {
-          "language": "la",
-          "score": -218.2284
+          "language": "it",
+          "score": -213.1095
         },
         {
-          "language": "it",
-          "score": -218.4629
+          "language": "la",
+          "score": -213.4824
         },
         {
           "language": "en-us",
-          "score": -221.0973
+          "score": -216.2246
         },
         {
           "language": "fr-fr",
-          "score": -224.0239
+          "score": -219.2546
         },
         {
           "language": "de",
-          "score": -224.852
+          "score": -220.0913
         }
       ]
     },
@@ -15952,23 +15952,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -182.9026
-        },
-        {
-          "language": "it",
-          "score": -188.304
+          "score": -177.3368
         },
         {
           "language": "fr-fr",
-          "score": -188.3954
+          "score": -182.5275
+        },
+        {
+          "language": "it",
+          "score": -182.5451
         },
         {
           "language": "de",
-          "score": -189.1205
+          "score": -182.568
         },
         {
           "language": "la",
-          "score": -189.3027
+          "score": -184.0867
         }
       ]
     },
@@ -15982,23 +15982,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -245.8949
-        },
-        {
-          "language": "en-us",
-          "score": -247.1263
+          "score": -234.5466
         },
         {
           "language": "it",
-          "score": -248.2601
+          "score": -235.356
+        },
+        {
+          "language": "en-us",
+          "score": -236.5055
         },
         {
           "language": "fr-fr",
-          "score": -249.4413
+          "score": -237.4179
         },
         {
           "language": "de",
-          "score": -251.873
+          "score": -240.5598
         }
       ]
     },
@@ -16012,23 +16012,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -189.4935
+          "score": -151.4368
         },
         {
           "language": "it",
-          "score": -199.704
-        },
-        {
-          "language": "de",
-          "score": -200.8392
+          "score": -155.6383
         },
         {
           "language": "fr-fr",
-          "score": -201.5174
+          "score": -157.6697
+        },
+        {
+          "language": "de",
+          "score": -158.1497
         },
         {
           "language": "la",
-          "score": -203.9107
+          "score": -159.3106
         }
       ]
     },
@@ -16042,23 +16042,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -163.0828
+          "score": -147.2573
         },
         {
           "language": "de",
-          "score": -170.758
-        },
-        {
-          "language": "fr-fr",
-          "score": -176.3719
+          "score": -149.5178
         },
         {
           "language": "it",
-          "score": -178.1725
+          "score": -152.3643
+        },
+        {
+          "language": "fr-fr",
+          "score": -152.9004
         },
         {
           "language": "la",
-          "score": -179.6171
+          "score": -156.4741
         }
       ]
     },
@@ -16072,23 +16072,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -172.3989
+          "score": -141.412
         },
         {
           "language": "de",
-          "score": -184.9616
+          "score": -149.5178
         },
         {
           "language": "fr-fr",
-          "score": -187.2968
+          "score": -151.1086
         },
         {
           "language": "it",
-          "score": -188.9971
+          "score": -151.6711
         },
         {
           "language": "la",
-          "score": -189.4205
+          "score": -153.5429
         }
       ]
     },
@@ -16102,23 +16102,23 @@
       "profile": [
         {
           "language": "de",
-          "score": -186.0335
+          "score": -168.8609
         },
         {
           "language": "en-us",
-          "score": -186.7003
+          "score": -172.1232
         },
         {
           "language": "la",
-          "score": -192.5855
+          "score": -174.1885
         },
         {
           "language": "fr-fr",
-          "score": -193.9756
+          "score": -175.6788
         },
         {
           "language": "it",
-          "score": -195.7369
+          "score": -176.3807
         }
       ]
     },
@@ -16192,23 +16192,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -146.8927
+          "score": -135.3556
         },
         {
           "language": "fr-fr",
-          "score": -148.0277
-        },
-        {
-          "language": "it",
-          "score": -150.978
+          "score": -137.5447
         },
         {
           "language": "de",
-          "score": -151.0864
+          "score": -137.9814
+        },
+        {
+          "language": "it",
+          "score": -139.4602
         },
         {
           "language": "la",
-          "score": -154.1591
+          "score": -143.3985
         }
       ]
     },
@@ -16223,23 +16223,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -221.5992
+          "score": -181.463
         },
         {
           "language": "la",
-          "score": -230.5425
+          "score": -187.5518
         },
         {
           "language": "it",
-          "score": -231.7943
+          "score": -188.0163
         },
         {
           "language": "fr-fr",
-          "score": -232.4945
+          "score": -190.033
         },
         {
           "language": "de",
-          "score": -236.7798
+          "score": -193.3972
         }
       ]
     },
@@ -16249,27 +16249,27 @@
       "gold_languages": [
         "en-us"
       ],
-      "top1": "en-us",
+      "top1": "la",
       "profile": [
         {
-          "language": "en-us",
-          "score": -175.6095
-        },
-        {
           "language": "la",
-          "score": -176.162
+          "score": -134.3344
         },
         {
           "language": "fr-fr",
-          "score": -177.2494
+          "score": -136.4461
+        },
+        {
+          "language": "en-us",
+          "score": -136.8597
         },
         {
           "language": "it",
-          "score": -180.7533
+          "score": -138.0739
         },
         {
           "language": "de",
-          "score": -180.894
+          "score": -138.8977
         }
       ]
     },
@@ -16340,27 +16340,27 @@
         "de",
         "la"
       ],
-      "top1": "la",
+      "top1": "it",
       "profile": [
         {
-          "language": "la",
-          "score": -205.49
+          "language": "it",
+          "score": -187.6108
         },
         {
-          "language": "it",
-          "score": -206.967
+          "language": "la",
+          "score": -187.904
         },
         {
           "language": "de",
-          "score": -208.385
+          "score": -189.4206
         },
         {
           "language": "fr-fr",
-          "score": -208.4839
+          "score": -189.494
         },
         {
           "language": "en-us",
-          "score": -212.43
+          "score": -194.0462
         }
       ]
     },
@@ -16374,23 +16374,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -17.6037
+          "score": -5.8679
         },
         {
           "language": "it",
-          "score": -19.3561
+          "score": -6.452
         },
         {
           "language": "de",
-          "score": -19.6575
+          "score": -6.5525
         },
         {
           "language": "en-us",
-          "score": -19.9932
+          "score": -6.6644
         },
         {
           "language": "la",
-          "score": -20.4764
+          "score": -6.8255
         }
       ]
     },
@@ -16434,23 +16434,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -148.5791
+          "score": -135.2503
         },
         {
           "language": "fr-fr",
-          "score": -150.1278
+          "score": -137.0057
         },
         {
           "language": "de",
-          "score": -151.4794
-        },
-        {
-          "language": "it",
-          "score": -152.0766
+          "score": -138.3744
         },
         {
           "language": "la",
-          "score": -152.262
+          "score": -138.6111
+        },
+        {
+          "language": "it",
+          "score": -139.1725
         }
       ]
     },
@@ -16464,23 +16464,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -154.0306
+          "score": -121.5805
         },
         {
           "language": "de",
-          "score": -161.9297
+          "score": -123.3078
         },
         {
           "language": "it",
-          "score": -163.4766
+          "score": -125.8629
         },
         {
           "language": "fr-fr",
-          "score": -165.0416
+          "score": -126.3686
         },
         {
           "language": "la",
-          "score": -167.4815
+          "score": -127.6274
         }
       ]
     },
@@ -16490,27 +16490,27 @@
       "gold_languages": [
         "la"
       ],
-      "top1": "en-us",
+      "top1": "la",
       "profile": [
         {
-          "language": "en-us",
-          "score": -233.6276
+          "language": "la",
+          "score": -203.423
         },
         {
-          "language": "la",
-          "score": -233.6791
+          "language": "en-us",
+          "score": -203.9944
         },
         {
           "language": "it",
-          "score": -238.8218
+          "score": -206.5615
         },
         {
           "language": "fr-fr",
-          "score": -239.7486
+          "score": -206.9435
         },
         {
           "language": "de",
-          "score": -241.946
+          "score": -209.1835
         }
       ]
     },
@@ -16524,23 +16524,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -233.1043
+          "score": -214.9029
         },
         {
           "language": "fr-fr",
-          "score": -236.0961
+          "score": -218.2048
         },
         {
           "language": "la",
-          "score": -237.1856
+          "score": -219.8873
         },
         {
           "language": "de",
-          "score": -237.3817
+          "score": -220.2091
         },
         {
           "language": "it",
-          "score": -239.1094
+          "score": -221.545
         }
       ]
     },
@@ -16554,23 +16554,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -203.844
+          "score": -189.0437
         },
         {
           "language": "fr-fr",
-          "score": -208.6889
-        },
-        {
-          "language": "de",
-          "score": -208.9744
+          "score": -192.1838
         },
         {
           "language": "la",
-          "score": -209.4375
+          "score": -192.8323
+        },
+        {
+          "language": "de",
+          "score": -193.5936
         },
         {
           "language": "it",
-          "score": -213.0136
+          "score": -194.756
         }
       ]
     },
@@ -16644,23 +16644,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -178.5407
+          "score": -165.9051
         },
         {
           "language": "fr-fr",
-          "score": -179.2317
+          "score": -167.2082
         },
         {
           "language": "la",
-          "score": -180.5156
+          "score": -168.251
         },
         {
           "language": "it",
-          "score": -183.6437
+          "score": -171.4327
         },
         {
           "language": "de",
-          "score": -183.6666
+          "score": -171.6602
         }
       ]
     },
@@ -16674,23 +16674,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -172.9341
+          "score": -161.9079
         },
         {
           "language": "it",
-          "score": -176.7862
+          "score": -163.8821
         },
         {
           "language": "de",
-          "score": -178.6827
+          "score": -165.5777
         },
         {
           "language": "fr-fr",
-          "score": -179.4322
+          "score": -166.3101
         },
         {
           "language": "la",
-          "score": -186.3254
+          "score": -172.6745
         }
       ]
     },
@@ -16700,27 +16700,27 @@
       "gold_languages": [
         "la"
       ],
-      "top1": "en-us",
+      "top1": "la",
       "profile": [
         {
-          "language": "en-us",
-          "score": -205.1249
-        },
-        {
           "language": "la",
-          "score": -207.1394
+          "score": -178.7804
         },
         {
-          "language": "de",
-          "score": -212.2703
+          "language": "en-us",
+          "score": -179.7039
         },
         {
           "language": "it",
-          "score": -212.7259
+          "score": -181.1588
         },
         {
           "language": "fr-fr",
-          "score": -212.9655
+          "score": -182.933
+        },
+        {
+          "language": "de",
+          "score": -183.3789
         }
       ]
     },
@@ -16734,23 +16734,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -164.4443
+          "score": -154.1946
         },
         {
           "language": "en-us",
-          "score": -168.39
-        },
-        {
-          "language": "it",
-          "score": -170.3341
+          "score": -155.7543
         },
         {
           "language": "fr-fr",
-          "score": -170.504
+          "score": -157.382
+        },
+        {
+          "language": "it",
+          "score": -157.43
         },
         {
           "language": "de",
-          "score": -173.452
+          "score": -161.0401
         }
       ]
     },
@@ -16764,23 +16764,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -160.0108
+          "score": -154.0395
         },
         {
           "language": "de",
-          "score": -161.0134
+          "score": -154.4609
         },
         {
           "language": "it",
-          "score": -164.1698
+          "score": -157.7177
         },
         {
           "language": "fr-fr",
-          "score": -166.7156
+          "score": -160.1546
         },
         {
           "language": "la",
-          "score": -167.9923
+          "score": -161.1669
         }
       ]
     },
@@ -16794,23 +16794,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -199.2517
+          "score": -194.5057
         },
         {
           "language": "fr-fr",
-          "score": -202.549
+          "score": -197.7798
         },
         {
           "language": "it",
-          "score": -204.4821
+          "score": -199.1286
         },
         {
           "language": "en-us",
-          "score": -204.7929
+          "score": -199.9203
         },
         {
           "language": "de",
-          "score": -206.5808
+          "score": -201.8201
         }
       ]
     },
@@ -16824,23 +16824,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -136.4134
+          "score": -129.749
         },
         {
           "language": "it",
-          "score": -137.093
+          "score": -130.641
         },
         {
           "language": "de",
-          "score": -139.1854
+          "score": -132.6329
         },
         {
           "language": "fr-fr",
-          "score": -140.1838
+          "score": -133.6228
         },
         {
           "language": "la",
-          "score": -143.5163
+          "score": -136.6909
         }
       ]
     },
@@ -16854,23 +16854,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -165.2765
+          "score": -159.7107
         },
         {
           "language": "fr-fr",
-          "score": -170.504
+          "score": -163.943
         },
         {
           "language": "it",
-          "score": -170.6218
+          "score": -164.1698
         },
         {
           "language": "de",
-          "score": -173.922
+          "score": -167.3695
         },
         {
           "language": "la",
-          "score": -175.6287
+          "score": -168.8033
         }
       ]
     },
@@ -16884,23 +16884,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -194.6865
+          "score": -190.7301
         },
         {
           "language": "fr-fr",
-          "score": -195.988
+          "score": -190.8133
         },
         {
           "language": "de",
-          "score": -200.5516
+          "score": -194.6922
         },
         {
           "language": "it",
-          "score": -202.5944
+          "score": -196.1423
         },
         {
           "language": "la",
-          "score": -202.6422
+          "score": -197.2031
         }
       ]
     },
@@ -16914,23 +16914,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -199.569
+          "score": -172.2933
         },
         {
           "language": "la",
-          "score": -202.013
+          "score": -172.8555
         },
         {
           "language": "en-us",
-          "score": -202.778
+          "score": -173.2626
         },
         {
           "language": "de",
-          "score": -207.1041
+          "score": -175.7278
         },
         {
           "language": "it",
-          "score": -208.3533
+          "score": -177.4793
         }
       ]
     },
@@ -16944,23 +16944,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -175.8646
+          "score": -170.2988
         },
         {
           "language": "la",
-          "score": -185.2492
+          "score": -178.4237
         },
         {
           "language": "fr-fr",
-          "score": -185.3508
+          "score": -178.7898
         },
         {
           "language": "de",
-          "score": -189.1205
+          "score": -182.568
         },
         {
           "language": "it",
-          "score": -189.9779
+          "score": -183.5259
         }
       ]
     },
@@ -16974,23 +16974,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -170.8749
+          "score": -164.2105
         },
         {
           "language": "it",
-          "score": -171.7204
+          "score": -165.2684
         },
         {
           "language": "la",
-          "score": -172.8561
+          "score": -166.0307
         },
         {
           "language": "de",
-          "score": -173.452
+          "score": -166.8995
         },
         {
           "language": "fr-fr",
-          "score": -173.9698
+          "score": -167.4087
         }
       ]
     },
@@ -17004,23 +17004,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -206.7787
+          "score": -187.3289
         },
         {
           "language": "fr-fr",
-          "score": -211.2609
+          "score": -188.888
         },
         {
           "language": "de",
-          "score": -212.4134
+          "score": -191.5787
         },
         {
           "language": "it",
-          "score": -218.6547
+          "score": -193.9451
         },
         {
           "language": "la",
-          "score": -219.4297
+          "score": -196.2868
         }
       ]
     },
@@ -17094,23 +17094,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -197.4999
-        },
-        {
-          "language": "fr-fr",
-          "score": -200.8243
+          "score": -186.3683
         },
         {
           "language": "de",
-          "score": -201.0216
+          "score": -187.9165
+        },
+        {
+          "language": "fr-fr",
+          "score": -188.3954
         },
         {
           "language": "it",
-          "score": -202.9998
+          "score": -190.7889
         },
         {
           "language": "la",
-          "score": -204.6809
+          "score": -193.3325
         }
       ]
     },
@@ -17124,23 +17124,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -209.7809
+          "score": -199.6853
         },
         {
           "language": "it",
-          "score": -215.4766
+          "score": -203.2657
         },
         {
           "language": "fr-fr",
-          "score": -218.0382
+          "score": -206.0148
         },
         {
           "language": "en-us",
-          "score": -218.8273
+          "score": -206.1916
         },
         {
           "language": "de",
-          "score": -219.5805
+          "score": -206.4755
         }
       ]
     },
@@ -17154,23 +17154,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -157.2056
+          "score": -140.6135
         },
         {
           "language": "it",
-          "score": -167.0383
+          "score": -148.7807
         },
         {
           "language": "la",
-          "score": -170.0993
+          "score": -150.3161
         },
         {
           "language": "fr-fr",
-          "score": -170.7917
+          "score": -152.9004
         },
         {
           "language": "de",
-          "score": -170.9262
+          "score": -153.5713
         }
       ]
     },
@@ -17184,23 +17184,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -239.9325
+          "score": -229.172
         },
         {
           "language": "de",
-          "score": -246.196
-        },
-        {
-          "language": "en-us",
-          "score": -246.5711
+          "score": -233.7841
         },
         {
           "language": "it",
-          "score": -246.7779
+          "score": -233.8738
+        },
+        {
+          "language": "en-us",
+          "score": -234.3409
         },
         {
           "language": "fr-fr",
-          "score": -248.7132
+          "score": -236.6897
         }
       ]
     },
@@ -17210,27 +17210,27 @@
       "gold_languages": [
         "fr-fr"
       ],
-      "top1": "en-us",
+      "top1": "fr-fr",
       "profile": [
         {
-          "language": "en-us",
-          "score": -184.3534
-        },
-        {
-          "language": "de",
-          "score": -186.6356
-        },
-        {
           "language": "fr-fr",
-          "score": -186.8913
+          "score": -180.3303
+        },
+        {
+          "language": "en-us",
+          "score": -180.397
         },
         {
           "language": "la",
-          "score": -187.9572
+          "score": -181.8249
+        },
+        {
+          "language": "de",
+          "score": -181.8749
         },
         {
           "language": "it",
-          "score": -190.7889
+          "score": -184.3368
         }
       ]
     },
@@ -17274,23 +17274,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -185.9302
+          "score": -180.3644
         },
         {
           "language": "fr-fr",
-          "score": -192.3173
+          "score": -186.4495
         },
         {
           "language": "de",
-          "score": -193.0828
+          "score": -186.5302
         },
         {
           "language": "it",
-          "score": -194.3506
+          "score": -188.5917
         },
         {
           "language": "la",
-          "score": -198.5485
+          "score": -193.3325
         }
       ]
     },
@@ -17304,23 +17304,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -208.1045
+          "score": -202.8884
         },
         {
           "language": "fr-fr",
-          "score": -210.2087
+          "score": -204.7463
         },
         {
           "language": "it",
-          "score": -212.7259
+          "score": -206.2738
         },
         {
           "language": "en-us",
-          "score": -213.9422
+          "score": -207.2778
         },
         {
           "language": "de",
-          "score": -213.9443
+          "score": -207.3917
         }
       ]
     },
@@ -17394,23 +17394,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -166.2697
+          "score": -161.2147
         },
         {
           "language": "it",
-          "score": -167.0383
+          "score": -161.6848
         },
         {
           "language": "fr-fr",
-          "score": -169.1177
+          "score": -163.2499
         },
         {
           "language": "de",
-          "score": -169.3168
+          "score": -165.0669
         },
         {
           "language": "la",
-          "score": -176.545
+          "score": -170.4127
         }
       ]
     },
@@ -17454,23 +17454,23 @@
       "profile": [
         {
           "language": "fr-fr",
-          "score": -194.4332
-        },
-        {
-          "language": "la",
-          "score": -195.0296
-        },
-        {
-          "language": "it",
-          "score": -197.5286
+          "score": -183.5083
         },
         {
           "language": "de",
-          "score": -197.5826
+          "score": -184.4776
+        },
+        {
+          "language": "la",
+          "score": -184.5975
+        },
+        {
+          "language": "it",
+          "score": -184.6245
         },
         {
           "language": "en-us",
-          "score": -198.331
+          "score": -185.0022
         }
       ]
     },
@@ -17484,23 +17484,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -144.0384
+          "score": -128.3627
         },
         {
           "language": "de",
-          "score": -150.3933
+          "score": -131.4289
         },
         {
           "language": "la",
-          "score": -151.8689
+          "score": -132.7788
         },
         {
           "language": "fr-fr",
-          "score": -151.9196
+          "score": -133.6228
         },
         {
           "language": "it",
-          "score": -153.4629
+          "score": -134.1067
         }
       ]
     },
@@ -17514,23 +17514,23 @@
       "profile": [
         {
           "language": "la",
-          "score": -185.2492
+          "score": -179.1169
         },
         {
           "language": "de",
-          "score": -186.2426
+          "score": -179.6901
         },
         {
           "language": "it",
-          "score": -186.7999
+          "score": -180.3478
         },
         {
           "language": "en-us",
-          "score": -187.4024
+          "score": -181.4311
         },
         {
           "language": "fr-fr",
-          "score": -188.8654
+          "score": -182.3043
         }
       ]
     },
@@ -17544,23 +17544,23 @@
       "profile": [
         {
           "language": "en-us",
-          "score": -134.0782
+          "score": -112.8367
         },
         {
           "language": "de",
-          "score": -144.3516
+          "score": -119.9333
         },
         {
           "language": "fr-fr",
-          "score": -145.6462
+          "score": -120.7884
         },
         {
           "language": "it",
-          "score": -147.0108
+          "score": -121.2026
         },
         {
           "language": "la",
-          "score": -148.4447
+          "score": -122.5291
         }
       ]
     },
@@ -17570,27 +17570,27 @@
       "gold_languages": [
         "it"
       ],
-      "top1": "en-us",
+      "top1": "fr-fr",
       "profile": [
         {
-          "language": "en-us",
-          "score": -184.5357
+          "language": "fr-fr",
+          "score": -164.9746
         },
         {
-          "language": "fr-fr",
-          "score": -184.6577
+          "language": "en-us",
+          "score": -166.1519
         },
         {
           "language": "la",
-          "score": -186.6355
+          "score": -167.2577
         },
         {
           "language": "de",
-          "score": -187.4465
+          "score": -168.4822
         },
         {
           "language": "it",
-          "score": -187.8985
+          "score": -168.5424
         }
       ]
     }

@@ -1,0 +1,147 @@
+{
+  "idea2_eq25_headline_n3": {
+    "seeds": [
+      0,
+      3,
+      4
+    ],
+    "overall": {
+      "mean": 0.3253,
+      "sd": 0.0761,
+      "per_seed": [
+        0.411,
+        0.339,
+        0.226
+      ]
+    },
+    "foreign_gold": {
+      "mean": 0.2541,
+      "sd": 0.0445,
+      "per_seed": [
+        0.2178,
+        0.2277,
+        0.3168
+      ]
+    },
+    "macro_f1": {
+      "mean": 0.2049,
+      "sd": 0.0264,
+      "per_seed": [
+        0.2343,
+        0.21,
+        0.1703
+      ]
+    }
+  },
+  "idea2_cap100_inhibition_n3": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "raw_foreign": [
+      0.206,
+      0.0343
+    ],
+    "inhibited_foreign": [
+      0.3091,
+      0.0445
+    ],
+    "raw_macro_f1": [
+      0.238,
+      0.0185
+    ],
+    "inhibited_macro_f1": [
+      0.296,
+      0.0109
+    ],
+    "per_seed_lift_foreign": [
+      0.0727,
+      0.1818,
+      0.0546
+    ]
+  },
+  "idea2_baselines": {
+    "cap25": {
+      "overall": 0.4795,
+      "foreign": 0.2178,
+      "macro_f1": 0.2825
+    },
+    "cap25_dedup": {
+      "overall": 0.4966,
+      "foreign": 0.2178,
+      "macro_f1": 0.2889
+    },
+    "cap100": {
+      "overall": 0.5068,
+      "foreign": 0.2178,
+      "macro_f1": 0.2811
+    },
+    "cap100_dedup": {
+      "overall": 0.5,
+      "foreign": 0.2772,
+      "macro_f1": 0.3077
+    },
+    "uncapped": {
+      "overall": 0.637,
+      "foreign": 0.0,
+      "macro_f1": 0.1556
+    }
+  },
+  "idea8_safe_params": {
+    "params": "beta=0.03 rounds=10 proj=1 (both)",
+    "mean_separation": {
+      "bpe-4000": {
+        "bag": 0.1858,
+        "bigram": 0.141
+      },
+      "unigram-4000": {
+        "bag": 0.166,
+        "bigram": 0.1064
+      },
+      "morfessor": {
+        "bag": 0.2643,
+        "bigram": 0.2364
+      },
+      "flatcat": {
+        "bag": 0.3213,
+        "bigram": 0.3437
+      }
+    },
+    "flatcat_pk": {
+      "bag": 0.447,
+      "bigram": 0.553
+    },
+    "nemo_fweet_agreement": {
+      "bag": {
+        "agree": 17,
+        "total": 20
+      },
+      "bigram": {
+        "agree": 19,
+        "total": 20
+      }
+    }
+  },
+  "idea8_original_confounded": {
+    "params": "bigram beta0.06/r20/proj2 vs bag beta0.03/r10/proj1",
+    "mean_separation": {
+      "bpe-4000": {
+        "bag": 0.1854,
+        "bigram": 0.2391
+      },
+      "unigram-4000": {
+        "bag": 0.1655,
+        "bigram": 0.17
+      },
+      "morfessor": {
+        "bag": 0.264,
+        "bigram": 0.3706
+      },
+      "flatcat": {
+        "bag": 0.3208,
+        "bigram": 0.5282
+      }
+    }
+  }
+}
