@@ -28,8 +28,8 @@ reproducible failure.
 What I found is that it's mostly a missing normalisation step, not a real limit of the
 substrate. Standardise each context slot's drive against held-out statistics before reading
 off a winner — no retraining, nothing changed in nemo-core — and the rare classes come back.
-On the collapsed run, foreign-language detection goes from 0.21 to 0.31 (mean over three
-seeds, and up in every seed); macro-F1 from 0.24 to 0.30.
+On the collapsed run, foreign-language detection goes from 0.21 to 0.32 (mean over five
+seeds, and up in every one); macro-F1 from 0.23 to 0.29.
 
 The fix ([context_inhibition.py](src/context_inhibition.py)) is only a read-out change, but
 it's the evaluator-side version of the lateral inhibition that Mitropolsky & Papadimitriou
@@ -37,8 +37,8 @@ it's the evaluator-side version of the lateral inhibition that Mitropolsky & Pap
 the engine. None of it depends on the Wake; it should apply to any NEMO model trained on
 imbalanced input, which acquisition data always is.
 
-The obvious caveats: one chapter, 55 foreign test lines, three seeds. The direction holds
-across seeds, the magnitude doesn't yet. Numbers are in
+The obvious caveats: one chapter, 55 foreign test lines, five seeds. The direction holds in
+every seed (sign test p ≈ 0.03); the magnitude still varies seed to seed. Numbers are in
 [results/summary/](results/summary/finished_science_summary.json) and the full write-up is in
 [RESULTS.md](RESULTS.md#idea-2--multilingual-context-areas-phonotactic-attribution).
 
@@ -54,9 +54,9 @@ bigrams, and let CONTEXT_L learn which sound patterns belong to which language. 
 held-out [FWEET](http://www.fweet.org)-tagged lines: does NEMO assign them to the right
 languages better than a frequency baseline or a classical bigram LangID?
 
-Not really. Averaged over three seeds it matches the classical baseline on foreign-language
-lines (25% vs about 22%, inside the seed spread) but doesn't beat it. The single-seed 41% I
-first quoted was a lucky draw. Tightening the baseline so it sees exactly what NEMO sees
+Not really. Averaged over five seeds it matches the classical baseline on foreign-language
+lines (28% vs about 22%, well inside a wide seed spread of ±8 points) but doesn't reliably
+beat it. The single-seed 41% I first quoted was a lucky draw. Tightening the baseline so it sees exactly what NEMO sees
 (deduping its bigrams) only helps the baseline. So the interesting part of this experiment
 isn't the attribution — it's the collapse behaviour it exposed.
 

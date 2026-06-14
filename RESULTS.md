@@ -16,20 +16,21 @@ is the finalization block immediately following.
 
 Three changes hardened this idea; full numbers in `results/finished_science_summary.json`.
 
-**1. The single-seed headline was not representative (n=3 error bars).** Re-running eq25
-(strict equal-cap, balanced) across 3 seeds shows wide seed variance — the originally
+**1. The single-seed headline was not representative (n=5 error bars).** Re-running eq25
+(strict equal-cap, balanced) across 5 seeds shows wide seed variance — the originally
 reported seed-0 numbers were a favorable draw on overall/macro-F1 and the *low* end on
 foreign-gold:
 
-| eq25 metric | seed-0 (reported) | 3-seed mean ± sd |
+| eq25 metric | seed-0 (reported) | 5-seed mean ± sd |
 |---|---|---|
-| Overall top-1 | 41.1% | **32.5% ± 7.6** |
-| Foreign-gold top-1 | 21.8% | **25.4% ± 4.4** |
-| Macro-F1 | 0.234 | **0.205 ± 0.026** |
+| Overall top-1 | 41.1% | **32.3% ± 9.7** |
+| Foreign-gold top-1 | 21.8% | **28.1% ± 8.1** |
+| Macro-F1 | 0.234 | **0.215 ± 0.027** |
 
-Takeaway: nothing in idea 2 should be quoted single-seed. On the foreign-gold subset the
-NEMO mean (25.4%) and the matched classical baseline (cap=25 ≈ 21.8%) remain a rough tie
-within error — the original "tie, not a win" verdict survives, now with honest spread.
+Takeaway: nothing in idea 2 should be quoted single-seed — the overall spread is ±10 points.
+On the foreign-gold subset the NEMO mean (28.1%) and the matched classical baseline
+(cap=25 ≈ 21.8%) remain a rough tie within that wide error — the original "tie, not a win"
+verdict survives, now with honest spread.
 
 **2. Same-substrate baseline (dedup).** The bigram-LangID baseline scored a *multiset* of
 line bigrams while NEMO fires each bigram once (a `set`); `--dedup-line` matches them. The
@@ -43,20 +44,21 @@ across seeds).** This is the portable contribution and should lead the writeup. 
 imbalanced run collapses (minority recall → ~0). A leakage-free gain-control read-out
 (`src/context_inhibition.py`: per-slot z-normalization fit on the val split, scored on
 test — the evaluator-side surrogate of the MOOD-area lateral inhibition in Mitropolsky &
-Papadimitriou 2025) recovers it, and the recovery holds in **every one of 3 seeds**:
+Papadimitriou 2025) recovers it, and the recovery holds in **every one of 5 seeds**:
 
-| cap=100 collapse, test split | raw (3-seed) | inhibited (3-seed) | per-seed lift |
+| cap=100 collapse, test split | raw (5-seed) | inhibited (5-seed) | per-seed lift |
 |---|---|---|---|
-| Foreign-gold top-1 | 0.206 ± 0.034 | **0.309 ± 0.045** | +7.3, +18.2, +5.5 pp |
-| Macro-F1 | 0.238 ± 0.019 | **0.296 ± 0.011** | all 3 positive |
+| Foreign-gold top-1 | 0.207 ± 0.032 | **0.320 ± 0.038** | +7.3, +18.2, +5.5, +10.9, +14.6 pp |
+| Macro-F1 | 0.229 ± 0.022 | **0.287 ± 0.026** | all 5 positive |
 
-The means separate by more than 1 sd and the lift is positive in all 3 seeds — far stronger
-than the single-seed bootstrap (CI [-2.2, +17.7] crossed zero). The claim: *Hebbian collapse
-under class imbalance is largely a missing-gain-control artifact; standardizing per-slot
-drive recovers minority-class detection without retraining or any nemo-core change.* It also
-helps the already-balanced eq25 run, but mildly (foreign +4.2pp), as expected. Single
-chapter, 55 foreign test lines, n=3 seeds — direction is robust, magnitude has seed
-variance; 5–10 seeds and an in-core implementation are the obvious next steps.
+The means separate by more than 1 sd and the lift is positive in all 5 seeds (sign test
+p ≈ 0.03) — far stronger than the single-seed bootstrap (CI [-2.2, +17.7] crossed zero). The
+claim: *Hebbian collapse under class imbalance is largely a missing-gain-control artifact;
+standardizing per-slot drive recovers minority-class detection without retraining or any
+nemo-core change.* It also helps the already-balanced eq25 run, but mildly (foreign +4.2pp),
+as expected. Single chapter, 55 foreign test lines, n=5 seeds — direction is now robust
+(every seed positive); magnitude still has seed variance. An in-core implementation and
+multi-chapter generalization are the obvious next steps.
 
 ---
 
