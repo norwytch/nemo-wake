@@ -40,7 +40,7 @@ imbalanced input, which acquisition data always is.
 The obvious caveats: one chapter, 55 foreign test lines, five seeds. The direction holds in
 every seed (sign test p ≈ 0.03); the magnitude still varies seed to seed. Numbers are in
 [results/summary/](results/summary/finished_science_summary.json) and the full write-up is in
-[RESULTS.md](RESULTS.md#idea-2--multilingual-context-areas-phonotactic-attribution).
+[RESULTS.md](RESULTS.md#multilingual-phonotactic-attribution).
 
 ## The two experiments
 
@@ -76,8 +76,8 @@ effect, but only there, and the case for building the full sequence engine is no
 ### Not done yet: voice segmentation
 
 Treating each Wake voice (HCE, ALP, Shem, Shaun…) as a bundle of context assemblies and
-segmenting passages by which bundle wins. It's designed and the annotations are in
-`data/annotations/`, but I haven't run it. There's a sketch in [RESULTS.md](RESULTS.md).
+segmenting passages by which bundle wins k-cap, trained on the sigla annotations in
+`data/annotations/`. Designed but not yet run.
 
 ## Running it
 
@@ -118,7 +118,7 @@ python3 src/fweet_compare.py --mode activation \
 - `shared/` — corpus / FWEET / IPA loaders
 - `data/` — POS hypotheses and sigla annotations (raw text and IPA come from the data repo, below)
 - `results/summary/` — the JSONs behind the numbers above
-- `RESULTS.md` — full write-ups; `docs/history.md` — older session log
+- `RESULTS.md` — full methods and results
 
 ## Data
 

@@ -1,18 +1,17 @@
-# Project 01 — Experiment results
+# Detailed methods and results
 
-Detailed write-ups for the first-pass experiments. The [README](README.md) holds the
-idea tracker and links here for the full detail. Session-by-session history lives in
-[docs/history.md](docs/history.md).
+Full write-ups for the two experiments. The [README](README.md) is the overview; this file
+has the methods, the development runs, and the finalized numbers behind every figure quoted
+there.
 
 ---
 
-## Idea 2 — Multilingual context areas (phonotactic attribution)
+## Multilingual phonotactic attribution
 
-**Status:** finalized with multi-seed error bars and a fixed baseline (2026-06-13). The
-single-seed first pass (2026-05-30) below is preserved for detail; the corrected headline
-is the finalization block immediately following.
+The finalized results (multi-seed error bars, fixed baseline) come first; the development
+detail — the earlier single-seed runs and the full design rationale — follows.
 
-### Finalization (2026-06-13) — error bars, dedup baseline, and the load-bearing result
+### Finalized results — error bars, dedup baseline, and the load-bearing finding
 
 Three changes hardened this idea; full numbers in `results/finished_science_summary.json`.
 
@@ -27,7 +26,7 @@ foreign-gold:
 | Foreign-gold top-1 | 21.8% | **28.1% ± 8.1** |
 | Macro-F1 | 0.234 | **0.215 ± 0.027** |
 
-Takeaway: nothing in idea 2 should be quoted single-seed — the overall spread is ±10 points.
+Takeaway: nothing here should be quoted single-seed — the overall spread is ±10 points.
 On the foreign-gold subset the NEMO mean (28.1%) and the matched classical baseline
 (cap=25 ≈ 21.8%) remain a rough tie within that wide error — the original "tie, not a win"
 verdict survives, now with honest spread.
@@ -62,13 +61,14 @@ multi-chapter generalization are the obvious next steps.
 
 ---
 
-#### Original single-seed first pass (2026-05-30) — preserved for detail
+#### Development detail (single-seed runs) and design rationale
 
-Headline (single seed): under strict class balance, NEMO Hebbian assemblies on a
+The single-seed numbers below were the development runs; the multi-seed finalization above
+supersedes them. They read: under strict class balance, NEMO Hebbian assemblies on a
 phonotactic substrate *tie* classical bigram-LangID on foreign-language detection (22/101 =
 21.8% on the foreign-gold subset) and *beat* it on the most phonotactically-distinctive
 classes (Latin, Italian), while *losing* on phonotactically near-cousin classes (German vs
-English). The multi-seed finalization above supersedes the single-seed numbers.
+English).
 
 ### Recast: phonotactic attribution, not orthographic
 
@@ -95,7 +95,7 @@ Discussion):
 > representations of grammatical moods in the MOOD area. This assembly would be active
 > while learning, or using, the corresponding language."
 
-Idea 2 is a concrete instantiation of an extension Mitropolsky explicitly names — on real
+This experiment is a concrete instantiation of an extension Mitropolsky explicitly names — on real
 multilingual literary data, via real preprocessed IPA, with a scholarly gold standard
 (FWEET) for evaluation.
 
@@ -104,7 +104,7 @@ multilingual literary data, via real preprocessed IPA, with a scholarly gold sta
 | Decision | Choice | Rationale |
 |---|---|---|
 | Phoneme inventory | **Unified** — pool all per-language espeak symbols into one PHON space | Cross-language phoneme overlap (e.g. /a/ in English ∩ Italian) is *signal*, not confound. Disjoint symbols (e.g. /ɑ̃/ French only) don't share blocks, so the model learns "French uses these, English doesn't" — the phonotactic discrimination we want. |
-| Order in PHON | **Phoneme bigrams** | Reuses the n-gram approach from idea 8 (whose original "+64% from order" motivation was later found to be largely a training-intensity confound — see idea 8 finalization; bigrams remain a reasonable phonotactic unit regardless). Bigrams *are* phonotactics — sound-pair constraints are exactly what distinguishes languages. Same code path as `replicate_ngram_phon.py`. |
+| Order in PHON | **Phoneme bigrams** | Reuses the n-gram PHON approach from the portmanteau experiment (whose original "+64% from order" motivation later turned out to be largely a training-intensity confound; bigrams remain a reasonable phonotactic unit regardless). Bigrams *are* phonotactics — sound-pair constraints are exactly what distinguishes languages. Same code path as `replicate_ngram_phon.py`. |
 | Training chapter | **I.6 (Riddles / Twelve Questions)** | Dense FWEET annotation, famously multilingual, manageable size. |
 | Language scope | **Top 5: en, de, fr, la, it** | ~80% of FWEET volume; tractable; the publishable claim is "NEMO attributes 5 languages from phonotactics above baselines." Scale to 22 in Tier 2 if Tier 1 lands. |
 
@@ -273,14 +273,13 @@ explicit Laplace-smoothed likelihood handles it. The English loss is partly domi
 
 ---
 
-## Idea 8 — Portmanteau decomposition via partial-activation maps
+## Portmanteau decomposition via partial-activation maps
 
-**Status:** finalized (2026-06-13) — and the original headline largely **did not survive**
-the controlled comparison. The first-pass "+64% order wins across every segmenter" was
-mostly a training-intensity confound, not a property of order. See the finalization block
-below; the single-seed first pass (2026-05-29) is preserved after it for detail.
+The original headline largely **did not survive** the controlled comparison: the early
+"+64% order wins across every segmenter" was mostly a training-intensity confound, not a
+property of order. The corrected result comes first; the development detail follows.
 
-### Finalization (2026-06-13) — the order effect was largely a parameter confound
+### Corrected result — the order effect was largely a parameter confound
 
 The first pass compared bigram at β=0.06/rounds=20/proj=2 against bag at β=0.03/rounds=10/
 proj=1 — the bigram run simply trained ~4× harder (the bag overflowed float32 at the hot
@@ -312,9 +311,11 @@ overflow, not parameter-matching, is the concern.
 
 ---
 
-#### Original single-seed first pass (2026-05-29) — preserved for detail; superseded above
+#### Development detail (the confounded comparison) and method
 
-Headline (confounded): order matters — bigram PHON beats bag across every segmenter (+64%
+The earlier, confounded run is kept here for method and context; the corrected comparison
+above supersedes its headline. As first run: order matters — bigram PHON beats bag across
+every segmenter (+64%
 separation on FlatCat), lifting NEMO ↔ FWEET agreement to 95% (19/20). The finalization
 above shows most of this gap was training intensity, not order.
 
@@ -349,7 +350,7 @@ Three new files:
   each trained morpheme's hub k-cap is recorded as an *anchor assembly*; at probe, the
   portmanteau's induced k-cap is overlapped against every anchor, producing
   `activation_profile = [{trained_word, overlap, overlap_frac}, ...]` sorted desc. That
-  overlap profile *is* the partial-activation map idea 8 names.
+  overlap profile *is* the partial-activation map this experiment is built around.
 - `src/activation_alignment.py` — reference-agnostic scorer. Given an `activation_profile`
   and a reference set of true constituents per probe, computes precision@k, MRR, and
   **separation** (mean overlap_frac of constituents − mean of distractors), each with a
@@ -428,7 +429,7 @@ Three independent findings:
 - **Tier-1 caveat.** Phoneme n-grams approximate order via local context windows; they
   don't encode position or *true* sequence (a/b/c vs b/a/c with the same bigram set look
   identical at higher N). The Tier 3 sequence-formation engine build remains the faithful
-  version of idea 8. The Tier 1 result motivates it.
+  version of this approach. The Tier 1 result motivates it.
 - **n=10000 hubs with 86 trained morphemes** — assembly density is approaching the regime
   where chance overlap is non-trivial (k²/n = 1 expected, frac ≈ 0.01); raise `n` for
   cleaner separation if scaling up.
